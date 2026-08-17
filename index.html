@@ -1,15 +1,15 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="RainGuard - a lightweight rain monitoring and alert application." />
-  <meta name="theme-color" content="#102033" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <link rel="manifest" href="manifest.webmanifest" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="RainGuard - a lightweight rain monitoring and alert application.">
+  <meta name="theme-color" content="#102033">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="manifest" href="manifest.webmanifest">
   <title>RainGuard | Rain Alert</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <main class="container">
@@ -19,14 +19,14 @@
         <h1>🌧️ RainGuard</h1>
         <p class="subtitle">Know when rain is likely before you step out.</p>
       </div>
-      <button id="locationBtn" class="primary">Use my location</button>
+      <button type="button" id="locationBtn" class="primary">Use my location</button>
     </header>
 
     <section class="search card">
       <label for="cityInput">Search a city</label>
       <div class="search-row">
-        <input id="cityInput" type="text" placeholder="e.g. Chennai" autocomplete="off" />
-        <button id="searchBtn">Search</button>
+        <input id="cityInput" type="text" placeholder="e.g. Chennai" autocomplete="off">
+        <button type="button" id="searchBtn">Search</button>
       </div>
       <p id="status" class="status" role="status">Search for a city or use your location.</p>
     </section>
@@ -58,10 +58,10 @@
           <p class="muted">Notify when the forecast rain probability reaches this level.</p>
         </div>
         <div class="threshold-control">
-          <input id="threshold" type="range" min="20" max="90" step="5" value="60" />
+          <input id="threshold" type="range" min="20" max="90" step="5" value="60">
           <strong id="thresholdValue">60%</strong>
         </div>
-        <button id="notifyBtn">Enable notifications</button>
+        <button type="button" id="notifyBtn">Enable notifications</button>
       </div>
     </section>
 
