@@ -43,9 +43,13 @@ async function loadWeather(lat, lon, label, accuracy = null) {
 }
 
 function getCurrentHourIndex(data) {
-  const current = new Date(data.current.time);
-  const index = data.hourly.time.findIndex((time) => new Date(time) >= current);
-  return index < 0 ? 0 : index;
+  const current = new Date(data.current.time).getTime();
+  let index = 0;
+  for (let i = 0; i < data.hourly.time.length; i += 1) {
+    if (new Date(data.hourly.time[i]).getTime() <= current) index = i;
+    else break;
+  }
+  return index;
 }
 
 function render(data, label) {
@@ -55,13 +59,17 @@ function render(data, label) {
 
   const index = getCurrentHourIndex(data);
   const currentProbability = Number(data.hourly.precipitation_probability[index] ?? 0);
+  const nextHourProbability = Number(data.hourly.precipitation_probability[index + 1] ?? currentProbability);
   const currentPrecipitation = Number(data.current.precipitation ?? 0);
   const currentRain = Number(data.current.rain ?? 0);
-  const nextHourProbability = Number(data.hourly.precipitation_probability[index + 1] ?? currentProbability);
-  const displayProbability = nextHourProbability;
+  const rainingNow = currentRain > 0 || currentPrecipitation > 0;
 
-  $('rainChance').textContent = `${displayProbability}%`;
-  $('currentRainStatus').textContent = currentRain > 0 || currentPrecipitation > 0 ? `🌧️ Rain is happening now • ${currentPrecipitation.toFixed(1)} mm` : currentProbability >= 50 ? `🌦️ No rain right now • ${currentProbability}% chance this hour` : `☀️ No rain right now • ${currentProbability}% chance this hour`;
+  $('rainChanceLabel').textContent = rainingNow ? 'Rain now' : 'Rain now';
+  $('rainChance').textContent = rainingNow ? 'YES' : '0%';
+  $('nextHourChance').textContent = `Next hour: ${nextHourProbability}%`;
+  $('currentRainStatus').textContent = rainingNow
+    ? `🌧️ Rain is happening now • ${currentPrecipitation.toFixed(1)} mm`
+    : `☀️ No rain right now • Next-hour forecast ${nextHourProbability}%`;
   $('updatedAt').textContent = `Updated ${new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}`;
 
   const hours = data.hourly.time.slice(index, index + 6);
