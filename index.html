@@ -6,6 +6,7 @@
   <meta name="description" content="RainGuard - a lightweight rain monitoring and alert application.">
   <meta name="theme-color" content="#102033">
   <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIINfQ3H4wP5JmB6Y1x3dYkzQm9x5Y7jY5E=" crossorigin="">
   <title>RainGuard | Rain Alert</title>
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -36,30 +37,21 @@
           <h2 id="currentTemp">—</h2>
           <p id="currentSummary">—</p>
         </div>
-        <div class="rain-score">
-          <span>Rain chance</span>
-          <strong id="rainChance">—</strong>
-        </div>
+        <div class="rain-score"><span>Rain chance</span><strong id="rainChance">—</strong></div>
       </div>
 
       <div class="card location-card">
         <div class="section-heading">
-          <div>
-            <h3>📍 My Location</h3>
-            <p class="muted">Your current GPS position</p>
-          </div>
+          <div><h3>📍 My Location</h3><p class="muted">Your current GPS position</p></div>
           <span id="locationAccuracy" class="accuracy">—</span>
         </div>
-        <div id="mapWrap" class="map-wrap">
-          <iframe id="locationMap" title="Your current location on Google Maps" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          <div class="map-pin" aria-hidden="true">📍</div>
-        </div>
+        <div id="locationMap" class="location-map" aria-label="Map showing your current location"></div>
         <div class="coordinates">
           <div class="coordinate"><span>Latitude</span><strong id="latitude">—</strong></div>
           <div class="coordinate"><span>Longitude</span><strong id="longitude">—</strong></div>
         </div>
         <div class="location-actions">
-          <a id="mapsLink" class="maps-button" href="#" target="_blank" rel="noopener noreferrer">🗺️ Open in Google Maps</a>
+          <button type="button" id="mapsBtn" class="maps-button">🗺️ Open in Google Maps</button>
           <button type="button" id="copyCoordinates">Copy coordinates</button>
         </div>
       </div>
@@ -76,8 +68,9 @@
       </div>
     </section>
 
-    <footer><p>RainGuard uses Open-Meteo forecast and geocoding services. GPS coordinates are shown only in your browser.</p></footer>
+    <footer><p>RainGuard uses Open-Meteo forecast services. GPS coordinates stay in your browser.</p></footer>
   </main>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
   <script src="app.js"></script>
   <script>if ('serviceWorker' in navigator) window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js'));</script>
 </body>
