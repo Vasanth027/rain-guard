@@ -2,12 +2,16 @@
 
 A responsive rain-monitoring web application that helps users check upcoming precipitation and configure browser-based rain alerts.
 
-> **Portfolio project:** built as a lightweight frontend application with PWA support, Docker packaging, and GitHub Actions CI.
+> **Portfolio project:** built as a lightweight frontend application with PWA support, Docker packaging, GitHub Actions CI, precise browser GPS coordinates, and Google Maps integration.
 
 ## ✨ Features
 
 - 🔎 Search weather by city
 - 📍 Use browser geolocation for the current location
+- 🎯 Show precise latitude and longitude to 6 decimal places
+- 📏 Display browser-reported GPS accuracy when available
+- 🗺️ Open the detected coordinates directly in Google Maps
+- 📋 Copy latitude/longitude coordinates
 - 🌧️ View the next 6 hours of rain probability and precipitation
 - 🚨 Configure a rain-alert threshold
 - 🔔 Request browser notification permission
@@ -25,6 +29,7 @@ A responsive rain-monitoring web application that helps users check upcoming pre
 - Open-Meteo Geocoding API
 - Browser Geolocation API
 - Web Notifications API
+- Google Maps URL integration
 - Service Worker / Web App Manifest
 - Docker + Nginx
 - GitHub Actions
@@ -105,7 +110,8 @@ rain-guard/
 ## 🔐 Security & privacy notes
 
 - No API keys or secrets are stored in the repository.
-- Location is requested only after the user chooses the location feature.
+- Precise location is requested only after the user chooses the location feature.
+- Coordinates are displayed in the browser and passed to Google Maps only when the user clicks the map link.
 - Browser notification permission is explicitly requested by the user.
 - The application does not maintain a server-side location database.
 
