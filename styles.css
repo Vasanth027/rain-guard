@@ -6,7 +6,7 @@ body { margin: 0; min-height: 100vh; }
 .eyebrow { margin: 0 0 6px; font-size: .78rem; font-weight: 800; letter-spacing: .14em; }
 h1 { margin: 0; font-size: clamp(2.2rem, 7vw, 4.2rem); line-height: 1; }
 .subtitle { margin: 12px 0 0; color: #526578; font-size: 1.05rem; }
-.card { background: rgba(255,255,255,.92); border: 1px solid #d7e2e8; border-radius: 22px; padding: 24px; margin-bottom: 18px; box-shadow: 0 12px 35px rgba(25,55,75,.08); }
+.card { background: rgba(255,255,255,.94); border: 1px solid #d7e2e8; border-radius: 22px; padding: 24px; margin-bottom: 18px; box-shadow: 0 12px 35px rgba(25,55,75,.08); }
 label, h3 { font-weight: 800; }
 .search-row { display: flex; gap: 10px; margin-top: 10px; }
 input[type=text] { flex: 1; border: 1px solid #c7d4dc; border-radius: 12px; padding: 13px 14px; font-size: 1rem; outline: none; }
@@ -24,6 +24,9 @@ button.primary { background: #102033; color: white; }
 .section-heading h3 { margin: 0; }
 .accuracy { padding: 7px 10px; border-radius: 999px; background: #e8f1f4; color: #526578; font-size: .82rem; font-weight: 800; white-space: nowrap; }
 .location-card p { margin: 4px 0 0; }
+.map-wrap { position: relative; overflow: hidden; height: 300px; margin: 18px 0; border-radius: 18px; background: #dce8ed; border: 1px solid #d4e0e6; }
+.map-wrap iframe { width: 100%; height: 100%; border: 0; display: block; }
+.map-pin { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -100%); font-size: 34px; filter: drop-shadow(0 3px 4px rgba(0,0,0,.35)); pointer-events: none; }
 .coordinates { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin: 18px 0; }
 .coordinate { border: 1px solid #dce6eb; border-radius: 14px; padding: 14px; }
 .coordinate span { display: block; color: #6b7d8d; font-size: .8rem; margin-bottom: 4px; }
@@ -40,4 +43,4 @@ button.primary { background: #102033; color: white; }
 .threshold-control { display: flex; align-items: center; gap: 10px; min-width: 220px; }
 input[type=range] { width: 100%; }
 footer { color: #718392; font-size: .82rem; text-align: center; padding: 14px; }
-@media (max-width: 700px) { .hero, .current, .settings { flex-direction: column; align-items: stretch; } .rain-score { text-align: left; } .coordinates { grid-template-columns: 1fr; } .hourly { grid-template-columns: repeat(3, 1fr); } .search-row { flex-direction: column; } }
+@media (max-width: 700px) { .hero, .current, .settings { flex-direction: column; align-items: stretch; } .rain-score { text-align: left; } .coordinates { grid-template-columns: 1fr; } .hourly { grid-template-columns: repeat(3, 1fr); } .search-row { flex-direction: column; } .map-wrap { height: 260px; } }
