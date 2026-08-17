@@ -1,71 +1,123 @@
 # 🌧️ RainGuard
 
-A lightweight, responsive rain-monitoring web application that helps you check upcoming precipitation and configure browser-based rain alerts.
+A responsive rain-monitoring web application that helps users check upcoming precipitation and configure browser-based rain alerts.
 
-## Features
+> **Portfolio project:** built as a lightweight frontend application with PWA support, Docker packaging, and GitHub Actions CI.
 
-- Search weather by city
-- Use browser geolocation for the current location
-- View the next 6 hours of rain probability and precipitation
-- Configure a rain alert threshold
-- Request browser notification permission
-- Refresh the forecast automatically every 15 minutes
-- Responsive UI for desktop and mobile
-- No API key required for the default Open-Meteo services
+## ✨ Features
 
-## Tech Stack
+- 🔎 Search weather by city
+- 📍 Use browser geolocation for the current location
+- 🌧️ View the next 6 hours of rain probability and precipitation
+- 🚨 Configure a rain-alert threshold
+- 🔔 Request browser notification permission
+- 🔄 Refresh the forecast automatically every 15 minutes
+- 📱 Responsive desktop/mobile UI
+- 📲 PWA installable app shell
+- 🐳 Production-style Nginx Docker image
+- ✅ GitHub Actions validation and container smoke test
+- 🔑 No API key required for the default Open-Meteo services
 
-- HTML5
-- CSS3
-- Vanilla JavaScript
+## 🧰 Tech Stack
+
+- HTML5 / CSS3 / Vanilla JavaScript
 - Open-Meteo Forecast API
 - Open-Meteo Geocoding API
 - Browser Geolocation API
 - Web Notifications API
+- Service Worker / Web App Manifest
+- Docker + Nginx
+- GitHub Actions
 
-## Run locally
+## 🚀 Run locally
 
-This is a static web application. You can serve it with any local HTTP server.
-
-### Python
-
-```bash
-python -m http.server 8080
-```
-
-Then open `http://localhost:8080`.
-
-### Node.js
+### Option 1 — Node.js
 
 ```bash
 npx serve .
 ```
 
-## Project structure
+### Option 2 — Python
+
+```bash
+python -m http.server 8080
+```
+
+Open `http://localhost:8080`.
+
+> Browser geolocation and notifications work best on `localhost` or HTTPS.
+
+## 🐳 Run with Docker
+
+Build and run:
+
+```bash
+docker build -t rain-guard:local .
+docker run --rm -p 8080:80 rain-guard:local
+```
+
+Or with Docker Compose:
+
+```bash
+docker compose up --build
+```
+
+Open `http://localhost:8080`.
+
+The image uses Nginx Alpine and includes a container health check.
+
+## 🔄 CI Pipeline
+
+Every push to `main` and every pull request runs GitHub Actions to:
+
+1. Check out the source
+2. Validate the HTML
+3. Validate JavaScript syntax
+4. Build the Docker image
+5. Start the container
+6. Run an HTTP smoke test
+7. Clean up the test container
+
+Workflow: `.github/workflows/ci.yml`
+
+## 📲 PWA
+
+RainGuard includes a Web App Manifest and Service Worker for an installable application shell and basic offline caching of static assets. Weather data still requires network access.
+
+## 📁 Project structure
 
 ```text
 rain-guard/
-├── index.html
-├── styles.css
+├── .github/workflows/ci.yml
 ├── app.js
+├── styles.css
+├── index.html
+├── manifest.webmanifest
+├── sw.js
+├── icon.svg
+├── Dockerfile
+├── docker-compose.yml
+├── nginx.conf
+├── .gitignore
 └── README.md
 ```
 
-## Notes
+## 🔐 Security & privacy notes
 
-- Geolocation and browser notifications require user permission.
-- Browser notifications normally require a secure context such as HTTPS or localhost.
-- Forecast values are supplied by Open-Meteo and may change as new weather data becomes available.
+- No API keys or secrets are stored in the repository.
+- Location is requested only after the user chooses the location feature.
+- Browser notification permission is explicitly requested by the user.
+- The application does not maintain a server-side location database.
 
-## Roadmap
+## 🗺️ Roadmap
 
-- PWA installation support
-- Docker image and container deployment
-- GitHub Actions CI
-- Weather-condition notification scheduling
 - Saved locations
-- Prometheus/Grafana integration for the service layer
+- More granular alert scheduling
+- Push notification service
+- Automated deployment to a cloud platform
+- Optional backend for scheduled server-side alerts
+- Prometheus/Grafana observability for a backend service
 
-## License
+## 📄 License
 
 MIT
