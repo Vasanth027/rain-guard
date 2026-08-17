@@ -1,4 +1,4 @@
-const state = { lat: null, lon: null, city: '', threshold: 60, map: null, marker: null, accuracyCircle: null };
+const state = { lat: null, lon: null, city: '', threshold: 60 };
 const $ = (id) => document.getElementById(id);
 function setStatus(message) { $('status').textContent = message; }
 
@@ -8,36 +8,14 @@ function showCoordinates(lat, lon, accuracy = null) {
   $('latitude').textContent = latitude;
   $('longitude').textContent = longitude;
   $('locationAccuracy').textContent = accuracy ? `±${Math.round(accuracy)} m` : 'GPS location';
+  renderFastMap(state.lat, state.lon);
+}
 
-  if (window.L) {
-    const position = [state.lat, state.lon];
-    if (!state.map) {
-      state.map = L.map('locationMap', { zoomControl: true, attributionControl: true });
-      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 19,
-        attribution: '&copy; OpenStreetMap contributors',
-        crossOrigin: true
-      }).addTo(state.map);
-    }
-    state.map.setView(position, 17, { animate: true });
-    if (state.marker) state.map.removeLayer(state.marker);
-    if (state.accuracyCircle) state.map.removeLayer(state.accuracyCircle);
-    state.accuracyCircle = accuracy ? L.circle(position, {
-      radius: Math.max(Number(accuracy), 5),
-      color: '#2563eb',
-      fillColor: '#3b82f6',
-      fillOpacity: 0.14,
-      weight: 1
-    }).addTo(state.map) : null;
-    state.marker = L.circleMarker(position, {
-      radius: 9,
-      color: '#ffffff',
-      weight: 3,
-      fillColor: '#2563eb',
-      fillOpacity: 1
-    }).addTo(state.map).bindPopup(`<b>📍 Your current location</b><br>${latitude}, ${longitude}`).openPopup();
-    setTimeout(() => state.map.invalidateSize(true), 250);
-  }
+function renderFastMap(lat, lon) {
+  const map = $('locationMap');
+  const query = `${lat.toFixed(6)},${lon.toFixed(6)}`;
+  map.classList.remove('map-loading');
+  map.innerHTML = `<iframe title="Google Maps location" loading="eager" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=${encodeURIComponent(query)}&z=17&output=embed"></iframe>`;
 }
 
 async function geocode(city) {
@@ -51,14 +29,11 @@ async function reverseGeocode(lat, lon) {
     const url = `https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=${encodeURIComponent(lat)}&lon=${encodeURIComponent(lon)}&zoom=18&addressdetails=1`;
     const response = await fetch(url, { headers: { Accept: 'application/json' } });
     if (!response.ok) throw new Error('Reverse geocoding failed');
-    const data = await response.json();
-    const a = data.address || {};
+    const data = await response.json(); const a = data.address || {};
     const locality = a.city || a.town || a.village || a.municipality || a.suburb || a.county;
     const region = a.state || '';
     return locality ? `${locality}${region ? `, ${region}` : ''}` : (data.display_name || 'My Exact Location');
-  } catch (_) {
-    return 'My Exact Location';
-  }
+  } catch (_) { return 'My Exact Location'; }
 }
 
 async function loadWeather(lat, lon, label, accuracy = null) {
@@ -69,8 +44,7 @@ async function loadWeather(lat, lon, label, accuracy = null) {
 }
 
 function render(data, label) {
-  $('dashboard').classList.remove('hidden');
-  $('locationName').textContent = label;
+  $('dashboard').classList.remove('hidden'); $('locationName').textContent = label;
   $('currentTemp').textContent = `${Math.round(data.current.temperature_2m)}°C`;
   $('currentSummary').textContent = `Humidity ${Math.round(data.current.relative_humidity_2m)}% • Wind ${Math.round(data.current.wind_speed_10m)} km/h`;
   const start = data.hourly.time.findIndex((t) => new Date(t) >= new Date(data.current.time)); const index = start < 0 ? 0 : start;
@@ -88,8 +62,7 @@ function checkRainAlerts(data, label) {
 
 $('searchBtn').addEventListener('click', async () => {
   const city = $('cityInput').value.trim(); if (!city) return setStatus('Enter a city name.');
-  try { const result = await geocode(city); await loadWeather(result.latitude, result.longitude, `${result.name}, ${result.country}`); }
-  catch (error) { setStatus(error.message); }
+  try { const result = await geocode(city); await loadWeather(result.latitude, result.longitude, `${result.name}, ${result.country}`); } catch (error) { setStatus(error.message); }
 });
 $('cityInput').addEventListener('keydown', (event) => { if (event.key === 'Enter') $('searchBtn').click(); });
 
@@ -99,37 +72,21 @@ $('locationBtn').addEventListener('click', () => {
   navigator.geolocation.getCurrentPosition(async ({ coords }) => {
     try {
       showCoordinates(coords.latitude, coords.longitude, coords.accuracy);
-      const place = await reverseGeocode(coords.latitude, coords.longitude);
-      $('locationName').textContent = place;
-      await loadWeather(coords.latitude, coords.longitude, place, coords.accuracy);
-      $('locationName').textContent = place;
+      const place = await reverseGeocode(coords.latitude, coords.longitude); $('locationName').textContent = place;
+      await loadWeather(coords.latitude, coords.longitude, place, coords.accuracy); $('locationName').textContent = place;
     } catch (error) { setStatus(error.message); }
   }, (error) => setStatus(error.code === 1 ? 'Location access was denied. Allow location permission and try again.' : 'Unable to get your GPS location. Try again.'), { enableHighAccuracy: true, timeout: 20000, maximumAge: 0 });
 });
 
 $('mapsBtn').addEventListener('click', () => {
   if (state.lat === null || state.lon === null) return setStatus('Use your location first.');
-  const url = `https://www.google.com/maps/search/?api=1&query=${state.lat.toFixed(6)},${state.lon.toFixed(6)}`;
-  window.open(url, '_blank', 'noopener,noreferrer');
+  window.open(`https://www.google.com/maps/search/?api=1&query=${state.lat.toFixed(6)},${state.lon.toFixed(6)}`, '_blank', 'noopener,noreferrer');
 });
 
 $('copyCoordinates').addEventListener('click', async () => {
   if (state.lat === null || state.lon === null) return setStatus('Use your location first.');
   const value = `${state.lat.toFixed(6)}, ${state.lon.toFixed(6)}`;
-  try {
-    if (navigator.clipboard && window.isSecureContext) {
-      await navigator.clipboard.writeText(value);
-    } else {
-      const textArea = document.createElement('textarea');
-      textArea.value = value; textArea.setAttribute('readonly', '');
-      textArea.style.position = 'fixed'; textArea.style.opacity = '0';
-      document.body.appendChild(textArea); textArea.select();
-      document.execCommand('copy'); textArea.remove();
-    }
-    setStatus(`✅ Coordinates copied: ${value}`);
-  } catch (_) {
-    setStatus(`Coordinates: ${value} — select and copy manually.`);
-  }
+  try { if (navigator.clipboard && window.isSecureContext) await navigator.clipboard.writeText(value); else { const textArea = document.createElement('textarea'); textArea.value = value; textArea.setAttribute('readonly', ''); textArea.style.position = 'fixed'; textArea.style.opacity = '0'; document.body.appendChild(textArea); textArea.select(); document.execCommand('copy'); textArea.remove(); } setStatus(`✅ Coordinates copied: ${value}`); } catch (_) { setStatus(`Coordinates: ${value} — select and copy manually.`); }
 });
 
 $('threshold').addEventListener('input', (event) => { state.threshold = Number(event.target.value); $('thresholdValue').textContent = `${state.threshold}%`; });
