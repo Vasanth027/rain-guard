@@ -1,8 +1,17 @@
-const state = { lat: null, lon: null, city: '', threshold: 60, timer: null };
+const state = { lat: null, lon: null, city: '', threshold: 60 };
 
 const $ = (id) => document.getElementById(id);
 
 function setStatus(message) { $('status').textContent = message; }
+
+function showCoordinates(lat, lon, accuracy = null) {
+  state.lat = Number(lat);
+  state.lon = Number(lon);
+  $('latitude').textContent = state.lat.toFixed(6);
+  $('longitude').textContent = state.lon.toFixed(6);
+  $('mapsLink').href = `https://www.google.com/maps/search/?api=1&query=${state.lat.toFixed(6)},${state.lon.toFixed(6)}`;
+  $('locationAccuracy').textContent = accuracy ? `±${Math.round(accuracy)} m` : 'Coordinates';
+}
 
 async function geocode(city) {
   const url = `https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(city)}&count=1&language=en&format=json`;
@@ -13,13 +22,14 @@ async function geocode(city) {
   return data.results[0];
 }
 
-async function loadWeather(lat, lon, label) {
+async function loadWeather(lat, lon, label, accuracy = null) {
   setStatus('Loading forecast…');
+  showCoordinates(lat, lon, accuracy);
   const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=temperature_2m,relative_humidity_2m,precipitation,rain,wind_speed_10m&hourly=temperature_2m,precipitation_probability,precipitation,rain&forecast_days=2&timezone=auto`;
   const response = await fetch(url);
   if (!response.ok) throw new Error('Weather service is unavailable.');
   const data = await response.json();
-  state.lat = lat; state.lon = lon; state.city = label;
+  state.city = label;
   render(data, label);
   setStatus(`Forecast loaded for ${label}.`);
   checkRainAlerts(data, label);
@@ -61,19 +71,37 @@ function checkRainAlerts(data, label) {
 $('searchBtn').addEventListener('click', async () => {
   const city = $('cityInput').value.trim();
   if (!city) return setStatus('Enter a city name.');
-  try { const result = await geocode(city); await loadWeather(result.latitude, result.longitude, `${result.name}, ${result.country}`); }
-  catch (error) { setStatus(error.message); }
+  try {
+    const result = await geocode(city);
+    await loadWeather(result.latitude, result.longitude, `${result.name}, ${result.country}`);
+  } catch (error) { setStatus(error.message); }
 });
 
 $('cityInput').addEventListener('keydown', (event) => { if (event.key === 'Enter') $('searchBtn').click(); });
 
 $('locationBtn').addEventListener('click', () => {
   if (!navigator.geolocation) return setStatus('Geolocation is not supported by this browser.');
-  setStatus('Requesting your location…');
+  setStatus('Requesting your precise GPS location…');
   navigator.geolocation.getCurrentPosition(async ({ coords }) => {
-    try { await loadWeather(coords.latitude, coords.longitude, 'My Location'); }
-    catch (error) { setStatus(error.message); }
-  }, () => setStatus('Location access was denied. Search for a city instead.'), { enableHighAccuracy: true, timeout: 10000 });
+    try {
+      await loadWeather(coords.latitude, coords.longitude, 'My Exact Location', coords.accuracy);
+    } catch (error) { setStatus(error.message); }
+  }, () => setStatus('Location access was denied. Search for a city instead.'), {
+    enableHighAccuracy: true,
+    timeout: 15000,
+    maximumAge: 0
+  });
+});
+
+$('copyCoordinates').addEventListener('click', async () => {
+  if (state.lat === null || state.lon === null) return setStatus('Use your location first.');
+  const value = `${state.lat.toFixed(6)}, ${state.lon.toFixed(6)}`;
+  try {
+    await navigator.clipboard.writeText(value);
+    setStatus(`Coordinates copied: ${value}`);
+  } catch (_) {
+    setStatus(`Coordinates: ${value}`);
+  }
 });
 
 $('threshold').addEventListener('input', (event) => {
