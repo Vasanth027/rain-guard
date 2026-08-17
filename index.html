@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="RainGuard - a lightweight rain monitoring and alert application." />
+  <title>RainGuard | Rain Alert</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">WEATHER ALERTS</p>
+        <h1>🌧️ RainGuard</h1>
+        <p class="subtitle">Know when rain is likely before you step out.</p>
+      </div>
+      <button id="locationBtn" class="primary">Use my location</button>
+    </header>
+
+    <section class="search card">
+      <label for="cityInput">Search a city</label>
+      <div class="search-row">
+        <input id="cityInput" type="text" placeholder="e.g. Chennai" autocomplete="off" />
+        <button id="searchBtn">Search</button>
+      </div>
+      <p id="status" class="status" role="status">Search for a city or use your location.</p>
+    </section>
+
+    <section id="dashboard" class="dashboard hidden" aria-live="polite">
+      <div class="card current">
+        <div>
+          <p class="muted" id="locationName">—</p>
+          <h2 id="currentTemp">—</h2>
+          <p id="currentSummary">—</p>
+        </div>
+        <div class="rain-score">
+          <span>Rain chance</span>
+          <strong id="rainChance">—</strong>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="section-heading">
+          <h3>Next 6 hours</h3>
+          <span id="updatedAt" class="muted">—</span>
+        </div>
+        <div id="hourly" class="hourly"></div>
+      </div>
+
+      <div class="card settings">
+        <div>
+          <h3>Rain alert threshold</h3>
+          <p class="muted">Notify when the forecast rain probability reaches this level.</p>
+        </div>
+        <div class="threshold-control">
+          <input id="threshold" type="range" min="20" max="90" step="5" value="60" />
+          <strong id="thresholdValue">60%</strong>
+        </div>
+        <button id="notifyBtn">Enable notifications</button>
+      </div>
+    </section>
+
+    <footer>
+      <p>RainGuard uses Open-Meteo forecast and geocoding services. Weather data can change rapidly.</p>
+    </footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
