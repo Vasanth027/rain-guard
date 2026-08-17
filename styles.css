@@ -10,8 +10,8 @@ h1 { margin: 0; font-size: clamp(2.2rem, 7vw, 4.2rem); line-height: 1; }
 label, h3 { font-weight: 800; }
 .search-row { display: flex; gap: 10px; margin-top: 10px; }
 input[type=text] { flex: 1; border: 1px solid #c7d4dc; border-radius: 12px; padding: 13px 14px; font-size: 1rem; outline: none; }
-button { border: 0; border-radius: 12px; padding: 12px 16px; font-weight: 800; cursor: pointer; background: #dce8ed; color: #102033; }
-button:hover { transform: translateY(-1px); }
+button, .maps-button { border: 0; border-radius: 12px; padding: 12px 16px; font-weight: 800; cursor: pointer; background: #dce8ed; color: #102033; text-decoration: none; display: inline-flex; align-items: center; justify-content: center; }
+button:hover, .maps-button:hover { transform: translateY(-1px); }
 button.primary { background: #102033; color: white; }
 .status { margin: 10px 0 0; color: #526578; min-height: 24px; }
 .hidden { display: none; }
@@ -21,7 +21,15 @@ button.primary { background: #102033; color: white; }
 .rain-score { text-align: right; }
 .rain-score strong { display: block; font-size: 2.7rem; }
 .section-heading { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
-.section-heading h3, .settings h3 { margin: 0; }
+.section-heading h3 { margin: 0; }
+.accuracy { padding: 7px 10px; border-radius: 999px; background: #e8f1f4; color: #526578; font-size: .82rem; font-weight: 800; white-space: nowrap; }
+.location-card p { margin: 4px 0 0; }
+.coordinates { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin: 18px 0; }
+.coordinate { border: 1px solid #dce6eb; border-radius: 14px; padding: 14px; }
+.coordinate span { display: block; color: #6b7d8d; font-size: .8rem; margin-bottom: 4px; }
+.coordinate strong { font-variant-numeric: tabular-nums; font-size: 1.15rem; letter-spacing: .02em; }
+.location-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+.maps-button { background: #102033; color: white; }
 .hourly { display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; margin-top: 16px; }
 .hour { padding: 14px 8px; text-align: center; border: 1px solid #dce6eb; border-radius: 14px; }
 .hour strong, .hour span { display: block; }
@@ -32,4 +40,4 @@ button.primary { background: #102033; color: white; }
 .threshold-control { display: flex; align-items: center; gap: 10px; min-width: 220px; }
 input[type=range] { width: 100%; }
 footer { color: #718392; font-size: .82rem; text-align: center; padding: 14px; }
-@media (max-width: 700px) { .hero, .current, .settings { flex-direction: column; align-items: stretch; } .rain-score { text-align: left; } .hourly { grid-template-columns: repeat(3, 1fr); } .search-row { flex-direction: column; } }
+@media (max-width: 700px) { .hero, .current, .settings { flex-direction: column; align-items: stretch; } .rain-score { text-align: left; } .coordinates { grid-template-columns: 1fr; } .hourly { grid-template-columns: repeat(3, 1fr); } .search-row { flex-direction: column; } }
