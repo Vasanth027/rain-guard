@@ -1,0 +1,13 @@
+{
+  "name": "RainGuard - Rain Alert",
+  "short_name": "RainGuard",
+  "description": "Check upcoming rain and configure browser rain alerts.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#eef5f8",
+  "theme_color": "#102033",
+  "orientation": "portrait-primary",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
