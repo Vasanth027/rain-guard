@@ -4,9 +4,8 @@ function setStatus(message) { $('status').textContent = message; }
 
 function showCoordinates(lat, lon, accuracy = null) {
   state.lat = Number(lat); state.lon = Number(lon);
-  const latitude = state.lat.toFixed(6); const longitude = state.lon.toFixed(6);
-  $('latitude').textContent = latitude;
-  $('longitude').textContent = longitude;
+  $('latitude').textContent = state.lat.toFixed(6);
+  $('longitude').textContent = state.lon.toFixed(6);
   $('locationAccuracy').textContent = accuracy ? `±${Math.round(accuracy)} m` : 'GPS location';
   renderFastMap(state.lat, state.lon);
 }
@@ -43,21 +42,43 @@ async function loadWeather(lat, lon, label, accuracy = null) {
   const data = await response.json(); state.city = label; render(data, label); setStatus(`Forecast loaded for ${label}.`); checkRainAlerts(data, label);
 }
 
+function getCurrentHourIndex(data) {
+  const current = new Date(data.current.time);
+  const index = data.hourly.time.findIndex((time) => new Date(time) >= current);
+  return index < 0 ? 0 : index;
+}
+
 function render(data, label) {
   $('dashboard').classList.remove('hidden'); $('locationName').textContent = label;
   $('currentTemp').textContent = `${Math.round(data.current.temperature_2m)}°C`;
   $('currentSummary').textContent = `Humidity ${Math.round(data.current.relative_humidity_2m)}% • Wind ${Math.round(data.current.wind_speed_10m)} km/h`;
-  const start = data.hourly.time.findIndex((t) => new Date(t) >= new Date(data.current.time)); const index = start < 0 ? 0 : start;
-  const hours = data.hourly.time.slice(index, index + 6); const rain = data.hourly.precipitation_probability.slice(index, index + 6); const mm = data.hourly.precipitation.slice(index, index + 6);
-  $('rainChance').textContent = `${Math.max(...rain, 0)}%`;
+
+  const index = getCurrentHourIndex(data);
+  const currentProbability = Number(data.hourly.precipitation_probability[index] ?? 0);
+  const currentPrecipitation = Number(data.current.precipitation ?? 0);
+  const currentRain = Number(data.current.rain ?? 0);
+  const nextHourProbability = Number(data.hourly.precipitation_probability[index + 1] ?? currentProbability);
+  const displayProbability = nextHourProbability;
+
+  $('rainChance').textContent = `${displayProbability}%`;
+  $('currentRainStatus').textContent = currentRain > 0 || currentPrecipitation > 0 ? `🌧️ Rain is happening now • ${currentPrecipitation.toFixed(1)} mm` : currentProbability >= 50 ? `🌦️ No rain right now • ${currentProbability}% chance this hour` : `☀️ No rain right now • ${currentProbability}% chance this hour`;
   $('updatedAt').textContent = `Updated ${new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}`;
+
+  const hours = data.hourly.time.slice(index, index + 6);
+  const rain = data.hourly.precipitation_probability.slice(index, index + 6);
+  const mm = data.hourly.precipitation.slice(index, index + 6);
   $('hourly').innerHTML = hours.map((time, i) => `<div class="hour"><span class="time">${new Date(time).toLocaleTimeString([], { hour: 'numeric' })}</span><strong>🌧️ ${rain[i]}%</strong><span class="rain">${Number(mm[i]).toFixed(1)} mm</span></div>`).join('');
 }
 
 function checkRainAlerts(data, label) {
-  const start = data.hourly.time.findIndex((t) => new Date(t) >= new Date(data.current.time)); const index = Math.max(0, start);
-  const rain = data.hourly.precipitation_probability.slice(index, index + 3); const hit = rain.findIndex((value) => value >= state.threshold);
-  if (hit >= 0) { const message = `Rain is likely in ${label} within the next ${hit + 1} hour${hit ? 's' : ''}. Probability is ${rain[hit]}%.`; setStatus(`⚠️ ${message}`); if ('Notification' in window && Notification.permission === 'granted') new Notification('🌧️ RainGuard Alert', { body: message }); }
+  const index = getCurrentHourIndex(data);
+  const rain = data.hourly.precipitation_probability.slice(index, index + 3);
+  const hit = rain.findIndex((value, i) => i > 0 && value >= state.threshold);
+  if (hit >= 0) {
+    const message = `Rain is likely in ${label} within the next ${hit} hour${hit > 1 ? 's' : ''}. Probability is ${rain[hit]}%.`;
+    setStatus(`⚠️ ${message}`);
+    if ('Notification' in window && Notification.permission === 'granted') new Notification('🌧️ RainGuard Alert', { body: message });
+  }
 }
 
 $('searchBtn').addEventListener('click', async () => {
