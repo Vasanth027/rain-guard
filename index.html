@@ -5,8 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="RainGuard - a lightweight rain monitoring and alert application.">
   <meta name="theme-color" content="#102033">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <link rel="manifest" href="manifest.webmanifest">
   <title>RainGuard | Rain Alert</title>
   <link rel="stylesheet" href="styles.css">
@@ -47,20 +45,18 @@
       <div class="card location-card">
         <div class="section-heading">
           <div>
-            <h3>📍 Exact Location</h3>
-            <p class="muted">GPS coordinates detected by your browser.</p>
+            <h3>📍 My Location</h3>
+            <p class="muted">Your current GPS position</p>
           </div>
           <span id="locationAccuracy" class="accuracy">—</span>
         </div>
+        <div id="mapWrap" class="map-wrap">
+          <iframe id="locationMap" title="Your current location on Google Maps" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class="map-pin" aria-hidden="true">📍</div>
+        </div>
         <div class="coordinates">
-          <div class="coordinate">
-            <span>Latitude</span>
-            <strong id="latitude">—</strong>
-          </div>
-          <div class="coordinate">
-            <span>Longitude</span>
-            <strong id="longitude">—</strong>
-          </div>
+          <div class="coordinate"><span>Latitude</span><strong id="latitude">—</strong></div>
+          <div class="coordinate"><span>Longitude</span><strong id="longitude">—</strong></div>
         </div>
         <div class="location-actions">
           <a id="mapsLink" class="maps-button" href="#" target="_blank" rel="noopener noreferrer">🗺️ Open in Google Maps</a>
@@ -69,33 +65,20 @@
       </div>
 
       <div class="card">
-        <div class="section-heading">
-          <h3>Next 6 hours</h3>
-          <span id="updatedAt" class="muted">—</span>
-        </div>
+        <div class="section-heading"><h3>Next 6 hours</h3><span id="updatedAt" class="muted">—</span></div>
         <div id="hourly" class="hourly"></div>
       </div>
 
       <div class="card settings">
-        <div>
-          <h3>Rain alert threshold</h3>
-          <p class="muted">Notify when the forecast rain probability reaches this level.</p>
-        </div>
-        <div class="threshold-control">
-          <input id="threshold" type="range" min="20" max="90" step="5" value="60">
-          <strong id="thresholdValue">60%</strong>
-        </div>
+        <div><h3>Rain alert threshold</h3><p class="muted">Notify when the forecast rain probability reaches this level.</p></div>
+        <div class="threshold-control"><input id="threshold" type="range" min="20" max="90" step="5" value="60"><strong id="thresholdValue">60%</strong></div>
         <button type="button" id="notifyBtn">Enable notifications</button>
       </div>
     </section>
 
-    <footer>
-      <p>RainGuard uses Open-Meteo forecast and geocoding services. GPS coordinates are shown only in your browser.</p>
-    </footer>
+    <footer><p>RainGuard uses Open-Meteo forecast and geocoding services. GPS coordinates are shown only in your browser.</p></footer>
   </main>
   <script src="app.js"></script>
-  <script>
-    if ('serviceWorker' in navigator) window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js'));
-  </script>
+  <script>if ('serviceWorker' in navigator) window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js'));</script>
 </body>
 </html>
