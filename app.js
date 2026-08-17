@@ -1,4 +1,4 @@
-const state = { lat: null, lon: null, city: '', threshold: 60 };
+const state = { lat: null, lon: null, city: '', threshold: 60, map: null, marker: null };
 const $ = (id) => document.getElementById(id);
 function setStatus(message) { $('status').textContent = message; }
 
@@ -8,10 +8,21 @@ function showCoordinates(lat, lon, accuracy = null) {
   $('latitude').textContent = latitude;
   $('longitude').textContent = longitude;
   $('locationAccuracy').textContent = accuracy ? `±${Math.round(accuracy)} m` : 'GPS location';
-  const googleUrl = `https://www.google.com/maps/search/?api=1&query=${latitude},${longitude}`;
-  $('mapsLink').href = googleUrl;
-  // Google Maps map preview centered on the exact GPS coordinate.
-  $('locationMap').src = `https://www.google.com/maps?q=${latitude},${longitude}&z=17&output=embed`;
+
+  if (window.L) {
+    if (!state.map) {
+      state.map = L.map('locationMap', { zoomControl: true }).setView([state.lat, state.lon], 16);
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; OpenStreetMap contributors'
+      }).addTo(state.map);
+    } else {
+      state.map.setView([state.lat, state.lon], 16);
+    }
+    if (state.marker) state.map.removeLayer(state.marker);
+    state.marker = L.marker([state.lat, state.lon]).addTo(state.map).bindPopup('<b>📍 Your current location</b><br>' + latitude + ', ' + longitude).openPopup();
+    setTimeout(() => state.map.invalidateSize(), 100);
+  }
 }
 
 async function geocode(city) {
@@ -46,7 +57,8 @@ function checkRainAlerts(data, label) {
 
 $('searchBtn').addEventListener('click', async () => { const city = $('cityInput').value.trim(); if (!city) return setStatus('Enter a city name.'); try { const result = await geocode(city); await loadWeather(result.latitude, result.longitude, `${result.name}, ${result.country}`); } catch (error) { setStatus(error.message); } });
 $('cityInput').addEventListener('keydown', (event) => { if (event.key === 'Enter') $('searchBtn').click(); });
-$('locationBtn').addEventListener('click', () => { if (!navigator.geolocation) return setStatus('Geolocation is not supported by this browser.'); setStatus('Requesting your precise GPS location…'); navigator.geolocation.getCurrentPosition(async ({ coords }) => { try { await loadWeather(coords.latitude, coords.longitude, 'My Exact Location', coords.accuracy); } catch (error) { setStatus(error.message); } }, () => setStatus('Location access was denied. Search for a city instead.'), { enableHighAccuracy: true, timeout: 15000, maximumAge: 0 }); });
+$('locationBtn').addEventListener('click', () => { if (!navigator.geolocation) return setStatus('Geolocation is not supported by this browser.'); setStatus('Requesting your precise GPS location…'); navigator.geolocation.getCurrentPosition(async ({ coords }) => { try { await loadWeather(coords.latitude, coords.longitude, 'My Exact Location', coords.accuracy); } catch (error) { setStatus(error.message); } }, (error) => setStatus(error.code === 1 ? 'Location access was denied. Allow location permission and try again.' : 'Unable to get your GPS location. Try again.'), { enableHighAccuracy: true, timeout: 15000, maximumAge: 0 }); });
+$('mapsBtn').addEventListener('click', () => { if (state.lat === null || state.lon === null) return setStatus('Use your location first.'); window.open(`https://www.google.com/maps/search/?api=1&query=${state.lat.toFixed(6)},${state.lon.toFixed(6)}`, '_blank', 'noopener,noreferrer'); });
 $('copyCoordinates').addEventListener('click', async () => { if (state.lat === null || state.lon === null) return setStatus('Use your location first.'); const value = `${state.lat.toFixed(6)}, ${state.lon.toFixed(6)}`; try { await navigator.clipboard.writeText(value); setStatus(`Coordinates copied: ${value}`); } catch (_) { setStatus(`Coordinates: ${value}`); } });
 $('threshold').addEventListener('input', (event) => { state.threshold = Number(event.target.value); $('thresholdValue').textContent = `${state.threshold}%`; });
 $('notifyBtn').addEventListener('click', async () => { if (!('Notification' in window)) return setStatus('Browser notifications are not supported.'); const permission = await Notification.requestPermission(); setStatus(permission === 'granted' ? 'Notifications enabled.' : 'Notification permission was not granted.'); });
