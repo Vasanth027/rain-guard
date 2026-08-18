@@ -8,6 +8,7 @@
   <link rel="manifest" href="manifest.webmanifest">
   <title>RainGuard | Rain Alert</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="weather-v2.css">
 </head>
 <body>
   <main class="container">
@@ -25,24 +26,9 @@
         <div><p class="muted" id="locationName">My Location</p><h2 id="currentTemp">—</h2><p id="currentSummary">—</p><p id="currentRainStatus" class="rain-status">—</p></div>
         <div class="rain-score"><span id="rainChanceLabel">Rain now</span><strong id="rainChance">—</strong><span id="nextHourChance" class="muted">Next hour: —</span></div>
       </div>
-
-      <div class="card">
-        <div class="section-heading"><div><h3>🌦️ Weather Intelligence</h3><p class="muted">Windy-style live weather details for this location</p></div><span class="accuracy">Live model data</span></div>
-        <div id="weatherDetails" class="weather-details"></div>
-      </div>
-
-      <div class="card warning-card">
-        <div class="section-heading"><div><h3>⚠️ Severe Weather Watch</h3><p class="muted">Rain, thunderstorm, strong wind, visibility and pressure signals</p></div></div>
-        <div id="warningPanel" class="warning-panel"><div class="safe-row">Loading conditions…</div></div>
-        <p class="cyclone-note">🌀 Cyclone tracking is separate from local weather. A reliable cyclone alert should use an official storm-track feed; this card does not label normal low pressure or strong wind as a cyclone.</p>
-      </div>
-
-      <div class="card location-card">
-        <div class="section-heading"><div><h3>📍 My Location</h3><p class="muted">Your current GPS position</p></div><span id="locationAccuracy" class="accuracy">—</span></div>
-        <div id="locationMap" class="location-map map-loading"><div class="map-placeholder"><span class="spinner"></span><span>Loading map…</span></div></div>
-        <div class="coordinates"><div class="coordinate"><span>Latitude</span><strong id="latitude">—</strong></div><div class="coordinate"><span>Longitude</span><strong id="longitude">—</strong></div></div>
-        <div class="location-actions"><button type="button" id="mapsBtn" class="maps-button">🗺️ Open in Google Maps</button><button type="button" id="copyCoordinates">Copy coordinates</button></div>
-      </div>
+      <div class="card"><div class="section-heading"><div><h3>🌦️ Weather Intelligence</h3><p class="muted">Windy-style live weather details for this location</p></div><span class="accuracy">Live model data</span></div><div id="weatherDetails" class="weather-details"></div></div>
+      <div class="card warning-card"><div class="section-heading"><div><h3>⚠️ Severe Weather Watch</h3><p class="muted">Rain, thunderstorm, strong wind, visibility and pressure signals</p></div></div><div id="warningPanel" class="warning-panel"><div class="safe-row">Loading conditions…</div></div><p class="cyclone-note">🌀 Cyclone tracking is separate from local weather. A reliable cyclone alert should use an official storm-track feed; this card does not label normal low pressure or strong wind as a cyclone.</p></div>
+      <div class="card location-card"><div class="section-heading"><div><h3>📍 My Location</h3><p class="muted">Your current GPS position</p></div><span id="locationAccuracy" class="accuracy">—</span></div><div id="locationMap" class="location-map map-loading"><div class="map-placeholder"><span class="spinner"></span><span>Loading map…</span></div></div><div class="coordinates"><div class="coordinate"><span>Latitude</span><strong id="latitude">—</strong></div><div class="coordinate"><span>Longitude</span><strong id="longitude">—</strong></div></div><div class="location-actions"><button type="button" id="mapsBtn" class="maps-button">🗺️ Open in Google Maps</button><button type="button" id="copyCoordinates">Copy coordinates</button></div></div>
       <div class="card"><div class="section-heading"><h3>Next 6 hours</h3><span id="updatedAt" class="muted">—</span></div><div id="hourly" class="hourly"></div></div>
       <div class="card settings"><div><h3>Rain alert threshold</h3><p class="muted">Notify when the forecast rain probability reaches this level.</p></div><div class="threshold-control"><input id="threshold" type="range" min="20" max="90" step="5" value="60"><strong id="thresholdValue">60%</strong></div><button type="button" id="notifyBtn">Enable notifications</button></div>
     </section>
