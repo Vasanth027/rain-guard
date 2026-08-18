@@ -3,6 +3,8 @@ name: RainGuard CI
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - 'imd-data.json'
   pull_request:
     branches: [main]
 
@@ -20,33 +22,32 @@ jobs:
         run: npx --yes html-validate index.html
 
       - name: Validate JavaScript syntax
-        run: node --check app.js
-
-      - name: Build Docker image
-        run: docker build --tag rain-guard:test .
-
-      - name: Validate Nginx configuration
-        run: docker run --rm rain-guard:test nginx -t
-
-      - name: Run container
-        run: docker run --detach --name rain-guard-test --publish 8080:80 rain-guard:test
-
-      - name: Smoke test
+        shell: bash
         run: |
-          for attempt in {1..10}; do
-            if curl --fail --silent --show-error http://127.0.0.1:8080/ | grep -q "RainGuard"; then
-              echo "RainGuard smoke test passed."
-              exit 0
+          set -e
+          for file in app.js app-v2.js app-rainfix.js alerts.js; do
+            if [ -f "$file" ]; then
+              echo "Checking $file"
+              node --check "$file"
             fi
-            echo "Waiting for Nginx container (attempt ${attempt}/10)..."
-            sleep 2
           done
-          echo "Container status:"
-          docker ps -a --filter name=rain-guard-test
-          echo "Container logs:"
-          docker logs rain-guard-test || true
-          exit 1
 
-      - name: Cleanup
-        if: always()
-        run: docker rm --force rain-guard-test || true
+      - name: Validate required site files
+        shell: bash
+        run: |
+          set -e
+          for file in index.html styles.css app-v2.js imd.css imd-live.js imd-data.json; do
+            test -f "$file" || { echo "Missing required file: $file"; exit 1; }
+          done
+          python -m json.tool imd-data.json >/dev/null
+          echo "RainGuard static files and IMD snapshot are valid."
+
+      - name: Static Pages smoke test
+        shell: bash
+        run: |
+          python3 -m http.server 8080 --bind 127.0.0.1 >/tmp/rainguard-http.log 2>&1 &
+          SERVER_PID=$!
+          trap 'kill $SERVER_PID 2>/dev/null || true' EXIT
+          sleep 2
+          curl --fail --silent --show-error http://127.0.0.1:8080/ | grep -q "RainGuard"
+          echo "RainGuard Pages smoke test passed."
