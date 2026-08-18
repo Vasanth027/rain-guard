@@ -1,10 +1,23 @@
 {
-  "updated_at": "2026-08-18T16:50:18.250076+00:00",
+  "updated_at": "2026-08-18T17:33:28.956006+00:00",
   "source": "official IMD/RMC",
   "current": {
     "error": "HTTP Error 401: Unauthorized"
   },
   "nowcast": [
+    {
+      "title": "BARAMULLA",
+      "guid": "e726eeeaf67512e477ad3bd365d34120",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-18T22:40:16+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Tue, 18 Aug 2026 22:40:16",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-18T22:00:00+5:30",
+      "expires": "2026-08-18T01:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
     {
       "title": "ALIGARH",
       "guid": "399eb45e7ddf6c8a23e170f493dbc8ea",
@@ -1282,19 +1295,6 @@
     {
       "title": "EAST KHASI HILLS",
       "guid": "80d992350dac3a088e68cb21db43a11e",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-18T18:22:55+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Tue, 18 Aug 2026 18:22:55",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-18T19:00:00+5:30",
-      "expires": "2026-08-18T22:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "SOUTH GARO HILLS",
-      "guid": "0290942bcf4662671047fd0bc4dd7521",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-08-18T18:22:55+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -1308,6 +1308,19 @@
   ],
   "warning": [
     {
+      "title": "BARAMULLA",
+      "guid": "e726eeeaf67512e477ad3bd365d34120",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-18T22:40:16+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Tue, 18 Aug 2026 22:40:16",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-18T22:00:00+5:30",
+      "expires": "2026-08-18T01:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "ALIGARH",
       "guid": "399eb45e7ddf6c8a23e170f493dbc8ea",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -2584,19 +2597,6 @@
     {
       "title": "EAST KHASI HILLS",
       "guid": "80d992350dac3a088e68cb21db43a11e",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-18T18:22:55+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Tue, 18 Aug 2026 18:22:55",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-18T19:00:00+5:30",
-      "expires": "2026-08-18T22:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "SOUTH GARO HILLS",
-      "guid": "0290942bcf4662671047fd0bc4dd7521",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-08-18T18:22:55+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -2610,6 +2610,19 @@
   ],
   "rss": [
     {
+      "title": "BARAMULLA",
+      "guid": "e726eeeaf67512e477ad3bd365d34120",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-18T22:40:16+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Tue, 18 Aug 2026 22:40:16",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-18T22:00:00+5:30",
+      "expires": "2026-08-18T01:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "ALIGARH",
       "guid": "399eb45e7ddf6c8a23e170f493dbc8ea",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -3886,19 +3899,6 @@
     {
       "title": "EAST KHASI HILLS",
       "guid": "80d992350dac3a088e68cb21db43a11e",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-18T18:22:55+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Tue, 18 Aug 2026 18:22:55",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-18T19:00:00+5:30",
-      "expires": "2026-08-18T22:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "SOUTH GARO HILLS",
-      "guid": "0290942bcf4662671047fd0bc4dd7521",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-08-18T18:22:55+5:30",
       "sender": "nowcastnwfc@gmail.com",
