@@ -12,11 +12,7 @@
 <body>
   <main class="container">
     <header class="hero">
-      <div>
-        <p class="eyebrow">WEATHER ALERTS</p>
-        <h1>🌧️ RainGuard</h1>
-        <p class="subtitle">Know when rain is likely before you step out.</p>
-      </div>
+      <div><p class="eyebrow">WEATHER ALERTS</p><h1>🌧️ RainGuard</h1><p class="subtitle">Know when rain is likely before you step out.</p></div>
       <button type="button" id="locationBtn" class="primary">Use my location</button>
     </header>
     <section class="search card">
@@ -26,9 +22,21 @@
     </section>
     <section id="dashboard" class="dashboard hidden" aria-live="polite">
       <div class="card current">
-        <div><p class="muted" id="locationName">—</p><h2 id="currentTemp">—</h2><p id="currentSummary">—</p><p id="currentRainStatus" class="rain-status">—</p></div>
+        <div><p class="muted" id="locationName">My Location</p><h2 id="currentTemp">—</h2><p id="currentSummary">—</p><p id="currentRainStatus" class="rain-status">—</p></div>
         <div class="rain-score"><span id="rainChanceLabel">Rain now</span><strong id="rainChance">—</strong><span id="nextHourChance" class="muted">Next hour: —</span></div>
       </div>
+
+      <div class="card">
+        <div class="section-heading"><div><h3>🌦️ Weather Intelligence</h3><p class="muted">Windy-style live weather details for this location</p></div><span class="accuracy">Live model data</span></div>
+        <div id="weatherDetails" class="weather-details"></div>
+      </div>
+
+      <div class="card warning-card">
+        <div class="section-heading"><div><h3>⚠️ Severe Weather Watch</h3><p class="muted">Rain, thunderstorm, strong wind, visibility and pressure signals</p></div></div>
+        <div id="warningPanel" class="warning-panel"><div class="safe-row">Loading conditions…</div></div>
+        <p class="cyclone-note">🌀 Cyclone tracking is separate from local weather. A reliable cyclone alert should use an official storm-track feed; this card does not label normal low pressure or strong wind as a cyclone.</p>
+      </div>
+
       <div class="card location-card">
         <div class="section-heading"><div><h3>📍 My Location</h3><p class="muted">Your current GPS position</p></div><span id="locationAccuracy" class="accuracy">—</span></div>
         <div id="locationMap" class="location-map map-loading"><div class="map-placeholder"><span class="spinner"></span><span>Loading map…</span></div></div>
@@ -40,7 +48,7 @@
     </section>
     <footer><p>RainGuard uses Open-Meteo forecast services. GPS coordinates stay in your browser.</p></footer>
   </main>
-  <script src="app-rainfix.js"></script>
+  <script src="app-v2.js"></script>
   <script src="alerts.js"></script>
   <script>if ('serviceWorker' in navigator) window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js'));</script>
 </body>
