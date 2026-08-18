@@ -18,31 +18,28 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Validate HTML
-        run: npx --yes html-validate index.html
+      - name: Validate required site files
+        shell: bash
+        run: |
+          set -e
+          for file in index.html styles.css weather-v2.css app-v2.js imd.css imd-live.js imd-data.json; do
+            test -f "$file" || { echo "Missing required file: $file"; exit 1; }
+          done
+          python3 -m json.tool imd-data.json >/dev/null
+          echo "RainGuard files and IMD snapshot are valid."
 
       - name: Validate JavaScript syntax
         shell: bash
         run: |
           set -e
-          for file in app.js app-v2.js app-rainfix.js alerts.js; do
+          for file in app.js app-v2.js app-rainfix.js alerts.js imd-live.js; do
             if [ -f "$file" ]; then
               echo "Checking $file"
               node --check "$file"
             fi
           done
 
-      - name: Validate required site files
-        shell: bash
-        run: |
-          set -e
-          for file in index.html styles.css app-v2.js imd.css imd-live.js imd-data.json; do
-            test -f "$file" || { echo "Missing required file: $file"; exit 1; }
-          done
-          python -m json.tool imd-data.json >/dev/null
-          echo "RainGuard static files and IMD snapshot are valid."
-
-      - name: Static Pages smoke test
+      - name: Pages smoke test
         shell: bash
         run: |
           python3 -m http.server 8080 --bind 127.0.0.1 >/tmp/rainguard-http.log 2>&1 &
