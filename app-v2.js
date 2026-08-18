@@ -1,0 +1,163 @@
+const state = { lat: null, lon: null, city: '', threshold: 60 };
+const $ = (id) => document.getElementById(id);
+const TIME_OPTIONS = { hour: 'numeric', minute: '2-digit', hour12: true };
+
+function setStatus(message) { $('status').textContent = message; }
+function format12h(iso) {
+  const match = String(iso).match(/T(\d{2}):(\d{2})/);
+  if (!match) return '—';
+  let h = Number(match[1]); const m = match[2]; const suffix = h >= 12 ? 'PM' : 'AM';
+  h = h % 12 || 12;
+  return `${h}:${m} ${suffix}`;
+}
+function direction(deg) {
+  if (deg == null || Number.isNaN(Number(deg))) return '—';
+  const dirs = ['N','NE','E','SE','S','SW','W','NW'];
+  return dirs[Math.round(Number(deg) / 45) % 8];
+}
+function weatherDescription(code) {
+  const c = Number(code);
+  const map = { 0:'Clear sky', 1:'Mainly clear', 2:'Partly cloudy', 3:'Overcast', 45:'Fog', 48:'Rime fog', 51:'Light drizzle', 53:'Drizzle', 55:'Heavy drizzle', 56:'Freezing drizzle', 57:'Heavy freezing drizzle', 61:'Light rain', 63:'Moderate rain', 65:'Heavy rain', 66:'Freezing rain', 67:'Heavy freezing rain', 71:'Light snow', 73:'Snow', 75:'Heavy snow', 77:'Snow grains', 80:'Light rain showers', 81:'Rain showers', 82:'Heavy rain showers', 85:'Snow showers', 86:'Heavy snow showers', 95:'Thunderstorm', 96:'Thunderstorm with hail', 99:'Thunderstorm with heavy hail' };
+  return map[c] || 'Weather conditions available';
+}
+function isRainWeatherCode(code) { return [51,53,55,56,57,61,63,65,66,67,80,81,82,95,96,99].includes(Number(code)); }
+
+function showCoordinates(lat, lon, accuracy = null) {
+  state.lat = Number(lat); state.lon = Number(lon);
+  $('latitude').textContent = state.lat.toFixed(6);
+  $('longitude').textContent = state.lon.toFixed(6);
+  $('locationAccuracy').textContent = accuracy ? `±${Math.round(accuracy)} m` : 'GPS location';
+  renderFastMap(state.lat, state.lon);
+}
+function renderFastMap(lat, lon) {
+  const map = $('locationMap');
+  const query = `${lat.toFixed(6)},${lon.toFixed(6)}`;
+  map.classList.remove('map-loading');
+  map.innerHTML = `<iframe title="Google Maps location" loading="eager" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=${encodeURIComponent(query)}&z=17&output=embed"></iframe>`;
+}
+
+async function geocode(city) {
+  const url = `https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(city)}&count=1&language=en&format=json`;
+  const response = await fetch(url); if (!response.ok) throw new Error('Unable to search for the city.');
+  const data = await response.json(); if (!data.results?.length) throw new Error('City not found.'); return data.results[0];
+}
+
+async function reverseGeocode(lat, lon) {
+  try {
+    const url = `https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=${encodeURIComponent(lat)}&lon=${encodeURIComponent(lon)}&zoom=18&addressdetails=1`;
+    const response = await fetch(url, { headers: { Accept: 'application/json' } });
+    if (!response.ok) throw new Error('Reverse geocoding failed');
+    const data = await response.json(); const a = data.address || {};
+    const locality = a.city || a.town || a.village || a.municipality || a.city_district || a.county || a.state_district || a.suburb;
+    const region = a.state || a.state_district || '';
+    if (locality) return `${locality}${region && region !== locality ? `, ${region}` : ''}`;
+    if (data.display_name) return data.display_name.split(',').slice(0, 2).join(',').trim();
+  } catch (_) {}
+  return `Location ${Number(lat).toFixed(4)}, ${Number(lon).toFixed(4)}`;
+}
+
+async function loadWeather(lat, lon, label, accuracy = null) {
+  setStatus('Loading live weather…'); showCoordinates(lat, lon, accuracy);
+  const current = 'temperature_2m,relative_humidity_2m,apparent_temperature,dew_point_2m,precipitation,rain,showers,weather_code,cloud_cover,pressure_msl,surface_pressure,visibility,wind_speed_10m,wind_direction_10m,wind_gusts_10m,uv_index,is_day';
+  const hourly = 'temperature_2m,apparent_temperature,precipitation_probability,precipitation,rain,showers,weather_code,cloud_cover,pressure_msl,visibility,wind_speed_10m,wind_direction_10m,wind_gusts_10m,uv_index';
+  const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=${current}&hourly=${hourly}&forecast_days=2&timezone=auto`;
+  const response = await fetch(url); if (!response.ok) throw new Error('Weather service is unavailable.');
+  const data = await response.json();
+  state.city = label || state.city || 'My Location';
+  localStorage.setItem('rainGuardCity', state.city);
+  render(data, state.city); checkRainAlerts(data, state.city);
+}
+
+function getCurrentHourIndex(data) {
+  const current = new Date(data.current.time).getTime(); let index = 0;
+  for (let i = 0; i < data.hourly.time.length; i += 1) {
+    if (new Date(data.hourly.time[i]).getTime() <= current) index = i; else break;
+  }
+  return index;
+}
+
+function render(data, label) {
+  $('dashboard').classList.remove('hidden');
+  $('locationName').textContent = label || 'My Location';
+  const c = data.current; const index = getCurrentHourIndex(data);
+  $('currentTemp').textContent = `${Math.round(c.temperature_2m)}°C`;
+  $('currentSummary').textContent = `${weatherDescription(c.weather_code)} • Feels like ${Math.round(c.apparent_temperature)}°C • Humidity ${Math.round(c.relative_humidity_2m)}%`;
+  const nextHourProbability = Number(data.hourly.precipitation_probability[index + 1] ?? data.hourly.precipitation_probability[index] ?? 0);
+  const rainingNow = isRainWeatherCode(c.weather_code) && (Number(c.rain || 0) > 0 || Number(c.precipitation || 0) > 0);
+  $('rainChanceLabel').textContent = 'Rain now';
+  $('rainChance').textContent = rainingNow ? 'YES' : '0%';
+  $('nextHourChance').textContent = `Next hour: ${nextHourProbability}%`;
+  $('currentRainStatus').textContent = rainingNow ? `🌧️ Rain is happening now • ${Number(c.precipitation || 0).toFixed(1)} mm` : `☀️ No rain right now • Next-hour forecast ${nextHourProbability}%`;
+  $('updatedAt').textContent = `Updated ${format12h(c.time)}`;
+
+  const hours = data.hourly.time.slice(index, index + 6);
+  const rain = data.hourly.precipitation_probability.slice(index, index + 6);
+  const mm = data.hourly.precipitation.slice(index, index + 6);
+  $('hourly').innerHTML = hours.map((time, i) => `<div class="hour"><span class="time">${format12h(time)}</span><strong>🌧️ ${rain[i]}%</strong><span class="rain">${Number(mm[i]).toFixed(1)} mm</span></div>`).join('');
+
+  const wind = Number(c.wind_speed_10m || 0), gust = Number(c.wind_gusts_10m || 0), pressure = Number(c.pressure_msl || 0), visibility = Number(c.visibility || 0), clouds = Number(c.cloud_cover || 0), uv = Number(c.uv_index || 0);
+  $('weatherDetails').innerHTML = [
+    ['💨 Wind', `${Math.round(wind)} km/h ${direction(c.wind_direction_10m)}`],
+    ['🌬️ Gusts', `${Math.round(gust)} km/h`],
+    ['☁️ Clouds', `${Math.round(clouds)}%`],
+    ['🧭 Pressure', `${Math.round(pressure)} hPa`],
+    ['👁️ Visibility', `${(visibility / 1000).toFixed(1)} km`],
+    ['☀️ UV Index', `${uv.toFixed(1)}`],
+    ['💧 Dew point', `${Math.round(c.dew_point_2m)}°C`],
+    ['🌡️ Surface pressure', `${Math.round(c.surface_pressure)} hPa`]
+  ].map(([name,value]) => `<div class="detail-item"><span>${name}</span><strong>${value}</strong></div>`).join('');
+
+  const warnings = [];
+  if ([95,96,99].includes(Number(c.weather_code))) warnings.push('⛈️ Thunderstorm conditions detected');
+  if (gust >= 60) warnings.push(`💨 Strong wind gusts: ${Math.round(gust)} km/h`);
+  else if (gust >= 45) warnings.push(`🌬️ Gusty winds: ${Math.round(gust)} km/h`);
+  if ([65,67,82].includes(Number(c.weather_code))) warnings.push('🌧️ Heavy precipitation conditions');
+  if (visibility > 0 && visibility < 2000) warnings.push(`🌫️ Low visibility: ${(visibility/1000).toFixed(1)} km`);
+  if (pressure > 0 && pressure < 995) warnings.push(`🌀 Low pressure: ${Math.round(pressure)} hPa`);
+  $('warningPanel').innerHTML = warnings.length ? warnings.map(x => `<div class="warning-row">${x}</div>`).join('') : '<div class="safe-row">✅ No severe weather signal in the current local forecast</div>';
+}
+
+function checkRainAlerts(data, label) {
+  const index = getCurrentHourIndex(data); const rain = data.hourly.precipitation_probability.slice(index + 1, index + 4);
+  const hit = rain.findIndex((value) => Number(value) >= state.threshold);
+  if (hit >= 0) {
+    const hoursAway = hit + 1;
+    const message = `Rain is likely in ${label} within the next ${hoursAway} hour${hoursAway > 1 ? 's' : ''}. Probability is ${rain[hit]}%.`;
+    setStatus(`⚠️ ${message}`);
+    if ('Notification' in window && Notification.permission === 'granted') new Notification('🌧️ RainGuard Alert', { body: message });
+  }
+}
+
+$('searchBtn').addEventListener('click', async () => {
+  const city = $('cityInput').value.trim(); if (!city) return setStatus('Enter a city name.');
+  try { const result = await geocode(city); await loadWeather(result.latitude, result.longitude, `${result.name}, ${result.country}`); } catch (error) { setStatus(error.message); }
+});
+$('cityInput').addEventListener('keydown', (event) => { if (event.key === 'Enter') $('searchBtn').click(); });
+
+$('locationBtn').addEventListener('click', () => {
+  if (!navigator.geolocation) return setStatus('Geolocation is not supported by this browser.');
+  setStatus('Requesting your precise GPS location…');
+  navigator.geolocation.getCurrentPosition(async ({ coords }) => {
+    try {
+      showCoordinates(coords.latitude, coords.longitude, coords.accuracy);
+      const place = await reverseGeocode(coords.latitude, coords.longitude);
+      $('locationName').textContent = place;
+      await loadWeather(coords.latitude, coords.longitude, place, coords.accuracy);
+    } catch (error) { setStatus(error.message); }
+  }, (error) => setStatus(error.code === 1 ? 'Location access was denied. Allow location permission and try again.' : 'Unable to get your GPS location. Try again.'), { enableHighAccuracy: true, timeout: 20000, maximumAge: 0 });
+});
+
+$('mapsBtn').addEventListener('click', () => {
+  if (state.lat === null || state.lon === null) return setStatus('Use your location first.');
+  window.open(`https://www.google.com/maps/search/?api=1&query=${state.lat.toFixed(6)},${state.lon.toFixed(6)}`, '_blank', 'noopener,noreferrer');
+});
+$('copyCoordinates').addEventListener('click', async () => {
+  if (state.lat === null || state.lon === null) return setStatus('Use your location first.');
+  const value = `${state.lat.toFixed(6)}, ${state.lon.toFixed(6)}`;
+  try { if (navigator.clipboard && window.isSecureContext) await navigator.clipboard.writeText(value); else { const t = document.createElement('textarea'); t.value = value; t.style.position = 'fixed'; t.style.opacity = '0'; document.body.appendChild(t); t.select(); document.execCommand('copy'); t.remove(); } setStatus(`✅ Coordinates copied: ${value}`); } catch (_) { setStatus(`Coordinates: ${value}`); }
+});
+$('threshold').addEventListener('input', (event) => { state.threshold = Number(event.target.value); $('thresholdValue').textContent = `${state.threshold}%`; });
+$('notifyBtn').addEventListener('click', async () => { if (!('Notification' in window)) return setStatus('Browser notifications are not supported.'); const permission = await Notification.requestPermission(); setStatus(permission === 'granted' ? 'Notifications enabled.' : 'Notification permission was not granted.'); });
+
+const savedCity = localStorage.getItem('rainGuardCity'); if (savedCity) state.city = savedCity;
+setInterval(async () => { if (state.lat !== null && state.lon !== null) { try { await loadWeather(state.lat, state.lon, state.city); } catch (_) {} } }, 15 * 60 * 1000);
