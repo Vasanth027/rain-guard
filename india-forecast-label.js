@@ -1,0 +1,1 @@
+(()=>{const set=()=>{const b=document.getElementById('supportBtn');if(b)b.innerHTML='🇮🇳 Bharat Forecast<br><span>Live India weather</span>';const s=document.querySelector('.wind-source');if(s)s.textContent='Open-Meteo • live forecast';};setTimeout(set,800);})();
