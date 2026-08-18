@@ -22,7 +22,7 @@ jobs:
         shell: bash
         run: |
           set -e
-          for file in index.html styles.css weather-v2.css app-v2.js imd.css imd-live.js imd-data.json; do
+          for file in index.html styles.css weather-v2.css app-v2.js imd.css imd-live.js imd-data.json windy-ui.js windy-ui.css windy-ui-fix.css; do
             test -f "$file" || { echo "Missing required file: $file"; exit 1; }
           done
           python3 -m json.tool imd-data.json >/dev/null
@@ -32,7 +32,7 @@ jobs:
         shell: bash
         run: |
           set -e
-          for file in app.js app-v2.js app-rainfix.js alerts.js imd-live.js; do
+          for file in app.js app-v2.js app-rainfix.js alerts.js imd-live.js windy-ui.js; do
             if [ -f "$file" ]; then
               echo "Checking $file"
               node --check "$file"
