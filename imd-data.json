@@ -1,11 +1,50 @@
 {
-  "updated_at": "2026-08-18T07:02:28.523263+00:00",
+  "updated_at": "2026-08-18T07:11:15.174711+00:00",
   "source": "official IMD/RMC",
   "current": {
     "error": "HTTP Error 401: Unauthorized"
   },
   "nowcast": [
     {
+      "title": "BARAMULLA",
+      "guid": "f8dc0580cd995fb297b162cf615e141a",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-18T12:39:12+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Tue, 18 Aug 2026 12:39:12",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-18T12:30:00+5:30",
+      "expires": "2026-08-18T15:30:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "BUDGAM",
+      "guid": "593f9c05072c1851d116f1b7a1fba3ab",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-18T12:39:12+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Tue, 18 Aug 2026 12:39:12",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-18T12:30:00+5:30",
+      "expires": "2026-08-18T15:30:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "HAMIRPUR",
+      "guid": "71162c6e8a702218885a7147460c95c7",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-18T12:39:00+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Tue, 18 Aug 2026 12:39:00",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-18T12:38:00+5:30",
+      "expires": "2026-08-18T14:40:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "AMETHI",
       "guid": "8c33f9b6462481a0d9915123ea6cb6b0",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -1233,50 +1272,50 @@
       "onset": "2026-08-18T07:00:00+5:30",
       "expires": "2026-08-18T10:00:00+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "NAMSAI",
-      "guid": "6a90902d8a0b5524019562e518479e14",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-18T07:09:11+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Tue, 18 Aug 2026 07:09:11",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-18T07:00:00+5:30",
-      "expires": "2026-08-18T10:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "GAURELA PENDRA MARWAHI",
-      "guid": "4cdaca98b6cc0b1c2cc02a7d8a5c701a",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-18T07:00:52+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Tue, 18 Aug 2026 07:00:52",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-18T07:00:00+5:30",
-      "expires": "2026-08-18T10:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "KOREA",
-      "guid": "52e382b7a7eda627327221baa4135e79",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-18T07:00:52+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Tue, 18 Aug 2026 07:00:52",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-18T07:00:00+5:30",
-      "expires": "2026-08-18T10:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
       "category": "NOWCAST"
     }
   ],
   "warning": [
     {
+      "title": "BARAMULLA",
+      "guid": "f8dc0580cd995fb297b162cf615e141a",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-18T12:39:12+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Tue, 18 Aug 2026 12:39:12",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-18T12:30:00+5:30",
+      "expires": "2026-08-18T15:30:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "BUDGAM",
+      "guid": "593f9c05072c1851d116f1b7a1fba3ab",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-18T12:39:12+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Tue, 18 Aug 2026 12:39:12",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-18T12:30:00+5:30",
+      "expires": "2026-08-18T15:30:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "HAMIRPUR",
+      "guid": "71162c6e8a702218885a7147460c95c7",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-18T12:39:00+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Tue, 18 Aug 2026 12:39:00",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-18T12:38:00+5:30",
+      "expires": "2026-08-18T14:40:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "AMETHI",
       "guid": "8c33f9b6462481a0d9915123ea6cb6b0",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -2504,50 +2543,50 @@
       "onset": "2026-08-18T07:00:00+5:30",
       "expires": "2026-08-18T10:00:00+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "NAMSAI",
-      "guid": "6a90902d8a0b5524019562e518479e14",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-18T07:09:11+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Tue, 18 Aug 2026 07:09:11",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-18T07:00:00+5:30",
-      "expires": "2026-08-18T10:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "GAURELA PENDRA MARWAHI",
-      "guid": "4cdaca98b6cc0b1c2cc02a7d8a5c701a",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-18T07:00:52+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Tue, 18 Aug 2026 07:00:52",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-18T07:00:00+5:30",
-      "expires": "2026-08-18T10:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "KOREA",
-      "guid": "52e382b7a7eda627327221baa4135e79",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-18T07:00:52+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Tue, 18 Aug 2026 07:00:52",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-18T07:00:00+5:30",
-      "expires": "2026-08-18T10:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
       "category": "NOWCAST"
     }
   ],
   "rss": [
     {
+      "title": "BARAMULLA",
+      "guid": "f8dc0580cd995fb297b162cf615e141a",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-18T12:39:12+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Tue, 18 Aug 2026 12:39:12",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-18T12:30:00+5:30",
+      "expires": "2026-08-18T15:30:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "BUDGAM",
+      "guid": "593f9c05072c1851d116f1b7a1fba3ab",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-18T12:39:12+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Tue, 18 Aug 2026 12:39:12",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-18T12:30:00+5:30",
+      "expires": "2026-08-18T15:30:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "HAMIRPUR",
+      "guid": "71162c6e8a702218885a7147460c95c7",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-18T12:39:00+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Tue, 18 Aug 2026 12:39:00",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-18T12:38:00+5:30",
+      "expires": "2026-08-18T14:40:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "AMETHI",
       "guid": "8c33f9b6462481a0d9915123ea6cb6b0",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -3775,45 +3814,6 @@
       "onset": "2026-08-18T07:00:00+5:30",
       "expires": "2026-08-18T10:00:00+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "NAMSAI",
-      "guid": "6a90902d8a0b5524019562e518479e14",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-18T07:09:11+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Tue, 18 Aug 2026 07:09:11",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-18T07:00:00+5:30",
-      "expires": "2026-08-18T10:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "GAURELA PENDRA MARWAHI",
-      "guid": "4cdaca98b6cc0b1c2cc02a7d8a5c701a",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-18T07:00:52+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Tue, 18 Aug 2026 07:00:52",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-18T07:00:00+5:30",
-      "expires": "2026-08-18T10:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "KOREA",
-      "guid": "52e382b7a7eda627327221baa4135e79",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-18T07:00:52+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Tue, 18 Aug 2026 07:00:52",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-18T07:00:00+5:30",
-      "expires": "2026-08-18T10:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
       "category": "NOWCAST"
     }
   ],
