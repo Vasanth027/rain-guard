@@ -1,10 +1,36 @@
 {
-  "updated_at": "2026-08-18T10:48:22.496965+00:00",
+  "updated_at": "2026-08-18T11:31:30.478401+00:00",
   "source": "official IMD/RMC",
   "current": {
     "error": "HTTP Error 401: Unauthorized"
   },
   "nowcast": [
+    {
+      "title": "PRATAPGARH-UP",
+      "guid": "8c1c84d270317e8598c0452f2a779e9c",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-18T16:38:31+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Tue, 18 Aug 2026 16:38:31",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-18T16:35:00+5:30",
+      "expires": "2026-08-18T17:35:00+5:30",
+      "description": ",\n,\nThunder with Lightning and Moderate to Intense spells of Rain",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "PRAYAGRAJ",
+      "guid": "58a95722d2bd2ee1c7a302a555b43ba5",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-18T16:36:12+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Tue, 18 Aug 2026 16:36:12",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-18T16:35:00+5:30",
+      "expires": "2026-08-18T17:35:00+5:30",
+      "description": ",\n,\nThunder with Lightning and Moderate to Intense spells of Rain",
+      "category": "NOWCAST"
+    },
     {
       "title": "NARAYANPET",
       "guid": "08874034e1c2366f90e3eff69ea20b01",
@@ -1269,32 +1295,6 @@
     {
       "title": "SATNA",
       "guid": "3654a4b90c48c0259c73c1490a19907b",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-18T12:44:45+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Tue, 18 Aug 2026 12:44:45",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-18T12:30:00+5:30",
-      "expires": "2026-08-18T16:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "SHAHDOL",
-      "guid": "15bcd6632cb6edc0e13e34a3c634186f",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-18T12:44:45+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Tue, 18 Aug 2026 12:44:45",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-18T12:30:00+5:30",
-      "expires": "2026-08-18T16:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "SIDHI",
-      "guid": "8e5e428f45b12bd8cb09cb02426072db",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-08-18T12:44:45+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -1308,6 +1308,32 @@
   ],
   "warning": [
     {
+      "title": "PRATAPGARH-UP",
+      "guid": "8c1c84d270317e8598c0452f2a779e9c",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-18T16:38:31+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Tue, 18 Aug 2026 16:38:31",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-18T16:35:00+5:30",
+      "expires": "2026-08-18T17:35:00+5:30",
+      "description": ",\n,\nThunder with Lightning and Moderate to Intense spells of Rain",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "PRAYAGRAJ",
+      "guid": "58a95722d2bd2ee1c7a302a555b43ba5",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-18T16:36:12+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Tue, 18 Aug 2026 16:36:12",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-18T16:35:00+5:30",
+      "expires": "2026-08-18T17:35:00+5:30",
+      "description": ",\n,\nThunder with Lightning and Moderate to Intense spells of Rain",
+      "category": "NOWCAST"
+    },
+    {
       "title": "NARAYANPET",
       "guid": "08874034e1c2366f90e3eff69ea20b01",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -2571,32 +2597,6 @@
     {
       "title": "SATNA",
       "guid": "3654a4b90c48c0259c73c1490a19907b",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-18T12:44:45+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Tue, 18 Aug 2026 12:44:45",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-18T12:30:00+5:30",
-      "expires": "2026-08-18T16:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "SHAHDOL",
-      "guid": "15bcd6632cb6edc0e13e34a3c634186f",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-18T12:44:45+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Tue, 18 Aug 2026 12:44:45",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-18T12:30:00+5:30",
-      "expires": "2026-08-18T16:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "SIDHI",
-      "guid": "8e5e428f45b12bd8cb09cb02426072db",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-08-18T12:44:45+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -2610,6 +2610,32 @@
   ],
   "rss": [
     {
+      "title": "PRATAPGARH-UP",
+      "guid": "8c1c84d270317e8598c0452f2a779e9c",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-18T16:38:31+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Tue, 18 Aug 2026 16:38:31",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-18T16:35:00+5:30",
+      "expires": "2026-08-18T17:35:00+5:30",
+      "description": ",\n,\nThunder with Lightning and Moderate to Intense spells of Rain",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "PRAYAGRAJ",
+      "guid": "58a95722d2bd2ee1c7a302a555b43ba5",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-18T16:36:12+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Tue, 18 Aug 2026 16:36:12",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-18T16:35:00+5:30",
+      "expires": "2026-08-18T17:35:00+5:30",
+      "description": ",\n,\nThunder with Lightning and Moderate to Intense spells of Rain",
+      "category": "NOWCAST"
+    },
+    {
       "title": "NARAYANPET",
       "guid": "08874034e1c2366f90e3eff69ea20b01",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -3873,32 +3899,6 @@
     {
       "title": "SATNA",
       "guid": "3654a4b90c48c0259c73c1490a19907b",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-18T12:44:45+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Tue, 18 Aug 2026 12:44:45",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-18T12:30:00+5:30",
-      "expires": "2026-08-18T16:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "SHAHDOL",
-      "guid": "15bcd6632cb6edc0e13e34a3c634186f",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-18T12:44:45+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Tue, 18 Aug 2026 12:44:45",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-18T12:30:00+5:30",
-      "expires": "2026-08-18T16:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "SIDHI",
-      "guid": "8e5e428f45b12bd8cb09cb02426072db",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-08-18T12:44:45+5:30",
       "sender": "nowcastnwfc@gmail.com",
