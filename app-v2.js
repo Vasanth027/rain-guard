@@ -15,8 +15,6 @@ async function loadImdData(lat, lon, label) {
   if (!grid || !warning) return;
   grid.innerHTML = '<div class="imd-item"><span>Current</span><strong>Connecting…</strong></div><div class="imd-item"><span>Nowcast</span><strong>Connecting…</strong></div><div class="imd-item"><span>Warning</span><strong>Connecting…</strong></div>';
   warning.className = 'imd-warning green'; warning.textContent = 'Checking official IMD sources…';
-  // IMD publishes official APIs for current weather, district nowcast, rainfall and warnings.
-  // GitHub Pages can be blocked by API CORS/network policy, so failure never replaces the main forecast.
   const endpoints = [
     ['current', `https://mausam.imd.gov.in/api/current_wx_api.php?lat=${encodeURIComponent(lat)}&lon=${encodeURIComponent(lon)}`],
     ['nowcast', 'https://mausam.imd.gov.in/api/nowcast_district_api.php'],
@@ -25,15 +23,15 @@ async function loadImdData(lat, lon, label) {
   const results = await Promise.all(endpoints.map(async ([type, url]) => { try { const r = await fetch(url, {cache:'no-store'}); if (!r.ok) throw new Error(); return [type, await r.json()]; } catch (_) { return [type, null]; } }));
   const byType = Object.fromEntries(results);
   const current = byType.current; const nowcast = byType.nowcast; const warnings = byType.warning;
-  const currentText = current ? pickText(current, ['temp','temperature','Temp','Temperature']) || 'Available' : 'Unavailable from browser';
-  const nowcastText = nowcast ? pickText(nowcast, ['warning','Warning','district_warning','message']) || 'Available' : 'Unavailable from browser';
-  const warningText = warnings ? pickText(warnings, ['warning','Warning','district_warning','message']) || 'Available' : 'Unavailable from browser';
+  const currentText = current ? pickText(current, ['temp','temperature','Temp','Temperature']) || 'Available' : 'Browser access limited';
+  const nowcastText = nowcast ? pickText(nowcast, ['warning','Warning','district_warning','message']) || 'Available' : 'Browser access limited';
+  const warningText = warnings ? pickText(warnings, ['warning','Warning','district_warning','message']) || 'Available' : 'Browser access limited';
   grid.innerHTML = `<div class="imd-item"><span>IMD Current</span><strong>${escapeHtml(String(currentText))}</strong></div><div class="imd-item"><span>RMC Nowcast</span><strong>${escapeHtml(String(nowcastText).slice(0,70))}</strong></div><div class="imd-item"><span>District Warning</span><strong>${escapeHtml(String(warningText).slice(0,70))}</strong></div>`;
   if (current || nowcast || warnings) { warning.className = 'imd-warning green'; warning.textContent = '🇮🇳 Official IMD/RMC data connected.'; }
-  else { warning.className = 'imd-warning yellow'; warning.textContent = '⚠️ Official IMD API could not be read directly from GitHub Pages. Use the official RMC links below for live warnings/nowcast.'; }
+  else { warning.className = 'imd-warning green'; warning.textContent = 'ℹ️ IMD/RMC live API access is limited in GitHub Pages browser mode. Official IMD/RMC links below remain available.'; }
 }
 function pickText(value, keys) { if (value == null) return ''; if (typeof value === 'string' || typeof value === 'number') return String(value); if (Array.isArray(value)) { for (const item of value) { const found = pickText(item, keys); if (found) return found; } return ''; } if (typeof value === 'object') { for (const key of keys) if (value[key] != null && String(value[key]).trim()) return String(value[key]); for (const item of Object.values(value)) { const found = pickText(item, keys); if (found) return found; } } return ''; }
-function escapeHtml(value) { return value.replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','\"':'&quot;'}[c])); }
+function escapeHtml(value) { return value.replace(/[&<>'\"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','\"':'&quot;'}[c])); }
 
 async function loadWeather(lat, lon, label, accuracy = null) { setStatus('Loading live weather…'); showCoordinates(lat, lon, accuracy); const current = 'temperature_2m,relative_humidity_2m,apparent_temperature,dew_point_2m,precipitation,rain,showers,weather_code,cloud_cover,pressure_msl,surface_pressure,visibility,wind_speed_10m,wind_direction_10m,wind_gusts_10m,uv_index,is_day'; const hourly = 'temperature_2m,apparent_temperature,precipitation_probability,precipitation,rain,showers,weather_code,cloud_cover,pressure_msl,visibility,wind_speed_10m,wind_direction_10m,wind_gusts_10m,uv_index'; const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=${current}&hourly=${hourly}&forecast_days=2&timezone=auto`; const response = await fetch(url); if (!response.ok) throw new Error('Weather service is unavailable.'); const data = await response.json(); state.city = label || state.city || 'My Location'; localStorage.setItem('rainGuardCity', state.city); render(data, state.city); await loadImdData(lat, lon, state.city); checkRainAlerts(data, state.city); }
 function getCurrentHourIndex(data) { const current = new Date(data.current.time).getTime(); let index = 0; for (let i=0;i<data.hourly.time.length;i+=1) { if (new Date(data.hourly.time[i]).getTime() <= current) index=i; else break; } return index; }
