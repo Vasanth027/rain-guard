@@ -15,29 +15,14 @@
 </head>
 <body>
   <main class="container">
-    <header class="hero">
-      <div><p class="eyebrow">WEATHER ALERTS</p><h1>🌧️ RainGuard</h1><p class="subtitle">Know when rain is likely before you step out.</p></div>
-      <button type="button" id="locationBtn" class="primary">Use my location</button>
-    </header>
-    <section class="search card">
-      <label for="cityInput">Search a city</label>
-      <div class="search-row"><input id="cityInput" type="text" placeholder="e.g. Chennai" autocomplete="off"><button type="button" id="searchBtn">Search</button></div>
-      <p id="status" class="status" role="status">Search for a city or use your location.</p>
-    </section>
-    <section id="dashboard" class="dashboard hidden" aria-live="polite">
-      <div class="card current"><div><p class="muted" id="locationName">My Location</p><h2 id="currentTemp">—</h2><p id="currentSummary">—</p><p id="currentRainStatus" class="rain-status">—</p></div><div class="rain-score"><span id="rainChanceLabel">Rain now</span><strong id="rainChance">—</strong><span id="nextHourChance" class="muted">Next hour: —</span></div></div>
-      <div class="card imd-card"><div class="imd-header"><div><h3>🇮🇳 IMD / RMC Official Weather</h3><p class="muted">Official warnings, district nowcast and India-specific model guidance</p></div><span class="imd-badge">OFFICIAL SOURCE</span></div><div id="imdGrid" class="imd-grid"><div class="imd-item"><span>Current</span><strong>Checking IMD…</strong></div><div class="imd-item"><span>Nowcast</span><strong>Checking…</strong></div><div class="imd-item"><span>Warning</span><strong>Checking…</strong></div></div><div id="imdWarning" class="imd-warning green">Loading official IMD data…</div><div class="bfs-block"><div class="bfs-title"><div><strong>🇮🇳 Bharat Forecast System (Bharat FS)</strong><span>IMD high-resolution global model</span></div><a href="https://nwp.imd.gov.in/bharatfs_state_ar.php" target="_blank" rel="noopener">Official model</a></div><div id="bfsPanel" class="bfs-grid"><div class="bfs-stat"><strong>~6 km</strong><span>Horizontal resolution</span></div><div class="bfs-stat"><strong>10 days</strong><span>Forecast range</span></div><div class="bfs-stat"><strong>00Z + 12Z</strong><span>Operational runs</span></div></div></div><div class="imd-source">Official sources: <a href="https://mausam.imd.gov.in/" target="_blank" rel="noopener">IMD Mausam</a> · <a href="https://mausam.imd.gov.in/chennai/" target="_blank" rel="noopener">RMC Chennai</a> · <a href="https://mausam.imd.gov.in/responsive/districtWiseNowcast.php" target="_blank" rel="noopener">District Nowcast</a> · <a href="https://nwp.imd.gov.in/bharatfs_state_ar.php" target="_blank" rel="noopener">Bharat FS</a></div></div>
-      <div class="card"><div class="section-heading"><div><h3>🌦️ Weather Intelligence</h3><p class="muted">Windy-style live weather details for this location</p></div><span class="accuracy">Live model data</span></div><div id="weatherDetails" class="weather-details"></div></div>
-      <div class="card warning-card"><div class="section-heading"><div><h3>⚠️ Severe Weather Watch</h3><p class="muted">Rain, thunderstorm, strong wind, visibility and pressure signals</p></div></div><div id="warningPanel" class="warning-panel"><div class="safe-row">Loading conditions…</div></div><p class="cyclone-note">🌀 Cyclone tracking is separate from local weather. A reliable cyclone alert should use an official storm-track feed; this card does not label normal low pressure or strong wind as a cyclone.</p></div>
-      <div class="card location-card"><div class="section-heading"><div><h3>📍 My Location</h3><p class="muted">Your current GPS position</p></div><span id="locationAccuracy" class="accuracy">—</span></div><div id="locationMap" class="location-map map-loading"><div class="map-placeholder"><span class="spinner"></span><span>Loading map…</span></div></div><div class="coordinates"><div class="coordinate"><span>Latitude</span><strong id="latitude">—</strong></div><div class="coordinate"><span>Longitude</span><strong id="longitude">—</strong></div></div><div class="location-actions"><button type="button" id="mapsBtn" class="maps-button">🗺️ Open in Google Maps</button><button type="button" id="copyCoordinates">Copy coordinates</button></div></div>
-      <div class="card"><div class="section-heading"><h3>Next 6 hours</h3><span id="updatedAt" class="muted">—</span></div><div id="hourly" class="hourly"></div></div>
-      <div class="card settings"><div><h3>Rain alert threshold</h3><p class="muted">Notify when the forecast rain probability reaches this level.</p></div><div class="threshold-control"><input id="threshold" type="range" min="20" max="90" step="5" value="60"><strong id="thresholdValue">60%</strong></div><button type="button" id="notifyBtn">Enable notifications</button></div>
-    </section>
-    <footer><p>RainGuard combines Open-Meteo forecast data with official Indian Meteorological Department sources where available.</p></footer>
+    <header class="hero"><div><p class="eyebrow">WEATHER ALERTS</p><h1>🌧️ RainGuard</h1><p class="subtitle">Know when rain is likely before you step out.</p></div><button type="button" id="locationBtn" class="primary">Use my location</button></header>
+    <section class="search card"><label for="cityInput">Search a city</label><div class="search-row"><input id="cityInput" type="text" placeholder="e.g. Chennai" autocomplete="off"><button type="button" id="searchBtn">Search</button></div><p id="status" class="status" role="status">Search for a city or use your location.</p></section>
+    <section id="dashboard" class="dashboard hidden" aria-live="polite"></section>
+    <footer></footer>
   </main>
   <script src="app-v2.js"></script>
   <script src="imd-live.js"></script>
-  <script src="windy-ui-v3.js"></script>
+  <script src="windy-ui-v4.js?v=4"></script>
   <script>if ('serviceWorker' in navigator) window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js'));</script>
 </body>
 </html>
