@@ -1,5 +1,5 @@
-const CACHE = 'rainguard-v4';
-const ASSETS = ['./', './index.html', './styles.css', './app.js', './manifest.webmanifest', './icon.svg'];
+const CACHE = 'rainguard-v5';
+const ASSETS = ['./', './index.html', './styles.css', './weather-v2.css', './imd.css', './imd-live.js', './imd-data.json', './windy-ui.css', './windy-ui-fix.css', './windy-ui-v5.js', './flow-overlay.css', './flow-overlay.js', './india-forecast-label.js', './weather-tools-fix.css', './weather-tools-fix.js', './manifest.webmanifest', './icon.svg'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(ASSETS)).then(() => self.skipWaiting()));
