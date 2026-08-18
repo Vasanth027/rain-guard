@@ -35,6 +35,21 @@
     <footer><p>RainGuard uses Open-Meteo forecast services. GPS coordinates stay in your browser.</p></footer>
   </main>
   <script src="app-v2.js"></script>
+  <script>
+    // Keep the city search field synchronized with the reverse-geocoded GPS location.
+    // This also updates automatically after the location name is resolved asynchronously.
+    (() => {
+      const input = document.getElementById('cityInput');
+      const locationName = document.getElementById('locationName');
+      if (!input || !locationName) return;
+      const syncLocationName = () => {
+        const name = locationName.textContent.trim();
+        if (name && name !== 'My Location' && name !== '—') input.value = name;
+      };
+      new MutationObserver(syncLocationName).observe(locationName, { childList: true, characterData: true, subtree: true });
+      syncLocationName();
+    })();
+  </script>
   <script src="alerts.js"></script>
   <script>if ('serviceWorker' in navigator) window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js'));</script>
 </body>
