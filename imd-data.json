@@ -1,10 +1,36 @@
 {
-  "updated_at": "2026-08-21T22:43:59.700632+00:00",
+  "updated_at": "2026-08-21T23:09:15.527827+00:00",
   "source": "official IMD/RMC",
   "current": {
     "error": "HTTP Error 401: Unauthorized"
   },
   "nowcast": [
+    {
+      "title": "DHEMAJI",
+      "guid": "b131f26a89a5edb2f8c0ec821b4ae7a3",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-22T04:26:05+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 22 Aug 2026 04:26:05",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-22T04:00:00+5:30",
+      "expires": "2026-08-22T07:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\n,\n,\nThunderstorm with lightning",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "LAKHIMPUR",
+      "guid": "ddfe0379e428a25a55715cc4e74d4a6d",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-22T04:26:05+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 22 Aug 2026 04:26:05",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-22T04:00:00+5:30",
+      "expires": "2026-08-22T07:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\n,\n,\nThunderstorm with lightning",
+      "category": "NOWCAST"
+    },
     {
       "title": "DHALAI",
       "guid": "ff950c9903759e3698050dc5e469517e",
@@ -1269,32 +1295,6 @@
     {
       "title": "KHOWAI",
       "guid": "40319f347bab3e86340c8d03c0187b7f",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-22T01:00:39+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sat, 22 Aug 2026 01:00:39",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-22T01:00:00+5:30",
-      "expires": "2026-08-22T04:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\n,\n,\nAt a few places.",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "NORTH TRIPURA",
-      "guid": "d239cf1e0095a94e68619b3a29bafb5e",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-22T01:00:39+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sat, 22 Aug 2026 01:00:39",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-22T01:00:00+5:30",
-      "expires": "2026-08-22T04:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\n,\n,\nAt a few places.",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "UNOKOTI",
-      "guid": "80248776f6eae8e0aac68736a5faadd0",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-08-22T01:00:39+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -1308,6 +1308,32 @@
   ],
   "warning": [
     {
+      "title": "DHEMAJI",
+      "guid": "b131f26a89a5edb2f8c0ec821b4ae7a3",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-22T04:26:05+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 22 Aug 2026 04:26:05",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-22T04:00:00+5:30",
+      "expires": "2026-08-22T07:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\n,\n,\nThunderstorm with lightning",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "LAKHIMPUR",
+      "guid": "ddfe0379e428a25a55715cc4e74d4a6d",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-22T04:26:05+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 22 Aug 2026 04:26:05",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-22T04:00:00+5:30",
+      "expires": "2026-08-22T07:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\n,\n,\nThunderstorm with lightning",
+      "category": "NOWCAST"
+    },
+    {
       "title": "DHALAI",
       "guid": "ff950c9903759e3698050dc5e469517e",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -2571,32 +2597,6 @@
     {
       "title": "KHOWAI",
       "guid": "40319f347bab3e86340c8d03c0187b7f",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-22T01:00:39+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sat, 22 Aug 2026 01:00:39",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-22T01:00:00+5:30",
-      "expires": "2026-08-22T04:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\n,\n,\nAt a few places.",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "NORTH TRIPURA",
-      "guid": "d239cf1e0095a94e68619b3a29bafb5e",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-22T01:00:39+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sat, 22 Aug 2026 01:00:39",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-22T01:00:00+5:30",
-      "expires": "2026-08-22T04:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\n,\n,\nAt a few places.",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "UNOKOTI",
-      "guid": "80248776f6eae8e0aac68736a5faadd0",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-08-22T01:00:39+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -2610,6 +2610,32 @@
   ],
   "rss": [
     {
+      "title": "DHEMAJI",
+      "guid": "b131f26a89a5edb2f8c0ec821b4ae7a3",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-22T04:26:05+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 22 Aug 2026 04:26:05",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-22T04:00:00+5:30",
+      "expires": "2026-08-22T07:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\n,\n,\nThunderstorm with lightning",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "LAKHIMPUR",
+      "guid": "ddfe0379e428a25a55715cc4e74d4a6d",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-22T04:26:05+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 22 Aug 2026 04:26:05",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-22T04:00:00+5:30",
+      "expires": "2026-08-22T07:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\n,\n,\nThunderstorm with lightning",
+      "category": "NOWCAST"
+    },
+    {
       "title": "DHALAI",
       "guid": "ff950c9903759e3698050dc5e469517e",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -3873,32 +3899,6 @@
     {
       "title": "KHOWAI",
       "guid": "40319f347bab3e86340c8d03c0187b7f",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-22T01:00:39+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sat, 22 Aug 2026 01:00:39",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-22T01:00:00+5:30",
-      "expires": "2026-08-22T04:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\n,\n,\nAt a few places.",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "NORTH TRIPURA",
-      "guid": "d239cf1e0095a94e68619b3a29bafb5e",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-22T01:00:39+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sat, 22 Aug 2026 01:00:39",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-22T01:00:00+5:30",
-      "expires": "2026-08-22T04:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\n,\n,\nAt a few places.",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "UNOKOTI",
-      "guid": "80248776f6eae8e0aac68736a5faadd0",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-08-22T01:00:39+5:30",
       "sender": "nowcastnwfc@gmail.com",
