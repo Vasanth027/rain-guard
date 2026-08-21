@@ -1,10 +1,36 @@
 {
-  "updated_at": "2026-08-21T19:39:28.560304+00:00",
+  "updated_at": "2026-08-21T19:59:39.855094+00:00",
   "source": "official IMD/RMC",
   "current": {
     "error": "HTTP Error 401: Unauthorized"
   },
   "nowcast": [
+    {
+      "title": "NORTH TRIPURA",
+      "guid": "9763a78d3d8d9efeec723b4cf3f8482a",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-22T01:14:59+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 22 Aug 2026 01:14:59",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-22T01:00:00+5:30",
+      "expires": "2026-08-22T04:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\n,\n,\nAt a few places.",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "UNOKOTI",
+      "guid": "e223b333d9a53c58f48795caac50e1b7",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-22T01:14:59+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 22 Aug 2026 01:14:59",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-22T01:00:00+5:30",
+      "expires": "2026-08-22T04:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\n,\n,\nAt a few places.",
+      "category": "NOWCAST"
+    },
     {
       "title": "GAURELA PENDRA MARWAHI",
       "guid": "2bc8a222eb5a9eb7e9f1a282dd5d860e",
@@ -1269,32 +1295,6 @@
     {
       "title": "HAMIRPUR",
       "guid": "4dae6a89f8b0e407a2659c1a51fac875",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-21T18:22:13+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 21 Aug 2026 18:22:13",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-21T18:21:00+5:30",
-      "expires": "2026-08-21T21:18:00+5:30",
-      "description": ",\n,\nThunder/Lightening with Moderate spell of Rain",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "KANPUR NAGAR",
-      "guid": "4bb80c3e19b1def8e87854da7c77c97b",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-21T18:22:13+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 21 Aug 2026 18:22:13",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-21T18:21:00+5:30",
-      "expires": "2026-08-21T21:18:00+5:30",
-      "description": ",\n,\nThunder/Lightening with Moderate spell of Rain",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "LUCKNOW",
-      "guid": "6a1d0dabb7ba22dafde430d9dc27f276",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-08-21T18:22:13+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -1308,6 +1308,32 @@
   ],
   "warning": [
     {
+      "title": "NORTH TRIPURA",
+      "guid": "9763a78d3d8d9efeec723b4cf3f8482a",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-22T01:14:59+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 22 Aug 2026 01:14:59",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-22T01:00:00+5:30",
+      "expires": "2026-08-22T04:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\n,\n,\nAt a few places.",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "UNOKOTI",
+      "guid": "e223b333d9a53c58f48795caac50e1b7",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-22T01:14:59+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 22 Aug 2026 01:14:59",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-22T01:00:00+5:30",
+      "expires": "2026-08-22T04:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\n,\n,\nAt a few places.",
+      "category": "NOWCAST"
+    },
+    {
       "title": "GAURELA PENDRA MARWAHI",
       "guid": "2bc8a222eb5a9eb7e9f1a282dd5d860e",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -2571,32 +2597,6 @@
     {
       "title": "HAMIRPUR",
       "guid": "4dae6a89f8b0e407a2659c1a51fac875",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-21T18:22:13+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 21 Aug 2026 18:22:13",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-21T18:21:00+5:30",
-      "expires": "2026-08-21T21:18:00+5:30",
-      "description": ",\n,\nThunder/Lightening with Moderate spell of Rain",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "KANPUR NAGAR",
-      "guid": "4bb80c3e19b1def8e87854da7c77c97b",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-21T18:22:13+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 21 Aug 2026 18:22:13",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-21T18:21:00+5:30",
-      "expires": "2026-08-21T21:18:00+5:30",
-      "description": ",\n,\nThunder/Lightening with Moderate spell of Rain",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "LUCKNOW",
-      "guid": "6a1d0dabb7ba22dafde430d9dc27f276",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-08-21T18:22:13+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -2610,6 +2610,32 @@
   ],
   "rss": [
     {
+      "title": "NORTH TRIPURA",
+      "guid": "9763a78d3d8d9efeec723b4cf3f8482a",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-22T01:14:59+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 22 Aug 2026 01:14:59",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-22T01:00:00+5:30",
+      "expires": "2026-08-22T04:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\n,\n,\nAt a few places.",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "UNOKOTI",
+      "guid": "e223b333d9a53c58f48795caac50e1b7",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-22T01:14:59+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 22 Aug 2026 01:14:59",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-22T01:00:00+5:30",
+      "expires": "2026-08-22T04:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\n,\n,\nAt a few places.",
+      "category": "NOWCAST"
+    },
+    {
       "title": "GAURELA PENDRA MARWAHI",
       "guid": "2bc8a222eb5a9eb7e9f1a282dd5d860e",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -3873,32 +3899,6 @@
     {
       "title": "HAMIRPUR",
       "guid": "4dae6a89f8b0e407a2659c1a51fac875",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-21T18:22:13+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 21 Aug 2026 18:22:13",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-21T18:21:00+5:30",
-      "expires": "2026-08-21T21:18:00+5:30",
-      "description": ",\n,\nThunder/Lightening with Moderate spell of Rain",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "KANPUR NAGAR",
-      "guid": "4bb80c3e19b1def8e87854da7c77c97b",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-21T18:22:13+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 21 Aug 2026 18:22:13",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-21T18:21:00+5:30",
-      "expires": "2026-08-21T21:18:00+5:30",
-      "description": ",\n,\nThunder/Lightening with Moderate spell of Rain",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "LUCKNOW",
-      "guid": "6a1d0dabb7ba22dafde430d9dc27f276",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-08-21T18:22:13+5:30",
       "sender": "nowcastnwfc@gmail.com",
