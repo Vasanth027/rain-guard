@@ -1,10 +1,23 @@
 {
-  "updated_at": "2026-08-21T11:44:29.223698+00:00",
+  "updated_at": "2026-08-21T12:16:28.862884+00:00",
   "source": "official IMD/RMC",
   "current": {
     "error": "HTTP Error 401: Unauthorized"
   },
   "nowcast": [
+    {
+      "title": "KORBA",
+      "guid": "a0e59859cd8ebd55351ec543d97ff555",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-21T17:41:26+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Fri, 21 Aug 2026 17:41:26",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-21T17:41:00+5:30",
+      "expires": "2026-08-21T19:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,\n,\nModerate Thunderstorms,",
+      "category": "NOWCAST"
+    },
     {
       "title": "EAST GARO HILLS",
       "guid": "629c98b71591d50890d3cf8479204649",
@@ -1282,19 +1295,6 @@
     {
       "title": "GONDA",
       "guid": "871330454344005d5e391952aec12c64",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-21T12:26:29+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 21 Aug 2026 12:26:29",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-21T12:20:00+5:30",
-      "expires": "2026-08-21T15:20:00+5:30",
-      "description": ",\n,\nThunder with Lightning and Moderate to intense spells of Rain",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "HARDOI",
-      "guid": "894a1e0d5c0e7349deb811681ce98873",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-08-21T12:26:29+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -1308,6 +1308,19 @@
   ],
   "warning": [
     {
+      "title": "KORBA",
+      "guid": "a0e59859cd8ebd55351ec543d97ff555",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-21T17:41:26+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Fri, 21 Aug 2026 17:41:26",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-21T17:41:00+5:30",
+      "expires": "2026-08-21T19:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,\n,\nModerate Thunderstorms,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "EAST GARO HILLS",
       "guid": "629c98b71591d50890d3cf8479204649",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -2584,19 +2597,6 @@
     {
       "title": "GONDA",
       "guid": "871330454344005d5e391952aec12c64",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-21T12:26:29+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 21 Aug 2026 12:26:29",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-21T12:20:00+5:30",
-      "expires": "2026-08-21T15:20:00+5:30",
-      "description": ",\n,\nThunder with Lightning and Moderate to intense spells of Rain",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "HARDOI",
-      "guid": "894a1e0d5c0e7349deb811681ce98873",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-08-21T12:26:29+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -2610,6 +2610,19 @@
   ],
   "rss": [
     {
+      "title": "KORBA",
+      "guid": "a0e59859cd8ebd55351ec543d97ff555",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-21T17:41:26+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Fri, 21 Aug 2026 17:41:26",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-21T17:41:00+5:30",
+      "expires": "2026-08-21T19:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,\n,\nModerate Thunderstorms,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "EAST GARO HILLS",
       "guid": "629c98b71591d50890d3cf8479204649",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -3886,19 +3899,6 @@
     {
       "title": "GONDA",
       "guid": "871330454344005d5e391952aec12c64",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-21T12:26:29+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 21 Aug 2026 12:26:29",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-21T12:20:00+5:30",
-      "expires": "2026-08-21T15:20:00+5:30",
-      "description": ",\n,\nThunder with Lightning and Moderate to intense spells of Rain",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "HARDOI",
-      "guid": "894a1e0d5c0e7349deb811681ce98873",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-08-21T12:26:29+5:30",
       "sender": "nowcastnwfc@gmail.com",
