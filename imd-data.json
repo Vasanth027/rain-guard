@@ -1,10 +1,36 @@
 {
-  "updated_at": "2026-08-22T18:44:56.497294+00:00",
+  "updated_at": "2026-08-22T19:11:10.775212+00:00",
   "source": "official IMD/RMC",
   "current": {
     "error": "HTTP Error 401: Unauthorized"
   },
   "nowcast": [
+    {
+      "title": "DEHRADUN",
+      "guid": "c02371e06efb39daaf306a1be7b7014e",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-23T00:20:22+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 23 Aug 2026 00:20:22",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-23T00:00:00+5:30",
+      "expires": "2026-08-23T03:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "HARIDWAR",
+      "guid": "d97428a4c8aaf4cf58ceab83517921d8",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-23T00:20:22+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 23 Aug 2026 00:20:22",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-23T00:00:00+5:30",
+      "expires": "2026-08-23T03:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
     {
       "title": "KHOWAI",
       "guid": "1ae1f85222f19994082277692a93f55c",
@@ -1253,32 +1279,6 @@
     {
       "title": "SHIVPURI",
       "guid": "1dbdf1a8dd18e514eca70b738fbcd4b2",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-22T18:54:48+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sat, 22 Aug 2026 18:54:48",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-22T19:00:00+5:30",
-      "expires": "2026-08-22T22:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "SIDHI",
-      "guid": "cb1a55e95b4adb356098e917291cf5ac",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-22T18:54:48+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sat, 22 Aug 2026 18:54:48",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-22T19:00:00+5:30",
-      "expires": "2026-08-22T22:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "SINGRAULI",
-      "guid": "d7faaa98675df434e473fef28674dee4",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-08-22T18:54:48+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -1292,6 +1292,32 @@
   ],
   "warning": [
     {
+      "title": "DEHRADUN",
+      "guid": "c02371e06efb39daaf306a1be7b7014e",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-23T00:20:22+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 23 Aug 2026 00:20:22",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-23T00:00:00+5:30",
+      "expires": "2026-08-23T03:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "HARIDWAR",
+      "guid": "d97428a4c8aaf4cf58ceab83517921d8",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-23T00:20:22+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 23 Aug 2026 00:20:22",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-23T00:00:00+5:30",
+      "expires": "2026-08-23T03:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "KHOWAI",
       "guid": "1ae1f85222f19994082277692a93f55c",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -2539,32 +2565,6 @@
     {
       "title": "SHIVPURI",
       "guid": "1dbdf1a8dd18e514eca70b738fbcd4b2",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-22T18:54:48+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sat, 22 Aug 2026 18:54:48",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-22T19:00:00+5:30",
-      "expires": "2026-08-22T22:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "SIDHI",
-      "guid": "cb1a55e95b4adb356098e917291cf5ac",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-22T18:54:48+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sat, 22 Aug 2026 18:54:48",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-22T19:00:00+5:30",
-      "expires": "2026-08-22T22:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "SINGRAULI",
-      "guid": "d7faaa98675df434e473fef28674dee4",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-08-22T18:54:48+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -2578,6 +2578,32 @@
   ],
   "rss": [
     {
+      "title": "DEHRADUN",
+      "guid": "c02371e06efb39daaf306a1be7b7014e",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-23T00:20:22+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 23 Aug 2026 00:20:22",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-23T00:00:00+5:30",
+      "expires": "2026-08-23T03:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "HARIDWAR",
+      "guid": "d97428a4c8aaf4cf58ceab83517921d8",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-23T00:20:22+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 23 Aug 2026 00:20:22",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-23T00:00:00+5:30",
+      "expires": "2026-08-23T03:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "KHOWAI",
       "guid": "1ae1f85222f19994082277692a93f55c",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -3825,32 +3851,6 @@
     {
       "title": "SHIVPURI",
       "guid": "1dbdf1a8dd18e514eca70b738fbcd4b2",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-22T18:54:48+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sat, 22 Aug 2026 18:54:48",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-22T19:00:00+5:30",
-      "expires": "2026-08-22T22:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "SIDHI",
-      "guid": "cb1a55e95b4adb356098e917291cf5ac",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-22T18:54:48+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sat, 22 Aug 2026 18:54:48",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-22T19:00:00+5:30",
-      "expires": "2026-08-22T22:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "SINGRAULI",
-      "guid": "d7faaa98675df434e473fef28674dee4",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-08-22T18:54:48+5:30",
       "sender": "nowcastnwfc@gmail.com",
