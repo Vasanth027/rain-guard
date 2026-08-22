@@ -1,10 +1,36 @@
 {
-  "updated_at": "2026-08-22T17:38:46.461713+00:00",
+  "updated_at": "2026-08-22T17:59:35.602516+00:00",
   "source": "official IMD/RMC",
   "current": {
     "error": "HTTP Error 401: Unauthorized"
   },
   "nowcast": [
+    {
+      "title": "KURUKSHETRA",
+      "guid": "8d1dfdacd35baf9293d59a4bdd7c12e8",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-22T23:13:04+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 22 Aug 2026 23:13:04",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-22T22:30:00+5:30",
+      "expires": "2026-08-22T23:50:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "PATHANKOT",
+      "guid": "3ed9014b893b132d7e781134df19c77c",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-22T23:09:33+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 22 Aug 2026 23:09:33",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-22T22:30:00+5:30",
+      "expires": "2026-08-22T23:50:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
     {
       "title": "AGRA",
       "guid": "ab1f124d50c9357b8d493d86e9393f55",
@@ -1253,32 +1279,6 @@
     {
       "title": "DINDORI",
       "guid": "76aa8637b135b0db905a11e293c60c80",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-22T18:54:47+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sat, 22 Aug 2026 18:54:47",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-22T19:00:00+5:30",
-      "expires": "2026-08-22T22:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "GWALIOR",
-      "guid": "02768293f0ce0f814df0222e7a437b8b",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-22T18:54:47+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sat, 22 Aug 2026 18:54:47",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-22T19:00:00+5:30",
-      "expires": "2026-08-22T22:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "KATNI",
-      "guid": "25059e69f38cb81c926cf0f13bbe2808",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-08-22T18:54:47+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -1292,6 +1292,32 @@
   ],
   "warning": [
     {
+      "title": "KURUKSHETRA",
+      "guid": "8d1dfdacd35baf9293d59a4bdd7c12e8",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-22T23:13:04+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 22 Aug 2026 23:13:04",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-22T22:30:00+5:30",
+      "expires": "2026-08-22T23:50:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "PATHANKOT",
+      "guid": "3ed9014b893b132d7e781134df19c77c",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-22T23:09:33+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 22 Aug 2026 23:09:33",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-22T22:30:00+5:30",
+      "expires": "2026-08-22T23:50:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "AGRA",
       "guid": "ab1f124d50c9357b8d493d86e9393f55",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -2539,32 +2565,6 @@
     {
       "title": "DINDORI",
       "guid": "76aa8637b135b0db905a11e293c60c80",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-22T18:54:47+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sat, 22 Aug 2026 18:54:47",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-22T19:00:00+5:30",
-      "expires": "2026-08-22T22:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "GWALIOR",
-      "guid": "02768293f0ce0f814df0222e7a437b8b",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-22T18:54:47+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sat, 22 Aug 2026 18:54:47",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-22T19:00:00+5:30",
-      "expires": "2026-08-22T22:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "KATNI",
-      "guid": "25059e69f38cb81c926cf0f13bbe2808",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-08-22T18:54:47+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -2578,6 +2578,32 @@
   ],
   "rss": [
     {
+      "title": "KURUKSHETRA",
+      "guid": "8d1dfdacd35baf9293d59a4bdd7c12e8",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-22T23:13:04+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 22 Aug 2026 23:13:04",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-22T22:30:00+5:30",
+      "expires": "2026-08-22T23:50:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "PATHANKOT",
+      "guid": "3ed9014b893b132d7e781134df19c77c",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-22T23:09:33+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 22 Aug 2026 23:09:33",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-22T22:30:00+5:30",
+      "expires": "2026-08-22T23:50:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "AGRA",
       "guid": "ab1f124d50c9357b8d493d86e9393f55",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -3825,32 +3851,6 @@
     {
       "title": "DINDORI",
       "guid": "76aa8637b135b0db905a11e293c60c80",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-22T18:54:47+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sat, 22 Aug 2026 18:54:47",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-22T19:00:00+5:30",
-      "expires": "2026-08-22T22:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "GWALIOR",
-      "guid": "02768293f0ce0f814df0222e7a437b8b",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-22T18:54:47+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sat, 22 Aug 2026 18:54:47",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-22T19:00:00+5:30",
-      "expires": "2026-08-22T22:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "KATNI",
-      "guid": "25059e69f38cb81c926cf0f13bbe2808",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-08-22T18:54:47+5:30",
       "sender": "nowcastnwfc@gmail.com",
