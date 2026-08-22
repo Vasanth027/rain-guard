@@ -1,11 +1,24 @@
 {
-  "updated_at": "2026-08-22T15:36:58.785555+00:00",
+  "updated_at": "2026-08-22T15:58:38.247993+00:00",
   "source": "official IMD/RMC",
   "current": {
     "error": "HTTP Error 401: Unauthorized"
   },
   "nowcast": [
     {
+      "title": "WEST TRIPURA",
+      "guid": "8b066d569df6aa7f549ab9cf04f03211",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-22T21:13:10+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 22 Aug 2026 21:13:10",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-22T19:00:00+5:30",
+      "expires": "2026-08-22T22:00:00+5:30",
+      "description": "Moderate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nHeavy rain: > 15 mm/hr ,\n,\n,\nAt many places.",
+      "category": "NOWCAST"
+    },
+    {
       "title": "CHANDIGARH",
       "guid": "97ff4fe3f82cdec81294b123986c5c0a",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -1273,25 +1286,25 @@
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-08-22T16:50:00+5:30",
       "expires": "2026-08-22T19:50:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "LUDHIANA",
-      "guid": "0677461ec6c531a203b16f1e3b305883",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-22T16:36:11+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sat, 22 Aug 2026 16:36:11",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-22T15:53:00+5:30",
-      "expires": "2026-08-22T18:50:00+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     }
   ],
   "warning": [
     {
+      "title": "WEST TRIPURA",
+      "guid": "8b066d569df6aa7f549ab9cf04f03211",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-22T21:13:10+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 22 Aug 2026 21:13:10",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-22T19:00:00+5:30",
+      "expires": "2026-08-22T22:00:00+5:30",
+      "description": "Moderate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nHeavy rain: > 15 mm/hr ,\n,\n,\nAt many places.",
+      "category": "NOWCAST"
+    },
+    {
       "title": "CHANDIGARH",
       "guid": "97ff4fe3f82cdec81294b123986c5c0a",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -2559,25 +2572,25 @@
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-08-22T16:50:00+5:30",
       "expires": "2026-08-22T19:50:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "LUDHIANA",
-      "guid": "0677461ec6c531a203b16f1e3b305883",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-22T16:36:11+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sat, 22 Aug 2026 16:36:11",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-22T15:53:00+5:30",
-      "expires": "2026-08-22T18:50:00+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     }
   ],
   "rss": [
     {
+      "title": "WEST TRIPURA",
+      "guid": "8b066d569df6aa7f549ab9cf04f03211",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-22T21:13:10+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 22 Aug 2026 21:13:10",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-22T19:00:00+5:30",
+      "expires": "2026-08-22T22:00:00+5:30",
+      "description": "Moderate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nHeavy rain: > 15 mm/hr ,\n,\n,\nAt many places.",
+      "category": "NOWCAST"
+    },
+    {
       "title": "CHANDIGARH",
       "guid": "97ff4fe3f82cdec81294b123986c5c0a",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -3845,19 +3858,6 @@
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-08-22T16:50:00+5:30",
       "expires": "2026-08-22T19:50:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "LUDHIANA",
-      "guid": "0677461ec6c531a203b16f1e3b305883",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-22T16:36:11+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sat, 22 Aug 2026 16:36:11",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-22T15:53:00+5:30",
-      "expires": "2026-08-22T18:50:00+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     }
