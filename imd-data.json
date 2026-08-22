@@ -1,10 +1,36 @@
 {
-  "updated_at": "2026-08-22T16:35:17.777006+00:00",
+  "updated_at": "2026-08-22T17:01:22.005050+00:00",
   "source": "official IMD/RMC",
   "current": {
     "error": "HTTP Error 401: Unauthorized"
   },
   "nowcast": [
+    {
+      "title": "RANGAREDDY",
+      "guid": "75cab9571062c18b45eb4918bf9a0c4b",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-22T22:12:05+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 22 Aug 2026 22:12:05",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-22T22:00:00+5:30",
+      "expires": "2026-08-22T01:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "SANGAREDDY",
+      "guid": "662cd6c3287a17775e3d345057ae93e5",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-22T22:12:05+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 22 Aug 2026 22:12:05",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-22T22:00:00+5:30",
+      "expires": "2026-08-22T01:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
     {
       "title": "AURANGABAD",
       "guid": "ed8f53364277f40af3d51a8cb231aee1",
@@ -1253,32 +1279,6 @@
     {
       "title": "AMBEDKAR NAGAR",
       "guid": "3ef9bd51d3c52992ece43b0f02775790",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-22T18:00:33+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sat, 22 Aug 2026 18:00:33",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-22T17:45:00+5:30",
-      "expires": "2026-08-22T20:45:00+5:30",
-      "description": ",\n,\nThunder with Lightning and Moderate to Intense spells of Rain",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "AMETHI",
-      "guid": "e2d4bda9c0a9d548e5d00ce960ed2b28",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-22T18:00:33+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sat, 22 Aug 2026 18:00:33",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-22T17:45:00+5:30",
-      "expires": "2026-08-22T20:45:00+5:30",
-      "description": ",\n,\nThunder with Lightning and Moderate to Intense spells of Rain",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "AZAMGARH",
-      "guid": "61c58e29e1d17f69a2d92722483a0184",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-08-22T18:00:33+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -1292,6 +1292,32 @@
   ],
   "warning": [
     {
+      "title": "RANGAREDDY",
+      "guid": "75cab9571062c18b45eb4918bf9a0c4b",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-22T22:12:05+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 22 Aug 2026 22:12:05",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-22T22:00:00+5:30",
+      "expires": "2026-08-22T01:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "SANGAREDDY",
+      "guid": "662cd6c3287a17775e3d345057ae93e5",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-22T22:12:05+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 22 Aug 2026 22:12:05",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-22T22:00:00+5:30",
+      "expires": "2026-08-22T01:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "AURANGABAD",
       "guid": "ed8f53364277f40af3d51a8cb231aee1",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -2539,32 +2565,6 @@
     {
       "title": "AMBEDKAR NAGAR",
       "guid": "3ef9bd51d3c52992ece43b0f02775790",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-22T18:00:33+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sat, 22 Aug 2026 18:00:33",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-22T17:45:00+5:30",
-      "expires": "2026-08-22T20:45:00+5:30",
-      "description": ",\n,\nThunder with Lightning and Moderate to Intense spells of Rain",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "AMETHI",
-      "guid": "e2d4bda9c0a9d548e5d00ce960ed2b28",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-22T18:00:33+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sat, 22 Aug 2026 18:00:33",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-22T17:45:00+5:30",
-      "expires": "2026-08-22T20:45:00+5:30",
-      "description": ",\n,\nThunder with Lightning and Moderate to Intense spells of Rain",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "AZAMGARH",
-      "guid": "61c58e29e1d17f69a2d92722483a0184",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-08-22T18:00:33+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -2578,6 +2578,32 @@
   ],
   "rss": [
     {
+      "title": "RANGAREDDY",
+      "guid": "75cab9571062c18b45eb4918bf9a0c4b",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-22T22:12:05+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 22 Aug 2026 22:12:05",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-22T22:00:00+5:30",
+      "expires": "2026-08-22T01:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "SANGAREDDY",
+      "guid": "662cd6c3287a17775e3d345057ae93e5",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-22T22:12:05+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 22 Aug 2026 22:12:05",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-22T22:00:00+5:30",
+      "expires": "2026-08-22T01:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "AURANGABAD",
       "guid": "ed8f53364277f40af3d51a8cb231aee1",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -3825,32 +3851,6 @@
     {
       "title": "AMBEDKAR NAGAR",
       "guid": "3ef9bd51d3c52992ece43b0f02775790",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-22T18:00:33+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sat, 22 Aug 2026 18:00:33",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-22T17:45:00+5:30",
-      "expires": "2026-08-22T20:45:00+5:30",
-      "description": ",\n,\nThunder with Lightning and Moderate to Intense spells of Rain",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "AMETHI",
-      "guid": "e2d4bda9c0a9d548e5d00ce960ed2b28",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-22T18:00:33+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sat, 22 Aug 2026 18:00:33",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-22T17:45:00+5:30",
-      "expires": "2026-08-22T20:45:00+5:30",
-      "description": ",\n,\nThunder with Lightning and Moderate to Intense spells of Rain",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "AZAMGARH",
-      "guid": "61c58e29e1d17f69a2d92722483a0184",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-08-22T18:00:33+5:30",
       "sender": "nowcastnwfc@gmail.com",
