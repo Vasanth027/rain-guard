@@ -1,10 +1,36 @@
 {
-  "updated_at": "2026-08-22T21:38:18.941449+00:00",
+  "updated_at": "2026-08-22T21:59:44.529421+00:00",
   "source": "official IMD/RMC",
   "current": {
     "error": "HTTP Error 401: Unauthorized"
   },
   "nowcast": [
+    {
+      "title": "YAMUNANAGAR",
+      "guid": "f47cbd4e891d080ef7336d325563b7f6",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-23T03:18:30+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 23 Aug 2026 03:18:30",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-23T03:18:00+5:30",
+      "expires": "2026-08-23T05:40:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "KAITHAL",
+      "guid": "47b6de07db8cd9b8cfb006d9b349ebe7",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-23T03:17:41+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 23 Aug 2026 03:17:41",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-23T03:17:00+5:30",
+      "expires": "2026-08-23T06:15:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
     {
       "title": "TEHRI GARHWAL",
       "guid": "da2a398b8a488d04ff768fe13c68536d",
@@ -1269,32 +1295,6 @@
     {
       "title": "KUSHINAGAR",
       "guid": "0a03beb7dbdb60dd8f7b34099f9a325e",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-22T20:09:58+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sat, 22 Aug 2026 20:09:58",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-22T20:00:00+5:30",
-      "expires": "2026-08-22T23:00:00+5:30",
-      "description": ",\n,\nThunder with lightning and moderate to intense spell of rain",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "MAHARAJGANJ",
-      "guid": "3f589ace5e28e22fe8b6f8e31bca447b",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-22T20:09:58+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sat, 22 Aug 2026 20:09:58",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-22T20:00:00+5:30",
-      "expires": "2026-08-22T23:00:00+5:30",
-      "description": ",\n,\nThunder with lightning and moderate to intense spell of rain",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "MATHURA",
-      "guid": "7ebe6b01743ac405e5468b7846fa06b1",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-08-22T20:09:58+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -1308,6 +1308,32 @@
   ],
   "warning": [
     {
+      "title": "YAMUNANAGAR",
+      "guid": "f47cbd4e891d080ef7336d325563b7f6",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-23T03:18:30+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 23 Aug 2026 03:18:30",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-23T03:18:00+5:30",
+      "expires": "2026-08-23T05:40:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "KAITHAL",
+      "guid": "47b6de07db8cd9b8cfb006d9b349ebe7",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-23T03:17:41+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 23 Aug 2026 03:17:41",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-23T03:17:00+5:30",
+      "expires": "2026-08-23T06:15:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "TEHRI GARHWAL",
       "guid": "da2a398b8a488d04ff768fe13c68536d",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -2571,32 +2597,6 @@
     {
       "title": "KUSHINAGAR",
       "guid": "0a03beb7dbdb60dd8f7b34099f9a325e",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-22T20:09:58+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sat, 22 Aug 2026 20:09:58",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-22T20:00:00+5:30",
-      "expires": "2026-08-22T23:00:00+5:30",
-      "description": ",\n,\nThunder with lightning and moderate to intense spell of rain",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "MAHARAJGANJ",
-      "guid": "3f589ace5e28e22fe8b6f8e31bca447b",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-22T20:09:58+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sat, 22 Aug 2026 20:09:58",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-22T20:00:00+5:30",
-      "expires": "2026-08-22T23:00:00+5:30",
-      "description": ",\n,\nThunder with lightning and moderate to intense spell of rain",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "MATHURA",
-      "guid": "7ebe6b01743ac405e5468b7846fa06b1",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-08-22T20:09:58+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -2610,6 +2610,32 @@
   ],
   "rss": [
     {
+      "title": "YAMUNANAGAR",
+      "guid": "f47cbd4e891d080ef7336d325563b7f6",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-23T03:18:30+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 23 Aug 2026 03:18:30",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-23T03:18:00+5:30",
+      "expires": "2026-08-23T05:40:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "KAITHAL",
+      "guid": "47b6de07db8cd9b8cfb006d9b349ebe7",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-23T03:17:41+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 23 Aug 2026 03:17:41",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-23T03:17:00+5:30",
+      "expires": "2026-08-23T06:15:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "TEHRI GARHWAL",
       "guid": "da2a398b8a488d04ff768fe13c68536d",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -3873,32 +3899,6 @@
     {
       "title": "KUSHINAGAR",
       "guid": "0a03beb7dbdb60dd8f7b34099f9a325e",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-22T20:09:58+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sat, 22 Aug 2026 20:09:58",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-22T20:00:00+5:30",
-      "expires": "2026-08-22T23:00:00+5:30",
-      "description": ",\n,\nThunder with lightning and moderate to intense spell of rain",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "MAHARAJGANJ",
-      "guid": "3f589ace5e28e22fe8b6f8e31bca447b",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-22T20:09:58+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sat, 22 Aug 2026 20:09:58",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-22T20:00:00+5:30",
-      "expires": "2026-08-22T23:00:00+5:30",
-      "description": ",\n,\nThunder with lightning and moderate to intense spell of rain",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "MATHURA",
-      "guid": "7ebe6b01743ac405e5468b7846fa06b1",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-08-22T20:09:58+5:30",
       "sender": "nowcastnwfc@gmail.com",
