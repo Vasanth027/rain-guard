@@ -1,11 +1,50 @@
 {
-  "updated_at": "2026-08-23T07:48:36.705527+00:00",
+  "updated_at": "2026-08-23T08:38:25.158065+00:00",
   "source": "official IMD/RMC",
   "current": {
     "error": "HTTP Error 401: Unauthorized"
   },
   "nowcast": [
     {
+      "title": "DURG",
+      "guid": "1f6208059697d8ae565c79af1ab3b719",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-23T13:51:37+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 23 Aug 2026 13:51:37",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-23T13:00:00+5:30",
+      "expires": "2026-08-23T16:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,\n,\n,\nLight Thunderstorms",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "RAIPUR",
+      "guid": "b483bd0926ba4e6cae166224ee91e266",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-23T13:51:37+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 23 Aug 2026 13:51:37",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-23T13:00:00+5:30",
+      "expires": "2026-08-23T16:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,\n,\n,\nLight Thunderstorms",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "KALIMPONG",
+      "guid": "7039e26c92bbce3717849b70d475193e",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-23T13:32:24+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 23 Aug 2026 13:32:24",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-23T13:25:00+5:30",
+      "expires": "2026-08-23T16:25:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "KOREA",
       "guid": "fd1addb830581a881a68773cd25a0a8e",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -1264,50 +1303,50 @@
       "onset": "2026-08-23T10:00:00+5:30",
       "expires": "2026-08-23T13:00:00+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "NARAYANPUR",
-      "guid": "91d97cde1a37d0e514b4e039ea0cd2a3",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-23T09:58:22+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sun, 23 Aug 2026 09:58:22",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-23T10:00:00+5:30",
-      "expires": "2026-08-23T13:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "SUKMA",
-      "guid": "e807e7767d9a2faca9d434116cc077cc",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-23T09:58:22+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sun, 23 Aug 2026 09:58:22",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-23T10:00:00+5:30",
-      "expires": "2026-08-23T13:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "ANUPPUR",
-      "guid": "f37c773827d161f2a2f5984e03bfd657",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-23T09:29:47+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sun, 23 Aug 2026 09:29:47",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-23T10:00:00+5:30",
-      "expires": "2026-08-23T13:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
       "category": "NOWCAST"
     }
   ],
   "warning": [
     {
+      "title": "DURG",
+      "guid": "1f6208059697d8ae565c79af1ab3b719",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-23T13:51:37+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 23 Aug 2026 13:51:37",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-23T13:00:00+5:30",
+      "expires": "2026-08-23T16:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,\n,\n,\nLight Thunderstorms",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "RAIPUR",
+      "guid": "b483bd0926ba4e6cae166224ee91e266",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-23T13:51:37+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 23 Aug 2026 13:51:37",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-23T13:00:00+5:30",
+      "expires": "2026-08-23T16:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,\n,\n,\nLight Thunderstorms",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "KALIMPONG",
+      "guid": "7039e26c92bbce3717849b70d475193e",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-23T13:32:24+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 23 Aug 2026 13:32:24",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-23T13:25:00+5:30",
+      "expires": "2026-08-23T16:25:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "KOREA",
       "guid": "fd1addb830581a881a68773cd25a0a8e",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -2566,50 +2605,50 @@
       "onset": "2026-08-23T10:00:00+5:30",
       "expires": "2026-08-23T13:00:00+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "NARAYANPUR",
-      "guid": "91d97cde1a37d0e514b4e039ea0cd2a3",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-23T09:58:22+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sun, 23 Aug 2026 09:58:22",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-23T10:00:00+5:30",
-      "expires": "2026-08-23T13:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "SUKMA",
-      "guid": "e807e7767d9a2faca9d434116cc077cc",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-23T09:58:22+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sun, 23 Aug 2026 09:58:22",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-23T10:00:00+5:30",
-      "expires": "2026-08-23T13:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "ANUPPUR",
-      "guid": "f37c773827d161f2a2f5984e03bfd657",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-23T09:29:47+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sun, 23 Aug 2026 09:29:47",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-23T10:00:00+5:30",
-      "expires": "2026-08-23T13:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
       "category": "NOWCAST"
     }
   ],
   "rss": [
     {
+      "title": "DURG",
+      "guid": "1f6208059697d8ae565c79af1ab3b719",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-23T13:51:37+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 23 Aug 2026 13:51:37",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-23T13:00:00+5:30",
+      "expires": "2026-08-23T16:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,\n,\n,\nLight Thunderstorms",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "RAIPUR",
+      "guid": "b483bd0926ba4e6cae166224ee91e266",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-23T13:51:37+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 23 Aug 2026 13:51:37",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-23T13:00:00+5:30",
+      "expires": "2026-08-23T16:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,\n,\n,\nLight Thunderstorms",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "KALIMPONG",
+      "guid": "7039e26c92bbce3717849b70d475193e",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-23T13:32:24+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 23 Aug 2026 13:32:24",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-23T13:25:00+5:30",
+      "expires": "2026-08-23T16:25:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "KOREA",
       "guid": "fd1addb830581a881a68773cd25a0a8e",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -3868,45 +3907,6 @@
       "onset": "2026-08-23T10:00:00+5:30",
       "expires": "2026-08-23T13:00:00+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "NARAYANPUR",
-      "guid": "91d97cde1a37d0e514b4e039ea0cd2a3",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-23T09:58:22+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sun, 23 Aug 2026 09:58:22",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-23T10:00:00+5:30",
-      "expires": "2026-08-23T13:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "SUKMA",
-      "guid": "e807e7767d9a2faca9d434116cc077cc",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-23T09:58:22+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sun, 23 Aug 2026 09:58:22",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-23T10:00:00+5:30",
-      "expires": "2026-08-23T13:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "ANUPPUR",
-      "guid": "f37c773827d161f2a2f5984e03bfd657",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-23T09:29:47+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sun, 23 Aug 2026 09:29:47",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-23T10:00:00+5:30",
-      "expires": "2026-08-23T13:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
       "category": "NOWCAST"
     }
   ],
