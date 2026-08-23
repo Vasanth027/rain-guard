@@ -1,10 +1,36 @@
 {
-  "updated_at": "2026-08-23T08:38:25.158065+00:00",
+  "updated_at": "2026-08-23T09:10:42.573380+00:00",
   "source": "official IMD/RMC",
   "current": {
     "error": "HTTP Error 401: Unauthorized"
   },
   "nowcast": [
+    {
+      "title": "BASTAR",
+      "guid": "5f6c792876683b3a09c68b4ed55aa714",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-23T14:29:05+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 23 Aug 2026 14:29:05",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-23T14:28:00+5:30",
+      "expires": "2026-08-23T16:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "DANTEWARA",
+      "guid": "617f0e99f918fa2e7f1aeea6aab2f318",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-23T14:29:05+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 23 Aug 2026 14:29:05",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-23T14:28:00+5:30",
+      "expires": "2026-08-23T16:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
+      "category": "NOWCAST"
+    },
     {
       "title": "DURG",
       "guid": "1f6208059697d8ae565c79af1ab3b719",
@@ -1269,32 +1295,6 @@
     {
       "title": "KANKER",
       "guid": "41e4cd5d01d42c7f75db908b8814df66",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-23T09:58:22+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sun, 23 Aug 2026 09:58:22",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-23T10:00:00+5:30",
-      "expires": "2026-08-23T13:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "KONDAGAON",
-      "guid": "2aeb1d0b9adfa58d99765ac013cee77d",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-23T09:58:22+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sun, 23 Aug 2026 09:58:22",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-23T10:00:00+5:30",
-      "expires": "2026-08-23T13:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "KOREA",
-      "guid": "532172387796184f7bafe391c30dc2eb",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-08-23T09:58:22+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -1308,6 +1308,32 @@
   ],
   "warning": [
     {
+      "title": "BASTAR",
+      "guid": "5f6c792876683b3a09c68b4ed55aa714",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-23T14:29:05+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 23 Aug 2026 14:29:05",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-23T14:28:00+5:30",
+      "expires": "2026-08-23T16:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "DANTEWARA",
+      "guid": "617f0e99f918fa2e7f1aeea6aab2f318",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-23T14:29:05+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 23 Aug 2026 14:29:05",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-23T14:28:00+5:30",
+      "expires": "2026-08-23T16:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "DURG",
       "guid": "1f6208059697d8ae565c79af1ab3b719",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -2571,32 +2597,6 @@
     {
       "title": "KANKER",
       "guid": "41e4cd5d01d42c7f75db908b8814df66",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-23T09:58:22+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sun, 23 Aug 2026 09:58:22",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-23T10:00:00+5:30",
-      "expires": "2026-08-23T13:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "KONDAGAON",
-      "guid": "2aeb1d0b9adfa58d99765ac013cee77d",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-23T09:58:22+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sun, 23 Aug 2026 09:58:22",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-23T10:00:00+5:30",
-      "expires": "2026-08-23T13:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "KOREA",
-      "guid": "532172387796184f7bafe391c30dc2eb",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-08-23T09:58:22+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -2610,6 +2610,32 @@
   ],
   "rss": [
     {
+      "title": "BASTAR",
+      "guid": "5f6c792876683b3a09c68b4ed55aa714",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-23T14:29:05+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 23 Aug 2026 14:29:05",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-23T14:28:00+5:30",
+      "expires": "2026-08-23T16:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "DANTEWARA",
+      "guid": "617f0e99f918fa2e7f1aeea6aab2f318",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-23T14:29:05+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 23 Aug 2026 14:29:05",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-23T14:28:00+5:30",
+      "expires": "2026-08-23T16:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "DURG",
       "guid": "1f6208059697d8ae565c79af1ab3b719",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -3873,32 +3899,6 @@
     {
       "title": "KANKER",
       "guid": "41e4cd5d01d42c7f75db908b8814df66",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-23T09:58:22+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sun, 23 Aug 2026 09:58:22",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-23T10:00:00+5:30",
-      "expires": "2026-08-23T13:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "KONDAGAON",
-      "guid": "2aeb1d0b9adfa58d99765ac013cee77d",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-23T09:58:22+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sun, 23 Aug 2026 09:58:22",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-23T10:00:00+5:30",
-      "expires": "2026-08-23T13:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "KOREA",
-      "guid": "532172387796184f7bafe391c30dc2eb",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-08-23T09:58:22+5:30",
       "sender": "nowcastnwfc@gmail.com",
