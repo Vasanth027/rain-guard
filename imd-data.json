@@ -1,10 +1,36 @@
 {
-  "updated_at": "2026-08-23T11:27:43.169845+00:00",
+  "updated_at": "2026-08-23T11:51:13.387302+00:00",
   "source": "official IMD/RMC",
   "current": {
     "error": "HTTP Error 401: Unauthorized"
   },
   "nowcast": [
+    {
+      "title": "JHARGRAM",
+      "guid": "0ef7ad87a141576346d4f08c54cd2021",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-23T17:05:17+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 23 Aug 2026 17:05:17",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-23T17:05:00+5:30",
+      "expires": "2026-08-23T20:05:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "PASCHIM MEDINIPUR",
+      "guid": "edee085a29454da80ce7b3358f6ff122",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-23T17:05:17+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 23 Aug 2026 17:05:17",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-23T17:05:00+5:30",
+      "expires": "2026-08-23T20:05:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
     {
       "title": "PERAMBALUR",
       "guid": "a7b59fb8c567cd870be4b0aa9f3f639a",
@@ -1269,32 +1295,6 @@
     {
       "title": "DARBHANGA",
       "guid": "8a192afc0388658df85542999227b396",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-23T12:52:48+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sun, 23 Aug 2026 12:52:48",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-23T13:00:00+5:30",
-      "expires": "2026-08-23T16:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "MUZAFFARPUR",
-      "guid": "20a59577cd5b2a95db60ec8c48b49b3a",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-23T12:52:48+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sun, 23 Aug 2026 12:52:48",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-23T13:00:00+5:30",
-      "expires": "2026-08-23T16:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "SAMASTIPUR",
-      "guid": "cdf33db226f60669849e0914e8cc1174",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-08-23T12:52:48+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -1308,6 +1308,32 @@
   ],
   "warning": [
     {
+      "title": "JHARGRAM",
+      "guid": "0ef7ad87a141576346d4f08c54cd2021",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-23T17:05:17+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 23 Aug 2026 17:05:17",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-23T17:05:00+5:30",
+      "expires": "2026-08-23T20:05:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "PASCHIM MEDINIPUR",
+      "guid": "edee085a29454da80ce7b3358f6ff122",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-23T17:05:17+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 23 Aug 2026 17:05:17",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-23T17:05:00+5:30",
+      "expires": "2026-08-23T20:05:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "PERAMBALUR",
       "guid": "a7b59fb8c567cd870be4b0aa9f3f639a",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -2571,32 +2597,6 @@
     {
       "title": "DARBHANGA",
       "guid": "8a192afc0388658df85542999227b396",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-23T12:52:48+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sun, 23 Aug 2026 12:52:48",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-23T13:00:00+5:30",
-      "expires": "2026-08-23T16:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "MUZAFFARPUR",
-      "guid": "20a59577cd5b2a95db60ec8c48b49b3a",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-23T12:52:48+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sun, 23 Aug 2026 12:52:48",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-23T13:00:00+5:30",
-      "expires": "2026-08-23T16:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "SAMASTIPUR",
-      "guid": "cdf33db226f60669849e0914e8cc1174",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-08-23T12:52:48+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -2610,6 +2610,32 @@
   ],
   "rss": [
     {
+      "title": "JHARGRAM",
+      "guid": "0ef7ad87a141576346d4f08c54cd2021",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-23T17:05:17+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 23 Aug 2026 17:05:17",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-23T17:05:00+5:30",
+      "expires": "2026-08-23T20:05:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "PASCHIM MEDINIPUR",
+      "guid": "edee085a29454da80ce7b3358f6ff122",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-23T17:05:17+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 23 Aug 2026 17:05:17",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-23T17:05:00+5:30",
+      "expires": "2026-08-23T20:05:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "PERAMBALUR",
       "guid": "a7b59fb8c567cd870be4b0aa9f3f639a",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -3873,32 +3899,6 @@
     {
       "title": "DARBHANGA",
       "guid": "8a192afc0388658df85542999227b396",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-23T12:52:48+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sun, 23 Aug 2026 12:52:48",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-23T13:00:00+5:30",
-      "expires": "2026-08-23T16:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "MUZAFFARPUR",
-      "guid": "20a59577cd5b2a95db60ec8c48b49b3a",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-23T12:52:48+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sun, 23 Aug 2026 12:52:48",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-23T13:00:00+5:30",
-      "expires": "2026-08-23T16:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "SAMASTIPUR",
-      "guid": "cdf33db226f60669849e0914e8cc1174",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-08-23T12:52:48+5:30",
       "sender": "nowcastnwfc@gmail.com",
