@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-08-24T19:05:37.436720+00:00",
+  "updated_at": "2026-08-24T19:47:03.201953+00:00",
   "source": "official IMD/RMC",
   "current": {
-    "error": "HTTP Error 401: Unauthorized"
+    "error": "<urlopen error timed out>"
   },
   "nowcast": {
     "error": "<urlopen error timed out>"
   },
   "warning": {
-    "error": "HTTP Error 401: Unauthorized"
+    "error": "<urlopen error timed out>"
   },
   "rss": {
     "error": "<urlopen error timed out>"
