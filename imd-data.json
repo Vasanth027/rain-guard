@@ -1,10 +1,23 @@
 {
-  "updated_at": "2026-08-24T23:03:12.960737+00:00",
+  "updated_at": "2026-08-24T23:39:01.303549+00:00",
   "source": "official IMD/RMC",
   "current": {
     "error": "HTTP Error 401: Unauthorized"
   },
   "nowcast": [
+    {
+      "title": "PANIPAT",
+      "guid": "e67dedd5fd4d820cefba4d63f301d695",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-25T04:57:58+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Tue, 25 Aug 2026 04:57:58",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-25T04:57:00+5:30",
+      "expires": "2026-08-25T07:30:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
     {
       "title": "UMARIA",
       "guid": "e6e01739becfff81fb57db01eedc5857",
@@ -1282,19 +1295,6 @@
     {
       "title": "SIDDHARTH NAGAR",
       "guid": "86404fbddaf920870351f57ad7a43afc",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-24T23:55:28+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Mon, 24 Aug 2026 23:55:28",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-24T23:30:00+5:30",
-      "expires": "2026-08-24T02:30:00+5:30",
-      "description": ",\n,\nThunder with Lightning and Moderate to Intense spells of Rain",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "SONBHADRA",
-      "guid": "8e562b8cdc8c96bf71055804b3532ee2",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-08-24T23:55:28+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -1308,6 +1308,19 @@
   ],
   "warning": [
     {
+      "title": "PANIPAT",
+      "guid": "e67dedd5fd4d820cefba4d63f301d695",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-25T04:57:58+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Tue, 25 Aug 2026 04:57:58",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-25T04:57:00+5:30",
+      "expires": "2026-08-25T07:30:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "UMARIA",
       "guid": "e6e01739becfff81fb57db01eedc5857",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -2584,19 +2597,6 @@
     {
       "title": "SIDDHARTH NAGAR",
       "guid": "86404fbddaf920870351f57ad7a43afc",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-24T23:55:28+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Mon, 24 Aug 2026 23:55:28",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-24T23:30:00+5:30",
-      "expires": "2026-08-24T02:30:00+5:30",
-      "description": ",\n,\nThunder with Lightning and Moderate to Intense spells of Rain",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "SONBHADRA",
-      "guid": "8e562b8cdc8c96bf71055804b3532ee2",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-08-24T23:55:28+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -2610,6 +2610,19 @@
   ],
   "rss": [
     {
+      "title": "PANIPAT",
+      "guid": "e67dedd5fd4d820cefba4d63f301d695",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-25T04:57:58+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Tue, 25 Aug 2026 04:57:58",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-25T04:57:00+5:30",
+      "expires": "2026-08-25T07:30:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "UMARIA",
       "guid": "e6e01739becfff81fb57db01eedc5857",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -3886,19 +3899,6 @@
     {
       "title": "SIDDHARTH NAGAR",
       "guid": "86404fbddaf920870351f57ad7a43afc",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-24T23:55:28+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Mon, 24 Aug 2026 23:55:28",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-24T23:30:00+5:30",
-      "expires": "2026-08-24T02:30:00+5:30",
-      "description": ",\n,\nThunder with Lightning and Moderate to Intense spells of Rain",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "SONBHADRA",
-      "guid": "8e562b8cdc8c96bf71055804b3532ee2",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-08-24T23:55:28+5:30",
       "sender": "nowcastnwfc@gmail.com",
