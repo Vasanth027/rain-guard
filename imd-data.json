@@ -1,11 +1,37 @@
 {
-  "updated_at": "2026-08-25T16:45:10.874483+00:00",
+  "updated_at": "2026-08-25T17:36:46.316149+00:00",
   "source": "official IMD/RMC",
   "current": {
     "error": "HTTP Error 401: Unauthorized"
   },
   "nowcast": [
     {
+      "title": "CHANDAULI",
+      "guid": "43cbe3b9ddccce7a88d162e54926129c",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-25T23:06:48+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Tue, 25 Aug 2026 23:06:48",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-25T23:06:00+5:30",
+      "expires": "2026-08-25T01:10:00+5:30",
+      "description": ",\n,\nThunder/Lightning with Moderate to Intense spell of Rain",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "SONBHADRA",
+      "guid": "cb952a709d10bec14a0527da8cebbda8",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-25T23:06:48+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Tue, 25 Aug 2026 23:06:48",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-25T23:06:00+5:30",
+      "expires": "2026-08-25T01:10:00+5:30",
+      "description": ",\n,\nThunder/Lightning with Moderate to Intense spell of Rain",
+      "category": "NOWCAST"
+    },
+    {
       "title": "AMETHI",
       "guid": "5a360fb9a1331b4a164fefe89f36945e",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -1277,37 +1303,37 @@
       "onset": "2026-08-25T19:00:00+5:30",
       "expires": "2026-08-25T22:00:00+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "SHIVPURI",
-      "guid": "84baaf7d70cdb4b43b0bc8b97ccd8bd7",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-25T18:41:13+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Tue, 25 Aug 2026 18:41:13",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-25T19:00:00+5:30",
-      "expires": "2026-08-25T22:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "FARIDABAD",
-      "guid": "4c78314cf887acf1571d84e5ad60bb53",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-25T18:16:00+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Tue, 25 Aug 2026 18:16:00",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-25T18:15:00+5:30",
-      "expires": "2026-08-25T21:15:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     }
   ],
   "warning": [
     {
+      "title": "CHANDAULI",
+      "guid": "43cbe3b9ddccce7a88d162e54926129c",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-25T23:06:48+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Tue, 25 Aug 2026 23:06:48",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-25T23:06:00+5:30",
+      "expires": "2026-08-25T01:10:00+5:30",
+      "description": ",\n,\nThunder/Lightning with Moderate to Intense spell of Rain",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "SONBHADRA",
+      "guid": "cb952a709d10bec14a0527da8cebbda8",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-25T23:06:48+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Tue, 25 Aug 2026 23:06:48",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-25T23:06:00+5:30",
+      "expires": "2026-08-25T01:10:00+5:30",
+      "description": ",\n,\nThunder/Lightning with Moderate to Intense spell of Rain",
+      "category": "NOWCAST"
+    },
+    {
       "title": "AMETHI",
       "guid": "5a360fb9a1331b4a164fefe89f36945e",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -2579,37 +2605,37 @@
       "onset": "2026-08-25T19:00:00+5:30",
       "expires": "2026-08-25T22:00:00+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "SHIVPURI",
-      "guid": "84baaf7d70cdb4b43b0bc8b97ccd8bd7",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-25T18:41:13+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Tue, 25 Aug 2026 18:41:13",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-25T19:00:00+5:30",
-      "expires": "2026-08-25T22:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "FARIDABAD",
-      "guid": "4c78314cf887acf1571d84e5ad60bb53",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-25T18:16:00+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Tue, 25 Aug 2026 18:16:00",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-25T18:15:00+5:30",
-      "expires": "2026-08-25T21:15:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     }
   ],
   "rss": [
     {
+      "title": "CHANDAULI",
+      "guid": "43cbe3b9ddccce7a88d162e54926129c",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-25T23:06:48+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Tue, 25 Aug 2026 23:06:48",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-25T23:06:00+5:30",
+      "expires": "2026-08-25T01:10:00+5:30",
+      "description": ",\n,\nThunder/Lightning with Moderate to Intense spell of Rain",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "SONBHADRA",
+      "guid": "cb952a709d10bec14a0527da8cebbda8",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-25T23:06:48+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Tue, 25 Aug 2026 23:06:48",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-25T23:06:00+5:30",
+      "expires": "2026-08-25T01:10:00+5:30",
+      "description": ",\n,\nThunder/Lightning with Moderate to Intense spell of Rain",
+      "category": "NOWCAST"
+    },
+    {
       "title": "AMETHI",
       "guid": "5a360fb9a1331b4a164fefe89f36945e",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -3881,32 +3907,6 @@
       "onset": "2026-08-25T19:00:00+5:30",
       "expires": "2026-08-25T22:00:00+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "SHIVPURI",
-      "guid": "84baaf7d70cdb4b43b0bc8b97ccd8bd7",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-25T18:41:13+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Tue, 25 Aug 2026 18:41:13",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-25T19:00:00+5:30",
-      "expires": "2026-08-25T22:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "FARIDABAD",
-      "guid": "4c78314cf887acf1571d84e5ad60bb53",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-25T18:16:00+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Tue, 25 Aug 2026 18:16:00",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-25T18:15:00+5:30",
-      "expires": "2026-08-25T21:15:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     }
   ],
