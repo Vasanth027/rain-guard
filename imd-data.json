@@ -1,10 +1,36 @@
 {
-  "updated_at": "2026-08-26T11:13:44.054638+00:00",
+  "updated_at": "2026-08-26T11:49:58.068399+00:00",
   "source": "official IMD/RMC",
   "current": {
     "error": "HTTP Error 401: Unauthorized"
   },
   "nowcast": [
+    {
+      "title": "KOLLAM",
+      "guid": "ab0484812da2435f49e75701769a533c",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-26T17:05:45+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Wed, 26 Aug 2026 17:05:45",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-26T17:00:00+5:30",
+      "expires": "2026-08-26T19:00:00+5:30",
+      "description": "Heavy rain: > 15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "THIRUVANANTHAPURAM",
+      "guid": "8ccb0595416511c813658f726ccc1f92",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-26T17:05:45+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Wed, 26 Aug 2026 17:05:45",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-26T17:00:00+5:30",
+      "expires": "2026-08-26T19:00:00+5:30",
+      "description": "Heavy rain: > 15 mm/hr ,",
+      "category": "NOWCAST"
+    },
     {
       "title": "PASCHIM SINGHBHUMI",
       "guid": "ba68df25749a848d8c8d913022bbbc38",
@@ -1269,32 +1295,6 @@
     {
       "title": "GIRIDIH",
       "guid": "6acc8d1c819dcdd1f4b4d1ff00ebc9e0",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-26T15:17:43+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Wed, 26 Aug 2026 15:17:43",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-26T15:10:00+5:30",
-      "expires": "2026-08-26T18:10:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "GUMLA",
-      "guid": "49708de5629b9643393d0ed85654d5b0",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-26T15:17:43+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Wed, 26 Aug 2026 15:17:43",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-26T15:10:00+5:30",
-      "expires": "2026-08-26T18:10:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "KHUNTI",
-      "guid": "a119dddeb2462f4ce3934f29aba94da1",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-08-26T15:17:43+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -1308,6 +1308,32 @@
   ],
   "warning": [
     {
+      "title": "KOLLAM",
+      "guid": "ab0484812da2435f49e75701769a533c",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-26T17:05:45+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Wed, 26 Aug 2026 17:05:45",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-26T17:00:00+5:30",
+      "expires": "2026-08-26T19:00:00+5:30",
+      "description": "Heavy rain: > 15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "THIRUVANANTHAPURAM",
+      "guid": "8ccb0595416511c813658f726ccc1f92",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-26T17:05:45+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Wed, 26 Aug 2026 17:05:45",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-26T17:00:00+5:30",
+      "expires": "2026-08-26T19:00:00+5:30",
+      "description": "Heavy rain: > 15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "PASCHIM SINGHBHUMI",
       "guid": "ba68df25749a848d8c8d913022bbbc38",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -2571,32 +2597,6 @@
     {
       "title": "GIRIDIH",
       "guid": "6acc8d1c819dcdd1f4b4d1ff00ebc9e0",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-26T15:17:43+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Wed, 26 Aug 2026 15:17:43",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-26T15:10:00+5:30",
-      "expires": "2026-08-26T18:10:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "GUMLA",
-      "guid": "49708de5629b9643393d0ed85654d5b0",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-26T15:17:43+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Wed, 26 Aug 2026 15:17:43",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-26T15:10:00+5:30",
-      "expires": "2026-08-26T18:10:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "KHUNTI",
-      "guid": "a119dddeb2462f4ce3934f29aba94da1",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-08-26T15:17:43+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -2610,6 +2610,32 @@
   ],
   "rss": [
     {
+      "title": "KOLLAM",
+      "guid": "ab0484812da2435f49e75701769a533c",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-26T17:05:45+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Wed, 26 Aug 2026 17:05:45",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-26T17:00:00+5:30",
+      "expires": "2026-08-26T19:00:00+5:30",
+      "description": "Heavy rain: > 15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "THIRUVANANTHAPURAM",
+      "guid": "8ccb0595416511c813658f726ccc1f92",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-08-26T17:05:45+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Wed, 26 Aug 2026 17:05:45",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-08-26T17:00:00+5:30",
+      "expires": "2026-08-26T19:00:00+5:30",
+      "description": "Heavy rain: > 15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "PASCHIM SINGHBHUMI",
       "guid": "ba68df25749a848d8c8d913022bbbc38",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -3873,32 +3899,6 @@
     {
       "title": "GIRIDIH",
       "guid": "6acc8d1c819dcdd1f4b4d1ff00ebc9e0",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-26T15:17:43+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Wed, 26 Aug 2026 15:17:43",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-26T15:10:00+5:30",
-      "expires": "2026-08-26T18:10:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "GUMLA",
-      "guid": "49708de5629b9643393d0ed85654d5b0",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-08-26T15:17:43+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Wed, 26 Aug 2026 15:17:43",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-08-26T15:10:00+5:30",
-      "expires": "2026-08-26T18:10:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "KHUNTI",
-      "guid": "a119dddeb2462f4ce3934f29aba94da1",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-08-26T15:17:43+5:30",
       "sender": "nowcastnwfc@gmail.com",
