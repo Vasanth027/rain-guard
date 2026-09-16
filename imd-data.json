@@ -1,10 +1,23 @@
 {
-  "updated_at": "2026-09-15T22:48:55.549755+00:00",
+  "updated_at": "2026-09-16T01:14:35.157378+00:00",
   "source": "official IMD/RMC",
   "current": {
     "error": "HTTP Error 401: Unauthorized"
   },
   "nowcast": [
+    {
+      "title": "LAKHIMPUR KHERI",
+      "guid": "da2d04e106761593aa70dd7c55cf2adb",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-09-16T06:02:25+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Wed, 16 Sep 2026 06:02:25",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-09-16T05:55:00+5:30",
+      "expires": "2026-09-16T08:55:00+5:30",
+      "description": ",\n,\nThunder with Lightning and Moderate to Intense spells of Rain",
+      "category": "NOWCAST"
+    },
     {
       "title": "WEST CHAMPARAN",
       "guid": "81c183262dedf746829c240fba88ba73",
@@ -1282,19 +1295,6 @@
     {
       "title": "AURAIYA",
       "guid": "c8dfde2872f81335b8835aff12fd402a",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-09-15T16:27:13+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Tue, 15 Sep 2026 16:27:13",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-09-15T16:20:00+5:30",
-      "expires": "2026-09-15T19:20:00+5:30",
-      "description": ",\n,\nThunder with Lightning and Moderate to Intense spells of Rain",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "ETAH",
-      "guid": "b8fe36435fa5b55488d2418f2af4d122",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-09-15T16:27:13+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -1308,6 +1308,19 @@
   ],
   "warning": [
     {
+      "title": "LAKHIMPUR KHERI",
+      "guid": "da2d04e106761593aa70dd7c55cf2adb",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-09-16T06:02:25+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Wed, 16 Sep 2026 06:02:25",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-09-16T05:55:00+5:30",
+      "expires": "2026-09-16T08:55:00+5:30",
+      "description": ",\n,\nThunder with Lightning and Moderate to Intense spells of Rain",
+      "category": "NOWCAST"
+    },
+    {
       "title": "WEST CHAMPARAN",
       "guid": "81c183262dedf746829c240fba88ba73",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -2584,19 +2597,6 @@
     {
       "title": "AURAIYA",
       "guid": "c8dfde2872f81335b8835aff12fd402a",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-09-15T16:27:13+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Tue, 15 Sep 2026 16:27:13",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-09-15T16:20:00+5:30",
-      "expires": "2026-09-15T19:20:00+5:30",
-      "description": ",\n,\nThunder with Lightning and Moderate to Intense spells of Rain",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "ETAH",
-      "guid": "b8fe36435fa5b55488d2418f2af4d122",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-09-15T16:27:13+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -2610,6 +2610,19 @@
   ],
   "rss": [
     {
+      "title": "LAKHIMPUR KHERI",
+      "guid": "da2d04e106761593aa70dd7c55cf2adb",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-09-16T06:02:25+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Wed, 16 Sep 2026 06:02:25",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-09-16T05:55:00+5:30",
+      "expires": "2026-09-16T08:55:00+5:30",
+      "description": ",\n,\nThunder with Lightning and Moderate to Intense spells of Rain",
+      "category": "NOWCAST"
+    },
+    {
       "title": "WEST CHAMPARAN",
       "guid": "81c183262dedf746829c240fba88ba73",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -3886,19 +3899,6 @@
     {
       "title": "AURAIYA",
       "guid": "c8dfde2872f81335b8835aff12fd402a",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-09-15T16:27:13+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Tue, 15 Sep 2026 16:27:13",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-09-15T16:20:00+5:30",
-      "expires": "2026-09-15T19:20:00+5:30",
-      "description": ",\n,\nThunder with Lightning and Moderate to Intense spells of Rain",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "ETAH",
-      "guid": "b8fe36435fa5b55488d2418f2af4d122",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-09-15T16:27:13+5:30",
       "sender": "nowcastnwfc@gmail.com",
