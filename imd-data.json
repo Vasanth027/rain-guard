@@ -1,10 +1,36 @@
 {
-  "updated_at": "2026-09-18T20:45:04.085410+00:00",
+  "updated_at": "2026-09-18T22:52:00.215717+00:00",
   "source": "official IMD/RMC",
   "current": {
     "error": "HTTP Error 401: Unauthorized"
   },
   "nowcast": [
+    {
+      "title": "DARBHANGA",
+      "guid": "b6b201362b280ece488ddfaf3329ac04",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-09-19T04:10:40+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 19 Sep 2026 04:10:40",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-09-19T04:00:00+5:30",
+      "expires": "2026-09-19T07:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "MADHUBANI",
+      "guid": "b5dc61e660bcd97a33dc43651853c3d6",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-09-19T04:10:40+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 19 Sep 2026 04:10:40",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-09-19T04:00:00+5:30",
+      "expires": "2026-09-19T07:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
+      "category": "NOWCAST"
+    },
     {
       "title": "BALOD",
       "guid": "9834f76731937f8522200428bb9980ce",
@@ -1269,32 +1295,6 @@
     {
       "title": "ANUPPUR",
       "guid": "c400a4a05a963f4511ba44e592ed7ef5",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-09-18T18:41:56+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 18 Sep 2026 18:41:56",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-09-18T19:00:00+5:30",
-      "expires": "2026-09-18T22:00:00+5:30",
-      "description": "Moderate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "BALAGHAT",
-      "guid": "6b1e721ea928177e795964363fb739a3",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-09-18T18:41:56+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 18 Sep 2026 18:41:56",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-09-18T19:00:00+5:30",
-      "expires": "2026-09-18T22:00:00+5:30",
-      "description": "Moderate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "BETUL",
-      "guid": "8361028fcdc492c06e20197577636a46",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-09-18T18:41:56+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -1308,6 +1308,32 @@
   ],
   "warning": [
     {
+      "title": "DARBHANGA",
+      "guid": "b6b201362b280ece488ddfaf3329ac04",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-09-19T04:10:40+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 19 Sep 2026 04:10:40",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-09-19T04:00:00+5:30",
+      "expires": "2026-09-19T07:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "MADHUBANI",
+      "guid": "b5dc61e660bcd97a33dc43651853c3d6",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-09-19T04:10:40+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 19 Sep 2026 04:10:40",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-09-19T04:00:00+5:30",
+      "expires": "2026-09-19T07:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "BALOD",
       "guid": "9834f76731937f8522200428bb9980ce",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -2571,32 +2597,6 @@
     {
       "title": "ANUPPUR",
       "guid": "c400a4a05a963f4511ba44e592ed7ef5",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-09-18T18:41:56+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 18 Sep 2026 18:41:56",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-09-18T19:00:00+5:30",
-      "expires": "2026-09-18T22:00:00+5:30",
-      "description": "Moderate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "BALAGHAT",
-      "guid": "6b1e721ea928177e795964363fb739a3",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-09-18T18:41:56+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 18 Sep 2026 18:41:56",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-09-18T19:00:00+5:30",
-      "expires": "2026-09-18T22:00:00+5:30",
-      "description": "Moderate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "BETUL",
-      "guid": "8361028fcdc492c06e20197577636a46",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-09-18T18:41:56+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -2610,6 +2610,32 @@
   ],
   "rss": [
     {
+      "title": "DARBHANGA",
+      "guid": "b6b201362b280ece488ddfaf3329ac04",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-09-19T04:10:40+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 19 Sep 2026 04:10:40",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-09-19T04:00:00+5:30",
+      "expires": "2026-09-19T07:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "MADHUBANI",
+      "guid": "b5dc61e660bcd97a33dc43651853c3d6",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-09-19T04:10:40+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 19 Sep 2026 04:10:40",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-09-19T04:00:00+5:30",
+      "expires": "2026-09-19T07:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "BALOD",
       "guid": "9834f76731937f8522200428bb9980ce",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -3873,32 +3899,6 @@
     {
       "title": "ANUPPUR",
       "guid": "c400a4a05a963f4511ba44e592ed7ef5",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-09-18T18:41:56+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 18 Sep 2026 18:41:56",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-09-18T19:00:00+5:30",
-      "expires": "2026-09-18T22:00:00+5:30",
-      "description": "Moderate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "BALAGHAT",
-      "guid": "6b1e721ea928177e795964363fb739a3",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-09-18T18:41:56+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 18 Sep 2026 18:41:56",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-09-18T19:00:00+5:30",
-      "expires": "2026-09-18T22:00:00+5:30",
-      "description": "Moderate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "BETUL",
-      "guid": "8361028fcdc492c06e20197577636a46",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-09-18T18:41:56+5:30",
       "sender": "nowcastnwfc@gmail.com",
