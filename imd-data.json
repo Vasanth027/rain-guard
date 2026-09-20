@@ -1,11 +1,37 @@
 {
-  "updated_at": "2026-09-20T17:02:40.435699+00:00",
+  "updated_at": "2026-09-20T19:29:03.705581+00:00",
   "source": "official IMD/RMC",
   "current": {
     "error": "HTTP Error 401: Unauthorized"
   },
   "nowcast": [
     {
+      "title": "PALAKKAD",
+      "guid": "b3858de22613128a59e357a137ef3b50",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-09-20T23:35:58+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 20 Sep 2026 23:35:58",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-09-20T23:00:00+5:30",
+      "expires": "2026-09-20T02:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "MALAPPURAM",
+      "guid": "f94a621f5568a6cc8281b6fdd1df20b1",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-09-20T23:35:57+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 20 Sep 2026 23:35:57",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-09-20T23:00:00+5:30",
+      "expires": "2026-09-20T02:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "KALLAKKURICHI",
       "guid": "6078143fafac72a7c3efcdb26b9312bc",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -1277,37 +1303,37 @@
       "onset": "2026-09-20T17:20:00+5:30",
       "expires": "2026-09-20T19:00:00+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "KOTTAYAM",
-      "guid": "ddf4224efb19da9b5a8d12966cdd1d76",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-09-20T17:25:36+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sun, 20 Sep 2026 17:25:36",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-09-20T17:20:00+5:30",
-      "expires": "2026-09-20T19:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "CHANGLANG",
-      "guid": "d30b96936c745a5ea9dd1e668b39e99b",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-09-20T16:54:41+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sun, 20 Sep 2026 16:54:41",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-09-20T16:00:00+5:30",
-      "expires": "2026-09-20T19:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     }
   ],
   "warning": [
     {
+      "title": "PALAKKAD",
+      "guid": "b3858de22613128a59e357a137ef3b50",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-09-20T23:35:58+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 20 Sep 2026 23:35:58",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-09-20T23:00:00+5:30",
+      "expires": "2026-09-20T02:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "MALAPPURAM",
+      "guid": "f94a621f5568a6cc8281b6fdd1df20b1",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-09-20T23:35:57+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 20 Sep 2026 23:35:57",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-09-20T23:00:00+5:30",
+      "expires": "2026-09-20T02:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "KALLAKKURICHI",
       "guid": "6078143fafac72a7c3efcdb26b9312bc",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -2579,37 +2605,37 @@
       "onset": "2026-09-20T17:20:00+5:30",
       "expires": "2026-09-20T19:00:00+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "KOTTAYAM",
-      "guid": "ddf4224efb19da9b5a8d12966cdd1d76",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-09-20T17:25:36+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sun, 20 Sep 2026 17:25:36",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-09-20T17:20:00+5:30",
-      "expires": "2026-09-20T19:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "CHANGLANG",
-      "guid": "d30b96936c745a5ea9dd1e668b39e99b",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-09-20T16:54:41+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sun, 20 Sep 2026 16:54:41",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-09-20T16:00:00+5:30",
-      "expires": "2026-09-20T19:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     }
   ],
   "rss": [
     {
+      "title": "PALAKKAD",
+      "guid": "b3858de22613128a59e357a137ef3b50",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-09-20T23:35:58+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 20 Sep 2026 23:35:58",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-09-20T23:00:00+5:30",
+      "expires": "2026-09-20T02:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "MALAPPURAM",
+      "guid": "f94a621f5568a6cc8281b6fdd1df20b1",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-09-20T23:35:57+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 20 Sep 2026 23:35:57",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-09-20T23:00:00+5:30",
+      "expires": "2026-09-20T02:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "KALLAKKURICHI",
       "guid": "6078143fafac72a7c3efcdb26b9312bc",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -3881,32 +3907,6 @@
       "onset": "2026-09-20T17:20:00+5:30",
       "expires": "2026-09-20T19:00:00+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "KOTTAYAM",
-      "guid": "ddf4224efb19da9b5a8d12966cdd1d76",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-09-20T17:25:36+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sun, 20 Sep 2026 17:25:36",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-09-20T17:20:00+5:30",
-      "expires": "2026-09-20T19:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "CHANGLANG",
-      "guid": "d30b96936c745a5ea9dd1e668b39e99b",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-09-20T16:54:41+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sun, 20 Sep 2026 16:54:41",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-09-20T16:00:00+5:30",
-      "expires": "2026-09-20T19:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     }
   ],
