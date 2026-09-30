@@ -1,11 +1,37 @@
 {
-  "updated_at": "2026-09-30T02:27:55.593201+00:00",
+  "updated_at": "2026-09-30T08:57:23.615318+00:00",
   "source": "official IMD/RMC",
   "current": {
     "error": "HTTP Error 401: Unauthorized"
   },
   "nowcast": [
     {
+      "title": "ANANTAPURAMU",
+      "guid": "9df4d981be2773b3f56d0cc060d65e29",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-09-30T13:37:09+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Wed, 30 Sep 2026 13:37:09",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-09-30T13:30:00+5:30",
+      "expires": "2026-09-30T16:30:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "KURNOOL",
+      "guid": "f2be7e9612c59bdc6b2d358bf8824c9d",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-09-30T13:37:09+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Wed, 30 Sep 2026 13:37:09",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-09-30T13:30:00+5:30",
+      "expires": "2026-09-30T16:30:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "EAST JAINTIA HILLS",
       "guid": "1b7e6b3c5198ec70bd9be631a44a225e",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -1028,7 +1054,7 @@
       "pubdate": "Mon, 28 Sep 2026 14:05:46",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-09-28T14:00:00+5:30",
-      "expires": "2026-09-28T02:28:01+5:30",
+      "expires": "2026-09-28T08:57:29+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
       "category": "NOWCAST"
     },
@@ -1041,7 +1067,7 @@
       "pubdate": "Mon, 28 Sep 2026 14:05:46",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-09-28T14:00:00+5:30",
-      "expires": "2026-09-28T02:28:01+5:30",
+      "expires": "2026-09-28T08:57:29+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
       "category": "NOWCAST"
     },
@@ -1276,38 +1302,38 @@
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-09-27T19:10:00+5:30",
       "expires": "2026-09-27T22:40:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "SAWAI MADHOPUR",
-      "guid": "78df909aba046d83ee87460b69be184b",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-09-27T19:13:18+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sun, 27 Sep 2026 19:13:18",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-09-27T19:10:00+5:30",
-      "expires": "2026-09-27T22:40:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "DAUSA",
-      "guid": "9aba984a10677873e3f3e5418913860a",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-09-27T18:30:52+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sun, 27 Sep 2026 18:30:52",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-09-27T18:30:00+5:30",
-      "expires": "2026-09-27T22:00:00+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
       "category": "NOWCAST"
     }
   ],
   "warning": [
     {
+      "title": "ANANTAPURAMU",
+      "guid": "9df4d981be2773b3f56d0cc060d65e29",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-09-30T13:37:09+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Wed, 30 Sep 2026 13:37:09",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-09-30T13:30:00+5:30",
+      "expires": "2026-09-30T16:30:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "KURNOOL",
+      "guid": "f2be7e9612c59bdc6b2d358bf8824c9d",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-09-30T13:37:09+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Wed, 30 Sep 2026 13:37:09",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-09-30T13:30:00+5:30",
+      "expires": "2026-09-30T16:30:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "EAST JAINTIA HILLS",
       "guid": "1b7e6b3c5198ec70bd9be631a44a225e",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -2330,7 +2356,7 @@
       "pubdate": "Mon, 28 Sep 2026 14:05:46",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-09-28T14:00:00+5:30",
-      "expires": "2026-09-28T02:28:01+5:30",
+      "expires": "2026-09-28T08:57:29+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
       "category": "NOWCAST"
     },
@@ -2343,7 +2369,7 @@
       "pubdate": "Mon, 28 Sep 2026 14:05:46",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-09-28T14:00:00+5:30",
-      "expires": "2026-09-28T02:28:01+5:30",
+      "expires": "2026-09-28T08:57:29+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
       "category": "NOWCAST"
     },
@@ -2578,38 +2604,38 @@
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-09-27T19:10:00+5:30",
       "expires": "2026-09-27T22:40:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "SAWAI MADHOPUR",
-      "guid": "78df909aba046d83ee87460b69be184b",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-09-27T19:13:18+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sun, 27 Sep 2026 19:13:18",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-09-27T19:10:00+5:30",
-      "expires": "2026-09-27T22:40:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "DAUSA",
-      "guid": "9aba984a10677873e3f3e5418913860a",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-09-27T18:30:52+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sun, 27 Sep 2026 18:30:52",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-09-27T18:30:00+5:30",
-      "expires": "2026-09-27T22:00:00+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
       "category": "NOWCAST"
     }
   ],
   "rss": [
     {
+      "title": "ANANTAPURAMU",
+      "guid": "9df4d981be2773b3f56d0cc060d65e29",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-09-30T13:37:09+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Wed, 30 Sep 2026 13:37:09",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-09-30T13:30:00+5:30",
+      "expires": "2026-09-30T16:30:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "KURNOOL",
+      "guid": "f2be7e9612c59bdc6b2d358bf8824c9d",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-09-30T13:37:09+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Wed, 30 Sep 2026 13:37:09",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-09-30T13:30:00+5:30",
+      "expires": "2026-09-30T16:30:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "EAST JAINTIA HILLS",
       "guid": "1b7e6b3c5198ec70bd9be631a44a225e",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -3632,7 +3658,7 @@
       "pubdate": "Mon, 28 Sep 2026 14:05:46",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-09-28T14:00:00+5:30",
-      "expires": "2026-09-28T02:28:01+5:30",
+      "expires": "2026-09-28T08:57:29+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
       "category": "NOWCAST"
     },
@@ -3645,7 +3671,7 @@
       "pubdate": "Mon, 28 Sep 2026 14:05:46",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-09-28T14:00:00+5:30",
-      "expires": "2026-09-28T02:28:01+5:30",
+      "expires": "2026-09-28T08:57:29+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
       "category": "NOWCAST"
     },
@@ -3880,32 +3906,6 @@
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-09-27T19:10:00+5:30",
       "expires": "2026-09-27T22:40:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "SAWAI MADHOPUR",
-      "guid": "78df909aba046d83ee87460b69be184b",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-09-27T19:13:18+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sun, 27 Sep 2026 19:13:18",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-09-27T19:10:00+5:30",
-      "expires": "2026-09-27T22:40:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "DAUSA",
-      "guid": "9aba984a10677873e3f3e5418913860a",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-09-27T18:30:52+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sun, 27 Sep 2026 18:30:52",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-09-27T18:30:00+5:30",
-      "expires": "2026-09-27T22:00:00+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
       "category": "NOWCAST"
     }
