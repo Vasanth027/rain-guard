@@ -1,10 +1,23 @@
 {
-  "updated_at": "2026-10-03T04:56:01.329148+00:00",
+  "updated_at": "2026-10-03T10:19:28.655568+00:00",
   "source": "official IMD/RMC",
   "current": {
     "error": "HTTP Error 401: Unauthorized"
   },
   "nowcast": [
+    {
+      "title": "SPSR NELLORE",
+      "guid": "b931002b1d60c913bf504d727691469f",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-03T14:48:32+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 03 Oct 2026 14:48:32",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-03T14:50:00+5:30",
+      "expires": "2026-10-03T17:50:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
     {
       "title": "LAKSHADWEEP",
       "guid": "306d9e46528555316b00cd6d11225d1d",
@@ -1282,19 +1295,6 @@
     {
       "title": "MUMBAI CITY",
       "guid": "28ab63718f062ebdc6ddaf0672ab5d74",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-09-29T19:12:37+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Tue, 29 Sep 2026 19:12:37",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-09-29T19:02:00+5:30",
-      "expires": "2026-09-29T22:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "MUMBAI SUBURBAN",
-      "guid": "043c939b24bdc584afd3aa3a98985137",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-09-29T19:12:37+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -1308,6 +1308,19 @@
   ],
   "warning": [
     {
+      "title": "SPSR NELLORE",
+      "guid": "b931002b1d60c913bf504d727691469f",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-03T14:48:32+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 03 Oct 2026 14:48:32",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-03T14:50:00+5:30",
+      "expires": "2026-10-03T17:50:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "LAKSHADWEEP",
       "guid": "306d9e46528555316b00cd6d11225d1d",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -2584,19 +2597,6 @@
     {
       "title": "MUMBAI CITY",
       "guid": "28ab63718f062ebdc6ddaf0672ab5d74",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-09-29T19:12:37+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Tue, 29 Sep 2026 19:12:37",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-09-29T19:02:00+5:30",
-      "expires": "2026-09-29T22:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "MUMBAI SUBURBAN",
-      "guid": "043c939b24bdc584afd3aa3a98985137",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-09-29T19:12:37+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -2610,6 +2610,19 @@
   ],
   "rss": [
     {
+      "title": "SPSR NELLORE",
+      "guid": "b931002b1d60c913bf504d727691469f",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-03T14:48:32+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 03 Oct 2026 14:48:32",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-03T14:50:00+5:30",
+      "expires": "2026-10-03T17:50:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "LAKSHADWEEP",
       "guid": "306d9e46528555316b00cd6d11225d1d",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -3886,19 +3899,6 @@
     {
       "title": "MUMBAI CITY",
       "guid": "28ab63718f062ebdc6ddaf0672ab5d74",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-09-29T19:12:37+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Tue, 29 Sep 2026 19:12:37",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-09-29T19:02:00+5:30",
-      "expires": "2026-09-29T22:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "MUMBAI SUBURBAN",
-      "guid": "043c939b24bdc584afd3aa3a98985137",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-09-29T19:12:37+5:30",
       "sender": "nowcastnwfc@gmail.com",
