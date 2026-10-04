@@ -1,11 +1,50 @@
 {
-  "updated_at": "2026-10-04T17:03:33.103589+00:00",
+  "updated_at": "2026-10-04T20:12:06.029153+00:00",
   "source": "official IMD/RMC",
   "current": {
     "error": "HTTP Error 401: Unauthorized"
   },
   "nowcast": [
     {
+      "title": "KOZHIKODE",
+      "guid": "e3e0d0c75bef823f389b4b9ff9635f20",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-05T01:01:28+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Mon, 05 Oct 2026 01:01:28",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-05T01:00:00+5:30",
+      "expires": "2026-10-05T04:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "MALAPPURAM",
+      "guid": "e697ab057b2eba1aaaa4ce3f20cea762",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-05T01:01:28+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Mon, 05 Oct 2026 01:01:28",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-05T01:00:00+5:30",
+      "expires": "2026-10-05T04:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "THRISSUR",
+      "guid": "07ddb9d4fddbf0c5a32e6978b277dcb2",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-05T01:01:28+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Mon, 05 Oct 2026 01:01:28",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-05T01:00:00+5:30",
+      "expires": "2026-10-05T04:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "ALAPPUZHA",
       "guid": "e419e52428df59725e993bf8ed5ec3a3",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -1264,50 +1303,50 @@
       "onset": "2026-10-01T13:20:00+5:30",
       "expires": "2026-10-01T16:00:00+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "COIMBATORE",
-      "guid": "44546f622cec9c3e5226c0355a085984",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-01T00:56:39+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Thu, 01 Oct 2026 00:56:39",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-01T01:00:00+5:30",
-      "expires": "2026-10-01T04:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "CUDDALORE",
-      "guid": "0df8a9b2125b4fd997f5eaf4fa9a8fae",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-01T00:56:39+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Thu, 01 Oct 2026 00:56:39",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-01T01:00:00+5:30",
-      "expires": "2026-10-01T04:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "ERODE",
-      "guid": "0ba502b127cd0d969a2df4c062da6240",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-01T00:56:39+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Thu, 01 Oct 2026 00:56:39",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-01T01:00:00+5:30",
-      "expires": "2026-10-01T04:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     }
   ],
   "warning": [
     {
+      "title": "KOZHIKODE",
+      "guid": "e3e0d0c75bef823f389b4b9ff9635f20",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-05T01:01:28+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Mon, 05 Oct 2026 01:01:28",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-05T01:00:00+5:30",
+      "expires": "2026-10-05T04:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "MALAPPURAM",
+      "guid": "e697ab057b2eba1aaaa4ce3f20cea762",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-05T01:01:28+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Mon, 05 Oct 2026 01:01:28",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-05T01:00:00+5:30",
+      "expires": "2026-10-05T04:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "THRISSUR",
+      "guid": "07ddb9d4fddbf0c5a32e6978b277dcb2",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-05T01:01:28+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Mon, 05 Oct 2026 01:01:28",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-05T01:00:00+5:30",
+      "expires": "2026-10-05T04:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "ALAPPUZHA",
       "guid": "e419e52428df59725e993bf8ed5ec3a3",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -2566,50 +2605,50 @@
       "onset": "2026-10-01T13:20:00+5:30",
       "expires": "2026-10-01T16:00:00+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "COIMBATORE",
-      "guid": "44546f622cec9c3e5226c0355a085984",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-01T00:56:39+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Thu, 01 Oct 2026 00:56:39",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-01T01:00:00+5:30",
-      "expires": "2026-10-01T04:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "CUDDALORE",
-      "guid": "0df8a9b2125b4fd997f5eaf4fa9a8fae",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-01T00:56:39+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Thu, 01 Oct 2026 00:56:39",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-01T01:00:00+5:30",
-      "expires": "2026-10-01T04:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "ERODE",
-      "guid": "0ba502b127cd0d969a2df4c062da6240",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-01T00:56:39+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Thu, 01 Oct 2026 00:56:39",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-01T01:00:00+5:30",
-      "expires": "2026-10-01T04:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     }
   ],
   "rss": [
     {
+      "title": "KOZHIKODE",
+      "guid": "e3e0d0c75bef823f389b4b9ff9635f20",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-05T01:01:28+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Mon, 05 Oct 2026 01:01:28",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-05T01:00:00+5:30",
+      "expires": "2026-10-05T04:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "MALAPPURAM",
+      "guid": "e697ab057b2eba1aaaa4ce3f20cea762",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-05T01:01:28+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Mon, 05 Oct 2026 01:01:28",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-05T01:00:00+5:30",
+      "expires": "2026-10-05T04:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "THRISSUR",
+      "guid": "07ddb9d4fddbf0c5a32e6978b277dcb2",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-05T01:01:28+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Mon, 05 Oct 2026 01:01:28",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-05T01:00:00+5:30",
+      "expires": "2026-10-05T04:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "ALAPPUZHA",
       "guid": "e419e52428df59725e993bf8ed5ec3a3",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -3868,45 +3907,6 @@
       "onset": "2026-10-01T13:20:00+5:30",
       "expires": "2026-10-01T16:00:00+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "COIMBATORE",
-      "guid": "44546f622cec9c3e5226c0355a085984",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-01T00:56:39+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Thu, 01 Oct 2026 00:56:39",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-01T01:00:00+5:30",
-      "expires": "2026-10-01T04:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "CUDDALORE",
-      "guid": "0df8a9b2125b4fd997f5eaf4fa9a8fae",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-01T00:56:39+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Thu, 01 Oct 2026 00:56:39",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-01T01:00:00+5:30",
-      "expires": "2026-10-01T04:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "ERODE",
-      "guid": "0ba502b127cd0d969a2df4c062da6240",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-01T00:56:39+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Thu, 01 Oct 2026 00:56:39",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-01T01:00:00+5:30",
-      "expires": "2026-10-01T04:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     }
   ],
