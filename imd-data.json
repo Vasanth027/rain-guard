@@ -1,10 +1,36 @@
 {
-  "updated_at": "2026-10-07T21:53:16.785490+00:00",
+  "updated_at": "2026-10-08T01:43:00.528993+00:00",
   "source": "official IMD/RMC",
   "current": {
     "error": "HTTP Error 401: Unauthorized"
   },
   "nowcast": [
+    {
+      "title": "DARBHANGA",
+      "guid": "02f6d4e5e52e6858b75c868ec680c013",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-08T04:21:01+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Thu, 08 Oct 2026 04:21:01",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-08T04:00:00+5:30",
+      "expires": "2026-10-08T07:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "PATNA",
+      "guid": "a55911fe6493ef5071164231029e11c2",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-08T04:21:01+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Thu, 08 Oct 2026 04:21:01",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-08T04:00:00+5:30",
+      "expires": "2026-10-08T07:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
+      "category": "NOWCAST"
+    },
     {
       "title": "NAINITAL",
       "guid": "bd6aa2599de4d8eaf00fa103d2812059",
@@ -1269,32 +1295,6 @@
     {
       "title": "BARABANKI",
       "guid": "49bfbc32ac9f2f6635d5992b427329af",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-07T15:15:05+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Wed, 07 Oct 2026 15:15:05",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-07T15:10:00+5:30",
-      "expires": "2026-10-07T18:10:00+5:30",
-      "description": ",\n,\nThunderstorm(wind speed 40-50 kmph gusting to 60 kmph or more)\\Lightning with intense spell of rain(Hail is likely at isolated places)",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "BASTI",
-      "guid": "3702d5bb1dba2cec56c687951d134db3",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-07T15:15:05+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Wed, 07 Oct 2026 15:15:05",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-07T15:10:00+5:30",
-      "expires": "2026-10-07T18:10:00+5:30",
-      "description": ",\n,\nThunderstorm(wind speed 40-50 kmph gusting to 60 kmph or more)\\Lightning with intense spell of rain(Hail is likely at isolated places)",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "GONDA",
-      "guid": "0f4cc19023cd260080c36eabc35b9a53",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-10-07T15:15:05+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -1308,6 +1308,32 @@
   ],
   "warning": [
     {
+      "title": "DARBHANGA",
+      "guid": "02f6d4e5e52e6858b75c868ec680c013",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-08T04:21:01+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Thu, 08 Oct 2026 04:21:01",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-08T04:00:00+5:30",
+      "expires": "2026-10-08T07:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "PATNA",
+      "guid": "a55911fe6493ef5071164231029e11c2",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-08T04:21:01+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Thu, 08 Oct 2026 04:21:01",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-08T04:00:00+5:30",
+      "expires": "2026-10-08T07:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "NAINITAL",
       "guid": "bd6aa2599de4d8eaf00fa103d2812059",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -2571,32 +2597,6 @@
     {
       "title": "BARABANKI",
       "guid": "49bfbc32ac9f2f6635d5992b427329af",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-07T15:15:05+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Wed, 07 Oct 2026 15:15:05",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-07T15:10:00+5:30",
-      "expires": "2026-10-07T18:10:00+5:30",
-      "description": ",\n,\nThunderstorm(wind speed 40-50 kmph gusting to 60 kmph or more)\\Lightning with intense spell of rain(Hail is likely at isolated places)",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "BASTI",
-      "guid": "3702d5bb1dba2cec56c687951d134db3",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-07T15:15:05+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Wed, 07 Oct 2026 15:15:05",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-07T15:10:00+5:30",
-      "expires": "2026-10-07T18:10:00+5:30",
-      "description": ",\n,\nThunderstorm(wind speed 40-50 kmph gusting to 60 kmph or more)\\Lightning with intense spell of rain(Hail is likely at isolated places)",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "GONDA",
-      "guid": "0f4cc19023cd260080c36eabc35b9a53",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-10-07T15:15:05+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -2610,6 +2610,32 @@
   ],
   "rss": [
     {
+      "title": "DARBHANGA",
+      "guid": "02f6d4e5e52e6858b75c868ec680c013",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-08T04:21:01+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Thu, 08 Oct 2026 04:21:01",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-08T04:00:00+5:30",
+      "expires": "2026-10-08T07:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "PATNA",
+      "guid": "a55911fe6493ef5071164231029e11c2",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-08T04:21:01+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Thu, 08 Oct 2026 04:21:01",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-08T04:00:00+5:30",
+      "expires": "2026-10-08T07:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "NAINITAL",
       "guid": "bd6aa2599de4d8eaf00fa103d2812059",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -3873,32 +3899,6 @@
     {
       "title": "BARABANKI",
       "guid": "49bfbc32ac9f2f6635d5992b427329af",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-07T15:15:05+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Wed, 07 Oct 2026 15:15:05",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-07T15:10:00+5:30",
-      "expires": "2026-10-07T18:10:00+5:30",
-      "description": ",\n,\nThunderstorm(wind speed 40-50 kmph gusting to 60 kmph or more)\\Lightning with intense spell of rain(Hail is likely at isolated places)",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "BASTI",
-      "guid": "3702d5bb1dba2cec56c687951d134db3",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-07T15:15:05+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Wed, 07 Oct 2026 15:15:05",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-07T15:10:00+5:30",
-      "expires": "2026-10-07T18:10:00+5:30",
-      "description": ",\n,\nThunderstorm(wind speed 40-50 kmph gusting to 60 kmph or more)\\Lightning with intense spell of rain(Hail is likely at isolated places)",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "GONDA",
-      "guid": "0f4cc19023cd260080c36eabc35b9a53",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-10-07T15:15:05+5:30",
       "sender": "nowcastnwfc@gmail.com",
