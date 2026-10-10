@@ -1,10 +1,36 @@
 {
-  "updated_at": "2026-10-10T20:15:54.550352+00:00",
+  "updated_at": "2026-10-10T23:45:49.913171+00:00",
   "source": "official IMD/RMC",
   "current": {
     "error": "HTTP Error 401: Unauthorized"
   },
   "nowcast": [
+    {
+      "title": "SHI YOMI",
+      "guid": "6db90d6833619da3da3447eabc2df547",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-11T04:22:29+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 11 Oct 2026 04:22:29",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-11T04:00:00+5:30",
+      "expires": "2026-10-11T07:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "UPPER SUBANSIRI",
+      "guid": "09d6c44579d71eb5e2cfd10072b3844e",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-11T04:22:29+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 11 Oct 2026 04:22:29",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-11T04:00:00+5:30",
+      "expires": "2026-10-11T07:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
     {
       "title": "ERNAKULAM",
       "guid": "58ea42bed75c1e179bdd192ccb5dae6e",
@@ -1269,32 +1295,6 @@
     {
       "title": "KANNAUJ",
       "guid": "e778dd93b52dde16380d8959d03834ab",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-09T15:19:16+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 09 Oct 2026 15:19:16",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-09T15:00:00+5:30",
-      "expires": "2026-10-09T18:00:00+5:30",
-      "description": ",\n,\nThunderstorm (wind speed 30-40 kmph gusting to 50 kmph or more)\\Lightning with Moderate to Intense spell of Rain (Hail is likely at isolated places)",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "MAINPURI",
-      "guid": "77f56fa4db6e483374a5403cc2b8d9c5",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-09T15:19:16+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 09 Oct 2026 15:19:16",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-09T15:00:00+5:30",
-      "expires": "2026-10-09T18:00:00+5:30",
-      "description": ",\n,\nThunderstorm (wind speed 30-40 kmph gusting to 50 kmph or more)\\Lightning with Moderate to Intense spell of Rain (Hail is likely at isolated places)",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "MEERUT",
-      "guid": "7e78ab61caced0f7cea6a70348bf0185",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-10-09T15:19:16+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -1308,6 +1308,32 @@
   ],
   "warning": [
     {
+      "title": "SHI YOMI",
+      "guid": "6db90d6833619da3da3447eabc2df547",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-11T04:22:29+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 11 Oct 2026 04:22:29",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-11T04:00:00+5:30",
+      "expires": "2026-10-11T07:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "UPPER SUBANSIRI",
+      "guid": "09d6c44579d71eb5e2cfd10072b3844e",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-11T04:22:29+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 11 Oct 2026 04:22:29",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-11T04:00:00+5:30",
+      "expires": "2026-10-11T07:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "ERNAKULAM",
       "guid": "58ea42bed75c1e179bdd192ccb5dae6e",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -2571,32 +2597,6 @@
     {
       "title": "KANNAUJ",
       "guid": "e778dd93b52dde16380d8959d03834ab",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-09T15:19:16+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 09 Oct 2026 15:19:16",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-09T15:00:00+5:30",
-      "expires": "2026-10-09T18:00:00+5:30",
-      "description": ",\n,\nThunderstorm (wind speed 30-40 kmph gusting to 50 kmph or more)\\Lightning with Moderate to Intense spell of Rain (Hail is likely at isolated places)",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "MAINPURI",
-      "guid": "77f56fa4db6e483374a5403cc2b8d9c5",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-09T15:19:16+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 09 Oct 2026 15:19:16",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-09T15:00:00+5:30",
-      "expires": "2026-10-09T18:00:00+5:30",
-      "description": ",\n,\nThunderstorm (wind speed 30-40 kmph gusting to 50 kmph or more)\\Lightning with Moderate to Intense spell of Rain (Hail is likely at isolated places)",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "MEERUT",
-      "guid": "7e78ab61caced0f7cea6a70348bf0185",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-10-09T15:19:16+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -2610,6 +2610,32 @@
   ],
   "rss": [
     {
+      "title": "SHI YOMI",
+      "guid": "6db90d6833619da3da3447eabc2df547",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-11T04:22:29+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 11 Oct 2026 04:22:29",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-11T04:00:00+5:30",
+      "expires": "2026-10-11T07:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "UPPER SUBANSIRI",
+      "guid": "09d6c44579d71eb5e2cfd10072b3844e",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-11T04:22:29+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 11 Oct 2026 04:22:29",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-11T04:00:00+5:30",
+      "expires": "2026-10-11T07:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "ERNAKULAM",
       "guid": "58ea42bed75c1e179bdd192ccb5dae6e",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -3873,32 +3899,6 @@
     {
       "title": "KANNAUJ",
       "guid": "e778dd93b52dde16380d8959d03834ab",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-09T15:19:16+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 09 Oct 2026 15:19:16",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-09T15:00:00+5:30",
-      "expires": "2026-10-09T18:00:00+5:30",
-      "description": ",\n,\nThunderstorm (wind speed 30-40 kmph gusting to 50 kmph or more)\\Lightning with Moderate to Intense spell of Rain (Hail is likely at isolated places)",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "MAINPURI",
-      "guid": "77f56fa4db6e483374a5403cc2b8d9c5",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-09T15:19:16+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 09 Oct 2026 15:19:16",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-09T15:00:00+5:30",
-      "expires": "2026-10-09T18:00:00+5:30",
-      "description": ",\n,\nThunderstorm (wind speed 30-40 kmph gusting to 50 kmph or more)\\Lightning with Moderate to Intense spell of Rain (Hail is likely at isolated places)",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "MEERUT",
-      "guid": "7e78ab61caced0f7cea6a70348bf0185",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-10-09T15:19:16+5:30",
       "sender": "nowcastnwfc@gmail.com",
