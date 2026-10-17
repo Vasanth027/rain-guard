@@ -1,10 +1,23 @@
 {
-  "updated_at": "2026-10-17T01:34:47.794947+00:00",
+  "updated_at": "2026-10-17T06:14:50.700427+00:00",
   "source": "official IMD/RMC",
   "current": {
     "error": "HTTP Error 401: Unauthorized"
   },
   "nowcast": [
+    {
+      "title": "LAKSHADWEEP",
+      "guid": "c445fe561528337b391177e18d8df899",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-17T07:08:22+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 17 Oct 2026 07:08:22",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-17T07:00:00+5:30",
+      "expires": "2026-10-17T10:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
     {
       "title": "CHENGALPATTU",
       "guid": "e9b498d31911bcafe3e945c0a7024968",
@@ -1282,19 +1295,6 @@
     {
       "title": "SRIKAKULAM",
       "guid": "1eefa86a99f14e34a029655dcdf14df8",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-15T19:01:27+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Thu, 15 Oct 2026 19:01:27",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-15T19:00:00+5:30",
-      "expires": "2026-10-15T22:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "VIZIANAGARAM",
-      "guid": "e24ce86b9d37a9ed825f8ae6a11ab4fe",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-10-15T19:01:27+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -1308,6 +1308,19 @@
   ],
   "warning": [
     {
+      "title": "LAKSHADWEEP",
+      "guid": "c445fe561528337b391177e18d8df899",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-17T07:08:22+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 17 Oct 2026 07:08:22",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-17T07:00:00+5:30",
+      "expires": "2026-10-17T10:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "CHENGALPATTU",
       "guid": "e9b498d31911bcafe3e945c0a7024968",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -2584,19 +2597,6 @@
     {
       "title": "SRIKAKULAM",
       "guid": "1eefa86a99f14e34a029655dcdf14df8",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-15T19:01:27+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Thu, 15 Oct 2026 19:01:27",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-15T19:00:00+5:30",
-      "expires": "2026-10-15T22:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "VIZIANAGARAM",
-      "guid": "e24ce86b9d37a9ed825f8ae6a11ab4fe",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-10-15T19:01:27+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -2610,6 +2610,19 @@
   ],
   "rss": [
     {
+      "title": "LAKSHADWEEP",
+      "guid": "c445fe561528337b391177e18d8df899",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-17T07:08:22+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 17 Oct 2026 07:08:22",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-17T07:00:00+5:30",
+      "expires": "2026-10-17T10:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "CHENGALPATTU",
       "guid": "e9b498d31911bcafe3e945c0a7024968",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -3886,19 +3899,6 @@
     {
       "title": "SRIKAKULAM",
       "guid": "1eefa86a99f14e34a029655dcdf14df8",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-15T19:01:27+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Thu, 15 Oct 2026 19:01:27",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-15T19:00:00+5:30",
-      "expires": "2026-10-15T22:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "VIZIANAGARAM",
-      "guid": "e24ce86b9d37a9ed825f8ae6a11ab4fe",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-10-15T19:01:27+5:30",
       "sender": "nowcastnwfc@gmail.com",
