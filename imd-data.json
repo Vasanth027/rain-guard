@@ -1,11 +1,37 @@
 {
-  "updated_at": "2026-10-18T11:45:15.589011+00:00",
+  "updated_at": "2026-10-18T15:43:02.076699+00:00",
   "source": "official IMD/RMC",
   "current": {
     "error": "HTTP Error 401: Unauthorized"
   },
   "nowcast": [
     {
+      "title": "AJMER",
+      "guid": "2d78159d0f7a2cb4728602d44313f043",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-18T17:41:16+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 18 Oct 2026 17:41:16",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-18T18:00:00+5:30",
+      "expires": "2026-10-18T21:30:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "JAIPUR",
+      "guid": "15968a5da4bf2f621a4172c4a498bdb8",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-18T17:41:16+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 18 Oct 2026 17:41:16",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-18T18:00:00+5:30",
+      "expires": "2026-10-18T21:30:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "ANANTAPURAMU",
       "guid": "2a78b20e6678c8b093d06122656fe399",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -1277,37 +1303,37 @@
       "onset": "2026-10-16T16:00:00+5:30",
       "expires": "2026-10-16T19:00:00+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "YSR KADAPA",
-      "guid": "5c5031f0943e9bce8c09cdfb83cbabc8",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-16T16:08:17+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 16 Oct 2026 16:08:17",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-16T16:00:00+5:30",
-      "expires": "2026-10-16T19:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "BALESHWAR",
-      "guid": "fc1dbe4e449e908e2e1a1533be1bc163",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-16T16:05:18+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 16 Oct 2026 16:05:18",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-16T16:00:00+5:30",
-      "expires": "2026-10-16T19:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
       "category": "NOWCAST"
     }
   ],
   "warning": [
     {
+      "title": "AJMER",
+      "guid": "2d78159d0f7a2cb4728602d44313f043",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-18T17:41:16+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 18 Oct 2026 17:41:16",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-18T18:00:00+5:30",
+      "expires": "2026-10-18T21:30:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "JAIPUR",
+      "guid": "15968a5da4bf2f621a4172c4a498bdb8",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-18T17:41:16+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 18 Oct 2026 17:41:16",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-18T18:00:00+5:30",
+      "expires": "2026-10-18T21:30:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "ANANTAPURAMU",
       "guid": "2a78b20e6678c8b093d06122656fe399",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -2579,37 +2605,37 @@
       "onset": "2026-10-16T16:00:00+5:30",
       "expires": "2026-10-16T19:00:00+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "YSR KADAPA",
-      "guid": "5c5031f0943e9bce8c09cdfb83cbabc8",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-16T16:08:17+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 16 Oct 2026 16:08:17",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-16T16:00:00+5:30",
-      "expires": "2026-10-16T19:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "BALESHWAR",
-      "guid": "fc1dbe4e449e908e2e1a1533be1bc163",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-16T16:05:18+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 16 Oct 2026 16:05:18",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-16T16:00:00+5:30",
-      "expires": "2026-10-16T19:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
       "category": "NOWCAST"
     }
   ],
   "rss": [
     {
+      "title": "AJMER",
+      "guid": "2d78159d0f7a2cb4728602d44313f043",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-18T17:41:16+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 18 Oct 2026 17:41:16",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-18T18:00:00+5:30",
+      "expires": "2026-10-18T21:30:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "JAIPUR",
+      "guid": "15968a5da4bf2f621a4172c4a498bdb8",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-18T17:41:16+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 18 Oct 2026 17:41:16",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-18T18:00:00+5:30",
+      "expires": "2026-10-18T21:30:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "ANANTAPURAMU",
       "guid": "2a78b20e6678c8b093d06122656fe399",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -3881,32 +3907,6 @@
       "onset": "2026-10-16T16:00:00+5:30",
       "expires": "2026-10-16T19:00:00+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "YSR KADAPA",
-      "guid": "5c5031f0943e9bce8c09cdfb83cbabc8",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-16T16:08:17+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 16 Oct 2026 16:08:17",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-16T16:00:00+5:30",
-      "expires": "2026-10-16T19:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "BALESHWAR",
-      "guid": "fc1dbe4e449e908e2e1a1533be1bc163",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-16T16:05:18+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 16 Oct 2026 16:05:18",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-16T16:00:00+5:30",
-      "expires": "2026-10-16T19:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
       "category": "NOWCAST"
     }
   ],
