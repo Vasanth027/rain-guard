@@ -1,10 +1,23 @@
 {
-  "updated_at": "2026-10-20T07:38:01.874132+00:00",
+  "updated_at": "2026-10-20T13:01:54.915063+00:00",
   "source": "official IMD/RMC",
   "current": {
     "error": "HTTP Error 401: Unauthorized"
   },
   "nowcast": [
+    {
+      "title": "TIRUPATHI",
+      "guid": "18b379b837bba5dc85a9a7a047734c67",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-20T15:47:48+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Tue, 20 Oct 2026 15:47:48",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-20T15:20:00+5:30",
+      "expires": "2026-10-20T18:20:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
     {
       "title": "KARUR",
       "guid": "8df41dd62dafe03e0533a6d8e69a6ff8",
@@ -1282,19 +1295,6 @@
     {
       "title": "SPSR NELLORE",
       "guid": "b4dfc5e961d7dd11ddfab247d221dbbf",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-17T14:58:15+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sat, 17 Oct 2026 14:58:15",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-17T14:45:00+5:30",
-      "expires": "2026-10-17T17:45:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "YSR KADAPA",
-      "guid": "01cbffe4e4246651381f621e0cb44725",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-10-17T14:58:15+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -1308,6 +1308,19 @@
   ],
   "warning": [
     {
+      "title": "TIRUPATHI",
+      "guid": "18b379b837bba5dc85a9a7a047734c67",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-20T15:47:48+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Tue, 20 Oct 2026 15:47:48",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-20T15:20:00+5:30",
+      "expires": "2026-10-20T18:20:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "KARUR",
       "guid": "8df41dd62dafe03e0533a6d8e69a6ff8",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -2584,19 +2597,6 @@
     {
       "title": "SPSR NELLORE",
       "guid": "b4dfc5e961d7dd11ddfab247d221dbbf",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-17T14:58:15+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sat, 17 Oct 2026 14:58:15",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-17T14:45:00+5:30",
-      "expires": "2026-10-17T17:45:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "YSR KADAPA",
-      "guid": "01cbffe4e4246651381f621e0cb44725",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-10-17T14:58:15+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -2610,6 +2610,19 @@
   ],
   "rss": [
     {
+      "title": "TIRUPATHI",
+      "guid": "18b379b837bba5dc85a9a7a047734c67",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-20T15:47:48+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Tue, 20 Oct 2026 15:47:48",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-20T15:20:00+5:30",
+      "expires": "2026-10-20T18:20:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "KARUR",
       "guid": "8df41dd62dafe03e0533a6d8e69a6ff8",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -3886,19 +3899,6 @@
     {
       "title": "SPSR NELLORE",
       "guid": "b4dfc5e961d7dd11ddfab247d221dbbf",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-17T14:58:15+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sat, 17 Oct 2026 14:58:15",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-17T14:45:00+5:30",
-      "expires": "2026-10-17T17:45:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "YSR KADAPA",
-      "guid": "01cbffe4e4246651381f621e0cb44725",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-10-17T14:58:15+5:30",
       "sender": "nowcastnwfc@gmail.com",
