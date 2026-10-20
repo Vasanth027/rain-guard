@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T23:32:40.682407+00:00",
+  "updated_at": "2026-10-20T02:07:47.672852+00:00",
   "source": "official IMD/RMC",
   "current": {
     "error": "HTTP Error 401: Unauthorized"
