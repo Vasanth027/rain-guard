@@ -1,10 +1,23 @@
 {
-  "updated_at": "2026-10-23T01:49:16.184014+00:00",
+  "updated_at": "2026-10-23T07:17:49.365918+00:00",
   "source": "official IMD/RMC",
   "current": {
     "error": "HTTP Error 401: Unauthorized"
   },
   "nowcast": [
+    {
+      "title": "LAKSHADWEEP",
+      "guid": "7e2310b6c9626aa2340496e84f2580a2",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-23T09:58:02+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Fri, 23 Oct 2026 09:58:02",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-23T10:00:00+5:30",
+      "expires": "2026-10-23T13:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
     {
       "title": "CHENGALPATTU",
       "guid": "0840d7ee4f61020182aa27f4514b75e3",
@@ -1282,19 +1295,6 @@
     {
       "title": "PATHANAMTHITTA",
       "guid": "5122e72a1891287df40e57beffda6a29",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-22T04:13:00+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Thu, 22 Oct 2026 04:13:00",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-22T04:00:00+5:30",
-      "expires": "2026-10-22T07:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "THIRUVANANTHAPURAM",
-      "guid": "c6c9cbd2e2de29110035eb16d30f805e",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-10-22T04:13:00+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -1308,6 +1308,19 @@
   ],
   "warning": [
     {
+      "title": "LAKSHADWEEP",
+      "guid": "7e2310b6c9626aa2340496e84f2580a2",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-23T09:58:02+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Fri, 23 Oct 2026 09:58:02",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-23T10:00:00+5:30",
+      "expires": "2026-10-23T13:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "CHENGALPATTU",
       "guid": "0840d7ee4f61020182aa27f4514b75e3",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -2584,19 +2597,6 @@
     {
       "title": "PATHANAMTHITTA",
       "guid": "5122e72a1891287df40e57beffda6a29",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-22T04:13:00+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Thu, 22 Oct 2026 04:13:00",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-22T04:00:00+5:30",
-      "expires": "2026-10-22T07:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "THIRUVANANTHAPURAM",
-      "guid": "c6c9cbd2e2de29110035eb16d30f805e",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-10-22T04:13:00+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -2610,6 +2610,19 @@
   ],
   "rss": [
     {
+      "title": "LAKSHADWEEP",
+      "guid": "7e2310b6c9626aa2340496e84f2580a2",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-23T09:58:02+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Fri, 23 Oct 2026 09:58:02",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-23T10:00:00+5:30",
+      "expires": "2026-10-23T13:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "CHENGALPATTU",
       "guid": "0840d7ee4f61020182aa27f4514b75e3",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -3886,19 +3899,6 @@
     {
       "title": "PATHANAMTHITTA",
       "guid": "5122e72a1891287df40e57beffda6a29",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-22T04:13:00+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Thu, 22 Oct 2026 04:13:00",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-22T04:00:00+5:30",
-      "expires": "2026-10-22T07:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "THIRUVANANTHAPURAM",
-      "guid": "c6c9cbd2e2de29110035eb16d30f805e",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-10-22T04:13:00+5:30",
       "sender": "nowcastnwfc@gmail.com",
