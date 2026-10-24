@@ -1,10 +1,23 @@
 {
-  "updated_at": "2026-10-23T23:56:55.201525+00:00",
+  "updated_at": "2026-10-24T04:23:35.320931+00:00",
   "source": "official IMD/RMC",
   "current": {
     "error": "HTTP Error 401: Unauthorized"
   },
   "nowcast": [
+    {
+      "title": "LAKSHADWEEP",
+      "guid": "ddedaba528221197be267443b21a2530",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-24T07:07:24+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 24 Oct 2026 07:07:24",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-24T07:00:00+5:30",
+      "expires": "2026-10-24T10:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
     {
       "title": "CHENGALPATTU",
       "guid": "6a35ebd3ab52a5ec49ee4c76b4bc1fbe",
@@ -1282,19 +1295,6 @@
     {
       "title": "MAYILADUTHURAI",
       "guid": "69af3271c857c63032c62a94c2343cb5",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-23T04:36:06+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 23 Oct 2026 04:36:06",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-23T04:00:00+5:30",
-      "expires": "2026-10-23T07:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "NAGAPATTINAM",
-      "guid": "82684d7a949801b1b15927219f2aaba5",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-10-23T04:36:06+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -1308,6 +1308,19 @@
   ],
   "warning": [
     {
+      "title": "LAKSHADWEEP",
+      "guid": "ddedaba528221197be267443b21a2530",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-24T07:07:24+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 24 Oct 2026 07:07:24",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-24T07:00:00+5:30",
+      "expires": "2026-10-24T10:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "CHENGALPATTU",
       "guid": "6a35ebd3ab52a5ec49ee4c76b4bc1fbe",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -2584,19 +2597,6 @@
     {
       "title": "MAYILADUTHURAI",
       "guid": "69af3271c857c63032c62a94c2343cb5",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-23T04:36:06+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 23 Oct 2026 04:36:06",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-23T04:00:00+5:30",
-      "expires": "2026-10-23T07:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "NAGAPATTINAM",
-      "guid": "82684d7a949801b1b15927219f2aaba5",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-10-23T04:36:06+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -2610,6 +2610,19 @@
   ],
   "rss": [
     {
+      "title": "LAKSHADWEEP",
+      "guid": "ddedaba528221197be267443b21a2530",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-24T07:07:24+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 24 Oct 2026 07:07:24",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-24T07:00:00+5:30",
+      "expires": "2026-10-24T10:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "CHENGALPATTU",
       "guid": "6a35ebd3ab52a5ec49ee4c76b4bc1fbe",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -3886,19 +3899,6 @@
     {
       "title": "MAYILADUTHURAI",
       "guid": "69af3271c857c63032c62a94c2343cb5",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-23T04:36:06+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 23 Oct 2026 04:36:06",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-23T04:00:00+5:30",
-      "expires": "2026-10-23T07:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "NAGAPATTINAM",
-      "guid": "82684d7a949801b1b15927219f2aaba5",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-10-23T04:36:06+5:30",
       "sender": "nowcastnwfc@gmail.com",
