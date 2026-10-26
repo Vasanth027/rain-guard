@@ -51,9 +51,20 @@
       const nowcastText = findLocationText(nowcast,label) || (nowcast ? `Official feed active · ${Array.isArray(nowcast) ? nowcast.length : 1} bulletin(s)` : 'No local match');
       const warningText = findLocationText(districtWarning,label) || (districtWarning ? `Official warning feed active · ${Array.isArray(districtWarning) ? districtWarning.length : 1} bulletin(s)` : 'No local match');
       grid.innerHTML = `<div class="imd-item"><span>IMD Current</span><strong>${esc(currentText).slice(0,110)}</strong></div><div class="imd-item"><span>RMC Nowcast</span><strong>${esc(nowcastText).slice(0,110)}</strong></div><div class="imd-item"><span>District Warning</span><strong>${esc(warningText).slice(0,110)}</strong></div>`;
-      const refreshed = status.rss === 'ok' || status.nowcast === 'rss-fallback' || status.warning === 'rss-fallback' || status.nowcast === 'ok' || status.warning === 'ok';
-      warning.className = refreshed ? 'imd-warning green' : 'imd-warning yellow';
-      warning.innerHTML = `${refreshed ? '🇮🇳' : '⚠️'} <strong>${refreshed ? 'Official IMD/RMC snapshot refreshed.' : 'IMD JSON APIs unavailable from refresh runner.'}</strong> · ${esc(updatedLabel(data.updated_at))}${rssItems.length ? ` · ${rssItems.length} RSS nowcast bulletins` : ''}`;
+      const updatedMs = Date.parse(data.updated_at || '');
+      const ageMinutes = Number.isFinite(updatedMs) ? Math.max(0, (Date.now() - updatedMs) / 60000) : Infinity;
+      const stale = ageMinutes > 60;
+      const jsonAvailable = ['current', 'nowcast', 'warning'].some(key => status[key] === 'ok');
+      const usingRssFallback = status.rss === 'ok' && (status.nowcast === 'rss-fallback' || status.warning === 'rss-fallback');
+      const healthy = !stale && jsonAvailable;
+      warning.className = healthy ? 'imd-warning green' : 'imd-warning yellow';
+      let statusMessage;
+      if (stale) statusMessage = 'Warning: IMD snapshot is stale; verify current official bulletins.';
+      else if (usingRssFallback && !jsonAvailable) statusMessage = 'IMD JSON APIs unavailable; showing official RSS fallback bulletins.';
+      else if (!jsonAvailable) statusMessage = 'Official IMD JSON feeds unavailable; use the official source links to verify warnings.';
+      else if (usingRssFallback) statusMessage = 'IMD/RMC JSON feed available; RSS fallback also loaded.';
+      else statusMessage = 'Official IMD/RMC feed status: available.';
+      warning.innerHTML = `<strong>${esc(statusMessage)}</strong> · ${esc(updatedLabel(data.updated_at))}${rssItems.length ? ` · ${rssItems.length} RSS bulletins` : ''}`;
       if (bfs) bfs.innerHTML = '<div class="bfs-stat"><strong>~6 km</strong><span>Horizontal resolution</span></div><div class="bfs-stat"><strong>10 days</strong><span>Forecast range</span></div><div class="bfs-stat"><strong>00Z + 12Z</strong><span>Operational runs</span></div>';
     } catch (_) {
       grid.innerHTML = '<div class="imd-item"><span>IMD Current</span><strong>Snapshot unavailable</strong></div><div class="imd-item"><span>RMC Nowcast</span><strong>Snapshot unavailable</strong></div><div class="imd-item"><span>District Warning</span><strong>Snapshot unavailable</strong></div>';
