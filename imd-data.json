@@ -1,11 +1,50 @@
 {
-  "updated_at": "2026-10-26T11:26:52.457381+00:00",
+  "updated_at": "2026-10-26T17:27:52.987129+00:00",
   "source": "official IMD/RMC",
   "current": {
     "error": "HTTP Error 401: Unauthorized"
   },
   "nowcast": [
     {
+      "title": "JAGATSINGHPUR",
+      "guid": "dd4af38a447a4d57cdab6482d93cf38e",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-26T20:07:39+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Mon, 26 Oct 2026 20:07:39",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-26T20:10:00+5:30",
+      "expires": "2026-10-26T23:10:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "KENDRAPARHA",
+      "guid": "95bfaa958a3aa4a97368e59ab8ceba53",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-26T20:07:39+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Mon, 26 Oct 2026 20:07:39",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-26T20:10:00+5:30",
+      "expires": "2026-10-26T23:10:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "PURI",
+      "guid": "a0afbf713aea3d3d60a63587667e0e86",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-26T20:07:39+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Mon, 26 Oct 2026 20:07:39",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-26T20:10:00+5:30",
+      "expires": "2026-10-26T23:10:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "KARAIKAL",
       "guid": "7356193a834bef7b26b4e29abed6bb9c",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -1264,50 +1303,50 @@
       "onset": "2026-10-25T00:01:00+5:30",
       "expires": "2026-10-25T03:01:00+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "NORTH  AND  MIDDLE ANDAMAN",
-      "guid": "9a18d57d370e07070afaf617db98bb67",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-25T00:11:47+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sun, 25 Oct 2026 00:11:47",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-25T00:01:00+5:30",
-      "expires": "2026-10-25T03:01:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "SOUTH ANDAMAN",
-      "guid": "30a313f95e5765c955d52216d96e654a",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-25T00:11:47+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sun, 25 Oct 2026 00:11:47",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-25T00:01:00+5:30",
-      "expires": "2026-10-25T03:01:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "SAHARANPUR",
-      "guid": "d4325870b777e989cfb5d259bde15c01",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-24T21:26:47+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sat, 24 Oct 2026 21:26:47",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-24T21:15:00+5:30",
-      "expires": "2026-10-24T00:15:00+5:30",
-      "description": ",\n,\nThunderstorm(wind speed 30-40 kmph gusting to 50 kmph)\\Lightning with Moderate to intense spell of Rain",
       "category": "NOWCAST"
     }
   ],
   "warning": [
     {
+      "title": "JAGATSINGHPUR",
+      "guid": "dd4af38a447a4d57cdab6482d93cf38e",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-26T20:07:39+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Mon, 26 Oct 2026 20:07:39",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-26T20:10:00+5:30",
+      "expires": "2026-10-26T23:10:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "KENDRAPARHA",
+      "guid": "95bfaa958a3aa4a97368e59ab8ceba53",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-26T20:07:39+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Mon, 26 Oct 2026 20:07:39",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-26T20:10:00+5:30",
+      "expires": "2026-10-26T23:10:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "PURI",
+      "guid": "a0afbf713aea3d3d60a63587667e0e86",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-26T20:07:39+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Mon, 26 Oct 2026 20:07:39",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-26T20:10:00+5:30",
+      "expires": "2026-10-26T23:10:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "KARAIKAL",
       "guid": "7356193a834bef7b26b4e29abed6bb9c",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -2566,50 +2605,50 @@
       "onset": "2026-10-25T00:01:00+5:30",
       "expires": "2026-10-25T03:01:00+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "NORTH  AND  MIDDLE ANDAMAN",
-      "guid": "9a18d57d370e07070afaf617db98bb67",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-25T00:11:47+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sun, 25 Oct 2026 00:11:47",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-25T00:01:00+5:30",
-      "expires": "2026-10-25T03:01:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "SOUTH ANDAMAN",
-      "guid": "30a313f95e5765c955d52216d96e654a",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-25T00:11:47+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sun, 25 Oct 2026 00:11:47",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-25T00:01:00+5:30",
-      "expires": "2026-10-25T03:01:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "SAHARANPUR",
-      "guid": "d4325870b777e989cfb5d259bde15c01",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-24T21:26:47+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sat, 24 Oct 2026 21:26:47",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-24T21:15:00+5:30",
-      "expires": "2026-10-24T00:15:00+5:30",
-      "description": ",\n,\nThunderstorm(wind speed 30-40 kmph gusting to 50 kmph)\\Lightning with Moderate to intense spell of Rain",
       "category": "NOWCAST"
     }
   ],
   "rss": [
     {
+      "title": "JAGATSINGHPUR",
+      "guid": "dd4af38a447a4d57cdab6482d93cf38e",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-26T20:07:39+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Mon, 26 Oct 2026 20:07:39",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-26T20:10:00+5:30",
+      "expires": "2026-10-26T23:10:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "KENDRAPARHA",
+      "guid": "95bfaa958a3aa4a97368e59ab8ceba53",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-26T20:07:39+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Mon, 26 Oct 2026 20:07:39",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-26T20:10:00+5:30",
+      "expires": "2026-10-26T23:10:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "PURI",
+      "guid": "a0afbf713aea3d3d60a63587667e0e86",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-26T20:07:39+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Mon, 26 Oct 2026 20:07:39",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-26T20:10:00+5:30",
+      "expires": "2026-10-26T23:10:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "KARAIKAL",
       "guid": "7356193a834bef7b26b4e29abed6bb9c",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -3868,45 +3907,6 @@
       "onset": "2026-10-25T00:01:00+5:30",
       "expires": "2026-10-25T03:01:00+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "NORTH  AND  MIDDLE ANDAMAN",
-      "guid": "9a18d57d370e07070afaf617db98bb67",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-25T00:11:47+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sun, 25 Oct 2026 00:11:47",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-25T00:01:00+5:30",
-      "expires": "2026-10-25T03:01:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "SOUTH ANDAMAN",
-      "guid": "30a313f95e5765c955d52216d96e654a",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-25T00:11:47+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sun, 25 Oct 2026 00:11:47",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-25T00:01:00+5:30",
-      "expires": "2026-10-25T03:01:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "SAHARANPUR",
-      "guid": "d4325870b777e989cfb5d259bde15c01",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-24T21:26:47+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sat, 24 Oct 2026 21:26:47",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-24T21:15:00+5:30",
-      "expires": "2026-10-24T00:15:00+5:30",
-      "description": ",\n,\nThunderstorm(wind speed 30-40 kmph gusting to 50 kmph)\\Lightning with Moderate to intense spell of Rain",
       "category": "NOWCAST"
     }
   ],
