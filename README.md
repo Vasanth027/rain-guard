@@ -24,7 +24,7 @@ A responsive, weather-aware rain monitoring application for checking current con
 - ▶️ Interactive forecast timeline with play/pause control
 - ⏱️ Forecast time advances while animation is playing
 - 🌬️ Animated India wind-direction flow visualization
-- 🌀 Cyclone/vortex-style flow visualization
+- 🌀 Illustrative vortex animation (not an official cyclone track)
 - 📊 Wind field generated from live forecast data
 - 🗺️ Interactive weather-map style interface
 - 🔄 Forecast animation status indicator clearly shows when playback is active
@@ -54,7 +54,8 @@ RainGuard provides a dedicated **India Weather Sources** section so official Ind
 - Official IMD/RMC snapshot support through `imd-data.json`
 - District nowcast and warning bulletin matching for the selected location
 - Visible source/update status in the UI
-- Browser-safe fallback when direct IMD APIs reject browser requests
+- Scheduled RSS fallback when IMD JSON APIs reject the refresh runner
+- Visible warning when official JSON feeds are unavailable or the snapshot is stale
 - BharatFS information displayed alongside the official-source links
 
 > **Important:** IMD/BharatFS products are official forecast guidance. For safety-critical decisions, use the latest official IMD warnings and bulletins as the final authority.
@@ -132,15 +133,14 @@ The image uses Nginx Alpine and includes a container health check.
 
 ## 🔄 CI Pipeline
 
-Every push to `main` and every pull request runs GitHub Actions to:
+Every push to `main` (except data-only snapshot updates) and every pull request runs GitHub Actions to:
 
 1. Check out the source
-2. Validate the HTML
-3. Validate JavaScript syntax
+2. Validate local HTML asset references and JSON files
+3. Check syntax for the JavaScript files loaded by the app
 4. Build the Docker image
-5. Start the container
-6. Run an HTTP smoke test
-7. Clean up the test container
+5. Start the container and verify the app and required scripts are served
+6. Clean up the test container
 
 Workflow: `.github/workflows/ci.yml`
 
