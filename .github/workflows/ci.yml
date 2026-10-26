@@ -3,10 +3,9 @@ name: RainGuard CI
 on:
   push:
     branches: [main]
-    paths-ignore:
-      - 'imd-data.json'
   pull_request:
     branches: [main]
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -18,33 +17,55 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Validate required site files
+      - name: Validate site assets and JavaScript
         shell: bash
         run: |
-          set -e
-          for file in index.html styles.css weather-v2.css app-v2.js imd.css imd-live.js imd-data.json windy-ui.js windy-ui.css windy-ui-fix.css; do
-            test -f "$file" || { echo "Missing required file: $file"; exit 1; }
-          done
-          python3 -m json.tool imd-data.json >/dev/null
-          echo "RainGuard files and IMD snapshot are valid."
+          set -euo pipefail
+          python3 - <<'PY'
+          from html.parser import HTMLParser
+          from pathlib import Path
+          import json
 
-      - name: Validate JavaScript syntax
-        shell: bash
-        run: |
-          set -e
-          for file in app.js app-v2.js app-rainfix.js alerts.js imd-live.js windy-ui.js; do
-            if [ -f "$file" ]; then
-              echo "Checking $file"
-              node --check "$file"
-            fi
+          class Assets(HTMLParser):
+              def __init__(self):
+                  super().__init__()
+                  self.refs = []
+              def handle_starttag(self, tag, attrs):
+                  attrs = dict(attrs)
+                  if tag == 'script' and attrs.get('src'):
+                      self.refs.append(attrs['src'].split('?')[0])
+                  if tag == 'link' and attrs.get('href') and attrs.get('rel') in ('stylesheet', 'manifest'):
+                      self.refs.append(attrs['href'].split('?')[0])
+
+          parser = Assets()
+          parser.feed(Path('index.html').read_text(encoding='utf-8'))
+          missing = [ref for ref in parser.refs if not ref.startswith(('http://', 'https://', '//')) and not Path(ref).is_file()]
+          if missing:
+              raise SystemExit('Missing index.html assets: ' + ', '.join(missing))
+          json.loads(Path('imd-data.json').read_text(encoding='utf-8'))
+          json.loads(Path('manifest.webmanifest').read_text(encoding='utf-8'))
+          print('HTML asset references and JSON files are valid.')
+          PY
+          for file in app-v2.js imd-live.js windy-ui-v5.js flow-overlay.js india-forecast-label.js weather-tools-fix.js; do
+            echo "Checking $file"
+            node --check "$file"
           done
 
-      - name: Pages smoke test
+      - name: Build Docker image
+        run: docker build --pull -t rainguard:test .
+
+      - name: Docker HTTP smoke test
         shell: bash
         run: |
-          python3 -m http.server 8080 --bind 127.0.0.1 >/tmp/rainguard-http.log 2>&1 &
-          SERVER_PID=$!
-          trap 'kill $SERVER_PID 2>/dev/null || true' EXIT
-          sleep 2
-          curl --fail --silent --show-error http://127.0.0.1:8080/ | grep -q "RainGuard"
-          echo "RainGuard Pages smoke test passed."
+          set -euo pipefail
+          docker run -d --rm --name rainguard-test -p 8080:80 rainguard:test
+          trap 'docker stop rainguard-test >/dev/null 2>&1 || true' EXIT
+          for attempt in $(seq 1 20); do
+            if curl --fail --silent http://127.0.0.1:8080/ >/tmp/rainguard-index.html; then break; fi
+            sleep 1
+          done
+          grep -q "RainGuard" /tmp/rainguard-index.html
+          for asset in app-v2.js windy-ui-v5.js imd-live.js flow-overlay.js weather-tools-fix.js; do
+            curl --fail --silent --show-error "http://127.0.0.1:8080/$asset" >/dev/null
+          done
+          echo "Docker site and required JavaScript assets served successfully."
