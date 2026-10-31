@@ -1,10 +1,36 @@
 {
-  "updated_at": "2026-10-30T21:05:48.253419+00:00",
+  "updated_at": "2026-10-31T00:49:11.830894+00:00",
   "source": "official IMD/RMC",
   "current": {
     "error": "HTTP Error 401: Unauthorized"
   },
   "nowcast": [
+    {
+      "title": "BAHRAICH",
+      "guid": "e8ec46130a54680b7f13f181dfb9b3ad",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-31T03:56:29+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 31 Oct 2026 03:56:29",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-31T03:50:00+5:30",
+      "expires": "2026-10-31T06:50:00+5:30",
+      "description": ",\n,\nThunderstorm(wind speed 30-40 kmph gusting to 50kmph)\\Lightning with Light to Moderate Rain",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "LAKHIMPUR KHERI",
+      "guid": "55793da0c43701a04e4808c786044b45",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-31T03:56:29+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 31 Oct 2026 03:56:29",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-31T03:50:00+5:30",
+      "expires": "2026-10-31T06:50:00+5:30",
+      "description": ",\n,\nThunderstorm(wind speed 30-40 kmph gusting to 50kmph)\\Lightning with Light to Moderate Rain",
+      "category": "NOWCAST"
+    },
     {
       "title": "KUSHINAGAR",
       "guid": "370e1459729e48b2146cc8e3e25d486a",
@@ -1268,32 +1294,6 @@
     {
       "title": "MEWAT",
       "guid": "018f9df9e1087c69a2fccde8c1a36594",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-30T07:29:40+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 30 Oct 2026 07:29:40",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-30T07:25:00+5:30",
-      "expires": "2026-10-30T10:25:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "PALWAL",
-      "guid": "aa3456e6621a0b02f8fb442e29b01637",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-30T07:29:40+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 30 Oct 2026 07:29:40",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-30T07:25:00+5:30",
-      "expires": "2026-10-30T10:25:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "REWARI",
-      "guid": "7c512612fcd37f7063efd61162083c69",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-10-30T07:29:40+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -1307,6 +1307,32 @@
   ],
   "warning": [
     {
+      "title": "BAHRAICH",
+      "guid": "e8ec46130a54680b7f13f181dfb9b3ad",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-31T03:56:29+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 31 Oct 2026 03:56:29",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-31T03:50:00+5:30",
+      "expires": "2026-10-31T06:50:00+5:30",
+      "description": ",\n,\nThunderstorm(wind speed 30-40 kmph gusting to 50kmph)\\Lightning with Light to Moderate Rain",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "LAKHIMPUR KHERI",
+      "guid": "55793da0c43701a04e4808c786044b45",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-31T03:56:29+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 31 Oct 2026 03:56:29",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-31T03:50:00+5:30",
+      "expires": "2026-10-31T06:50:00+5:30",
+      "description": ",\n,\nThunderstorm(wind speed 30-40 kmph gusting to 50kmph)\\Lightning with Light to Moderate Rain",
+      "category": "NOWCAST"
+    },
+    {
       "title": "KUSHINAGAR",
       "guid": "370e1459729e48b2146cc8e3e25d486a",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -2569,32 +2595,6 @@
     {
       "title": "MEWAT",
       "guid": "018f9df9e1087c69a2fccde8c1a36594",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-30T07:29:40+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 30 Oct 2026 07:29:40",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-30T07:25:00+5:30",
-      "expires": "2026-10-30T10:25:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "PALWAL",
-      "guid": "aa3456e6621a0b02f8fb442e29b01637",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-30T07:29:40+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 30 Oct 2026 07:29:40",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-30T07:25:00+5:30",
-      "expires": "2026-10-30T10:25:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "REWARI",
-      "guid": "7c512612fcd37f7063efd61162083c69",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-10-30T07:29:40+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -2608,6 +2608,32 @@
   ],
   "rss": [
     {
+      "title": "BAHRAICH",
+      "guid": "e8ec46130a54680b7f13f181dfb9b3ad",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-31T03:56:29+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 31 Oct 2026 03:56:29",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-31T03:50:00+5:30",
+      "expires": "2026-10-31T06:50:00+5:30",
+      "description": ",\n,\nThunderstorm(wind speed 30-40 kmph gusting to 50kmph)\\Lightning with Light to Moderate Rain",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "LAKHIMPUR KHERI",
+      "guid": "55793da0c43701a04e4808c786044b45",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-10-31T03:56:29+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 31 Oct 2026 03:56:29",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-10-31T03:50:00+5:30",
+      "expires": "2026-10-31T06:50:00+5:30",
+      "description": ",\n,\nThunderstorm(wind speed 30-40 kmph gusting to 50kmph)\\Lightning with Light to Moderate Rain",
+      "category": "NOWCAST"
+    },
+    {
       "title": "KUSHINAGAR",
       "guid": "370e1459729e48b2146cc8e3e25d486a",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -3870,32 +3896,6 @@
     {
       "title": "MEWAT",
       "guid": "018f9df9e1087c69a2fccde8c1a36594",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-30T07:29:40+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 30 Oct 2026 07:29:40",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-30T07:25:00+5:30",
-      "expires": "2026-10-30T10:25:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "PALWAL",
-      "guid": "aa3456e6621a0b02f8fb442e29b01637",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-10-30T07:29:40+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 30 Oct 2026 07:29:40",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-10-30T07:25:00+5:30",
-      "expires": "2026-10-30T10:25:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "REWARI",
-      "guid": "7c512612fcd37f7063efd61162083c69",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-10-30T07:29:40+5:30",
       "sender": "nowcastnwfc@gmail.com",
