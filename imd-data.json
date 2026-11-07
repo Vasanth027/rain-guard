@@ -1,10 +1,36 @@
 {
-  "updated_at": "2026-11-07T13:54:09.125313+00:00",
+  "updated_at": "2026-11-07T18:36:40.816093+00:00",
   "source": "official IMD/RMC",
   "current": {
     "error": "HTTP Error 401: Unauthorized"
   },
   "nowcast": [
+    {
+      "title": "ALAPPUZHA",
+      "guid": "180231daf974d9ac5e3d28e3d5645a39",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-07T20:25:55+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 07 Nov 2026 20:25:55",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-07T20:20:00+5:30",
+      "expires": "2026-11-07T22:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "THRISSUR",
+      "guid": "036a641ea5db99393d29d1224fe44b83",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-07T20:25:55+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 07 Nov 2026 20:25:55",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-07T20:20:00+5:30",
+      "expires": "2026-11-07T22:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
     {
       "title": "ERNAKULAM",
       "guid": "fbc9dd923b5014b5f8b8c601068a61d1",
@@ -1269,32 +1295,6 @@
     {
       "title": "KANYAKUMARI",
       "guid": "0ba9599a1944703374cf28f01ab78dab",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-05T14:58:54+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Thu, 05 Nov 2026 14:58:54",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-05T15:00:00+5:30",
-      "expires": "2026-11-05T16:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "MADURAI",
-      "guid": "be5d6ac178d9a415990d014e2721cbd4",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-05T14:58:54+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Thu, 05 Nov 2026 14:58:54",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-05T15:00:00+5:30",
-      "expires": "2026-11-05T16:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "PUDUCHERRY",
-      "guid": "60de64da5b06a4993f56175c9069ca66",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-11-05T14:58:54+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -1308,6 +1308,32 @@
   ],
   "warning": [
     {
+      "title": "ALAPPUZHA",
+      "guid": "180231daf974d9ac5e3d28e3d5645a39",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-07T20:25:55+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 07 Nov 2026 20:25:55",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-07T20:20:00+5:30",
+      "expires": "2026-11-07T22:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "THRISSUR",
+      "guid": "036a641ea5db99393d29d1224fe44b83",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-07T20:25:55+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 07 Nov 2026 20:25:55",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-07T20:20:00+5:30",
+      "expires": "2026-11-07T22:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "ERNAKULAM",
       "guid": "fbc9dd923b5014b5f8b8c601068a61d1",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -2571,32 +2597,6 @@
     {
       "title": "KANYAKUMARI",
       "guid": "0ba9599a1944703374cf28f01ab78dab",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-05T14:58:54+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Thu, 05 Nov 2026 14:58:54",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-05T15:00:00+5:30",
-      "expires": "2026-11-05T16:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "MADURAI",
-      "guid": "be5d6ac178d9a415990d014e2721cbd4",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-05T14:58:54+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Thu, 05 Nov 2026 14:58:54",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-05T15:00:00+5:30",
-      "expires": "2026-11-05T16:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "PUDUCHERRY",
-      "guid": "60de64da5b06a4993f56175c9069ca66",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-11-05T14:58:54+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -2610,6 +2610,32 @@
   ],
   "rss": [
     {
+      "title": "ALAPPUZHA",
+      "guid": "180231daf974d9ac5e3d28e3d5645a39",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-07T20:25:55+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 07 Nov 2026 20:25:55",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-07T20:20:00+5:30",
+      "expires": "2026-11-07T22:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "THRISSUR",
+      "guid": "036a641ea5db99393d29d1224fe44b83",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-07T20:25:55+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 07 Nov 2026 20:25:55",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-07T20:20:00+5:30",
+      "expires": "2026-11-07T22:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "ERNAKULAM",
       "guid": "fbc9dd923b5014b5f8b8c601068a61d1",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -3873,32 +3899,6 @@
     {
       "title": "KANYAKUMARI",
       "guid": "0ba9599a1944703374cf28f01ab78dab",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-05T14:58:54+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Thu, 05 Nov 2026 14:58:54",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-05T15:00:00+5:30",
-      "expires": "2026-11-05T16:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "MADURAI",
-      "guid": "be5d6ac178d9a415990d014e2721cbd4",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-05T14:58:54+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Thu, 05 Nov 2026 14:58:54",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-05T15:00:00+5:30",
-      "expires": "2026-11-05T16:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "PUDUCHERRY",
-      "guid": "60de64da5b06a4993f56175c9069ca66",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-11-05T14:58:54+5:30",
       "sender": "nowcastnwfc@gmail.com",
