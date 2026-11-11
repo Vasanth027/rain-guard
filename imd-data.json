@@ -1,11 +1,37 @@
 {
-  "updated_at": "2026-11-11T15:22:31.495674+00:00",
+  "updated_at": "2026-11-11T22:11:03.718379+00:00",
   "source": "official IMD/RMC",
   "current": {
     "error": "HTTP Error 401: Unauthorized"
   },
   "nowcast": [
     {
+      "title": "BIRBHUM",
+      "guid": "3412098e4e2f2f49c4cf4d92234f7a23",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-12T00:43:35+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Thu, 12 Nov 2026 00:43:35",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-12T00:42:00+5:30",
+      "expires": "2026-11-12T03:42:00+5:30",
+      "description": ",\nModerate Thunderstorm & lightning accompanied with intense rain. very likely to affect over some parts.,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "NADIA",
+      "guid": "a4176a82b4ce8144e985421e90e72250",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-11T20:56:57+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Wed, 11 Nov 2026 20:56:57",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-11T20:56:00+5:30",
+      "expires": "2026-11-11T23:56:00+5:30",
+      "description": ",\nModerate Thunderstorm & lightning accompanied with intense rain. very likely to affect over some parts.,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "LONGLENG",
       "guid": "ea2392b1e6d19c66c756dfaba4952091",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -1277,37 +1303,37 @@
       "onset": "2026-11-09T03:45:00+5:30",
       "expires": "2026-11-09T06:45:00+5:30",
       "description": ",\n,\nvery dense fog",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "CHENGALPATTU",
-      "guid": "a7ae6610ef707c24402c6b7430308611",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-08T19:14:27+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sun, 08 Nov 2026 19:14:27",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-08T19:00:00+5:30",
-      "expires": "2026-11-08T22:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "CHENNAI",
-      "guid": "6e66aeb8b1b59856f6c2b17ae1142836",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-08T19:14:27+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sun, 08 Nov 2026 19:14:27",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-08T19:00:00+5:30",
-      "expires": "2026-11-08T22:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
       "category": "NOWCAST"
     }
   ],
   "warning": [
     {
+      "title": "BIRBHUM",
+      "guid": "3412098e4e2f2f49c4cf4d92234f7a23",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-12T00:43:35+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Thu, 12 Nov 2026 00:43:35",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-12T00:42:00+5:30",
+      "expires": "2026-11-12T03:42:00+5:30",
+      "description": ",\nModerate Thunderstorm & lightning accompanied with intense rain. very likely to affect over some parts.,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "NADIA",
+      "guid": "a4176a82b4ce8144e985421e90e72250",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-11T20:56:57+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Wed, 11 Nov 2026 20:56:57",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-11T20:56:00+5:30",
+      "expires": "2026-11-11T23:56:00+5:30",
+      "description": ",\nModerate Thunderstorm & lightning accompanied with intense rain. very likely to affect over some parts.,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "LONGLENG",
       "guid": "ea2392b1e6d19c66c756dfaba4952091",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -2579,37 +2605,37 @@
       "onset": "2026-11-09T03:45:00+5:30",
       "expires": "2026-11-09T06:45:00+5:30",
       "description": ",\n,\nvery dense fog",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "CHENGALPATTU",
-      "guid": "a7ae6610ef707c24402c6b7430308611",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-08T19:14:27+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sun, 08 Nov 2026 19:14:27",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-08T19:00:00+5:30",
-      "expires": "2026-11-08T22:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "CHENNAI",
-      "guid": "6e66aeb8b1b59856f6c2b17ae1142836",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-08T19:14:27+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sun, 08 Nov 2026 19:14:27",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-08T19:00:00+5:30",
-      "expires": "2026-11-08T22:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
       "category": "NOWCAST"
     }
   ],
   "rss": [
     {
+      "title": "BIRBHUM",
+      "guid": "3412098e4e2f2f49c4cf4d92234f7a23",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-12T00:43:35+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Thu, 12 Nov 2026 00:43:35",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-12T00:42:00+5:30",
+      "expires": "2026-11-12T03:42:00+5:30",
+      "description": ",\nModerate Thunderstorm & lightning accompanied with intense rain. very likely to affect over some parts.,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "NADIA",
+      "guid": "a4176a82b4ce8144e985421e90e72250",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-11T20:56:57+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Wed, 11 Nov 2026 20:56:57",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-11T20:56:00+5:30",
+      "expires": "2026-11-11T23:56:00+5:30",
+      "description": ",\nModerate Thunderstorm & lightning accompanied with intense rain. very likely to affect over some parts.,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "LONGLENG",
       "guid": "ea2392b1e6d19c66c756dfaba4952091",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -3881,32 +3907,6 @@
       "onset": "2026-11-09T03:45:00+5:30",
       "expires": "2026-11-09T06:45:00+5:30",
       "description": ",\n,\nvery dense fog",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "CHENGALPATTU",
-      "guid": "a7ae6610ef707c24402c6b7430308611",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-08T19:14:27+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sun, 08 Nov 2026 19:14:27",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-08T19:00:00+5:30",
-      "expires": "2026-11-08T22:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "CHENNAI",
-      "guid": "6e66aeb8b1b59856f6c2b17ae1142836",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-08T19:14:27+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Sun, 08 Nov 2026 19:14:27",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-08T19:00:00+5:30",
-      "expires": "2026-11-08T22:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
       "category": "NOWCAST"
     }
   ],
