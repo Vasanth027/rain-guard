@@ -1,11 +1,37 @@
 {
-  "updated_at": "2026-11-13T00:29:48.244122+00:00",
+  "updated_at": "2026-11-13T07:11:48.859910+00:00",
   "source": "official IMD/RMC",
   "current": {
     "error": "HTTP Error 401: Unauthorized"
   },
   "nowcast": [
     {
+      "title": "GHAZIABAD",
+      "guid": "f416adb2cfc01208a846b440a191737a",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-13T07:19:40+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Fri, 13 Nov 2026 07:19:40",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-13T07:00:00+5:30",
+      "expires": "2026-11-13T08:30:00+5:30",
+      "description": ",\n,\nVery Dense Fog",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "BAREILLY",
+      "guid": "515a1ff8bcf49e9529706da9b078f866",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-13T07:13:20+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Fri, 13 Nov 2026 07:13:20",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-13T07:00:00+5:30",
+      "expires": "2026-11-13T08:30:00+5:30",
+      "description": ",\n,\nVery Dence Fog",
+      "category": "NOWCAST"
+    },
+    {
       "title": "ANANTNAG",
       "guid": "1283ead90823f57ece380a359cacb4f5",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -1277,37 +1303,37 @@
       "onset": "2026-11-11T19:00:00+5:30",
       "expires": "2026-11-11T22:00:00+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "UTTAR DINAJPUR",
-      "guid": "c2c60dfab8f25d4d6cd8c1b01886079a",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-11T18:09:55+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Wed, 11 Nov 2026 18:09:55",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-11T18:05:00+5:30",
-      "expires": "2026-11-11T21:05:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "GOMATI",
-      "guid": "4045b86b8d4b03d526710526d6449feb",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-11T16:08:29+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Wed, 11 Nov 2026 16:08:29",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-11T16:00:00+5:30",
-      "expires": "2026-11-11T19:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\n,\n,\nAt a few places",
       "category": "NOWCAST"
     }
   ],
   "warning": [
     {
+      "title": "GHAZIABAD",
+      "guid": "f416adb2cfc01208a846b440a191737a",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-13T07:19:40+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Fri, 13 Nov 2026 07:19:40",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-13T07:00:00+5:30",
+      "expires": "2026-11-13T08:30:00+5:30",
+      "description": ",\n,\nVery Dense Fog",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "BAREILLY",
+      "guid": "515a1ff8bcf49e9529706da9b078f866",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-13T07:13:20+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Fri, 13 Nov 2026 07:13:20",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-13T07:00:00+5:30",
+      "expires": "2026-11-13T08:30:00+5:30",
+      "description": ",\n,\nVery Dence Fog",
+      "category": "NOWCAST"
+    },
+    {
       "title": "ANANTNAG",
       "guid": "1283ead90823f57ece380a359cacb4f5",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -2579,37 +2605,37 @@
       "onset": "2026-11-11T19:00:00+5:30",
       "expires": "2026-11-11T22:00:00+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "UTTAR DINAJPUR",
-      "guid": "c2c60dfab8f25d4d6cd8c1b01886079a",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-11T18:09:55+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Wed, 11 Nov 2026 18:09:55",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-11T18:05:00+5:30",
-      "expires": "2026-11-11T21:05:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "GOMATI",
-      "guid": "4045b86b8d4b03d526710526d6449feb",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-11T16:08:29+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Wed, 11 Nov 2026 16:08:29",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-11T16:00:00+5:30",
-      "expires": "2026-11-11T19:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\n,\n,\nAt a few places",
       "category": "NOWCAST"
     }
   ],
   "rss": [
     {
+      "title": "GHAZIABAD",
+      "guid": "f416adb2cfc01208a846b440a191737a",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-13T07:19:40+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Fri, 13 Nov 2026 07:19:40",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-13T07:00:00+5:30",
+      "expires": "2026-11-13T08:30:00+5:30",
+      "description": ",\n,\nVery Dense Fog",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "BAREILLY",
+      "guid": "515a1ff8bcf49e9529706da9b078f866",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-13T07:13:20+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Fri, 13 Nov 2026 07:13:20",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-13T07:00:00+5:30",
+      "expires": "2026-11-13T08:30:00+5:30",
+      "description": ",\n,\nVery Dence Fog",
+      "category": "NOWCAST"
+    },
+    {
       "title": "ANANTNAG",
       "guid": "1283ead90823f57ece380a359cacb4f5",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -3881,32 +3907,6 @@
       "onset": "2026-11-11T19:00:00+5:30",
       "expires": "2026-11-11T22:00:00+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "UTTAR DINAJPUR",
-      "guid": "c2c60dfab8f25d4d6cd8c1b01886079a",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-11T18:09:55+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Wed, 11 Nov 2026 18:09:55",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-11T18:05:00+5:30",
-      "expires": "2026-11-11T21:05:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "GOMATI",
-      "guid": "4045b86b8d4b03d526710526d6449feb",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-11T16:08:29+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Wed, 11 Nov 2026 16:08:29",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-11T16:00:00+5:30",
-      "expires": "2026-11-11T19:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\n,\n,\nAt a few places",
       "category": "NOWCAST"
     }
   ],
