@@ -1,11 +1,24 @@
 {
-  "updated_at": "2026-11-13T21:33:16.507707+00:00",
+  "updated_at": "2026-11-14T01:51:21.170373+00:00",
   "source": "official IMD/RMC",
   "current": {
     "error": "HTTP Error 401: Unauthorized"
   },
   "nowcast": [
     {
+      "title": "BAREILLY",
+      "guid": "8a26a6145df4b19169138583b20ec8a2",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-14T06:57:42+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 14 Nov 2026 06:57:42",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-14T06:30:00+5:30",
+      "expires": "2026-11-14T09:30:00+5:30",
+      "description": ",\n,\nVery Dense Fog",
+      "category": "NOWCAST"
+    },
+    {
       "title": "BUDGAM",
       "guid": "bdb1aef0c2a0579064977bd89ba397ee",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -1290,24 +1303,24 @@
       "onset": "2026-11-11T20:56:00+5:30",
       "expires": "2026-11-11T23:56:00+5:30",
       "description": ",\nModerate Thunderstorm & lightning accompanied with intense rain. very likely to affect over some parts.,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "LONGLENG",
-      "guid": "ea2392b1e6d19c66c756dfaba4952091",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-11T19:15:31+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Wed, 11 Nov 2026 19:15:31",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-11T19:00:00+5:30",
-      "expires": "2026-11-11T22:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     }
   ],
   "warning": [
     {
+      "title": "BAREILLY",
+      "guid": "8a26a6145df4b19169138583b20ec8a2",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-14T06:57:42+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 14 Nov 2026 06:57:42",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-14T06:30:00+5:30",
+      "expires": "2026-11-14T09:30:00+5:30",
+      "description": ",\n,\nVery Dense Fog",
+      "category": "NOWCAST"
+    },
+    {
       "title": "BUDGAM",
       "guid": "bdb1aef0c2a0579064977bd89ba397ee",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -2592,24 +2605,24 @@
       "onset": "2026-11-11T20:56:00+5:30",
       "expires": "2026-11-11T23:56:00+5:30",
       "description": ",\nModerate Thunderstorm & lightning accompanied with intense rain. very likely to affect over some parts.,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "LONGLENG",
-      "guid": "ea2392b1e6d19c66c756dfaba4952091",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-11T19:15:31+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Wed, 11 Nov 2026 19:15:31",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-11T19:00:00+5:30",
-      "expires": "2026-11-11T22:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     }
   ],
   "rss": [
     {
+      "title": "BAREILLY",
+      "guid": "8a26a6145df4b19169138583b20ec8a2",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-14T06:57:42+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sat, 14 Nov 2026 06:57:42",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-14T06:30:00+5:30",
+      "expires": "2026-11-14T09:30:00+5:30",
+      "description": ",\n,\nVery Dense Fog",
+      "category": "NOWCAST"
+    },
+    {
       "title": "BUDGAM",
       "guid": "bdb1aef0c2a0579064977bd89ba397ee",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -3894,19 +3907,6 @@
       "onset": "2026-11-11T20:56:00+5:30",
       "expires": "2026-11-11T23:56:00+5:30",
       "description": ",\nModerate Thunderstorm & lightning accompanied with intense rain. very likely to affect over some parts.,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "LONGLENG",
-      "guid": "ea2392b1e6d19c66c756dfaba4952091",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-11T19:15:31+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Wed, 11 Nov 2026 19:15:31",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-11T19:00:00+5:30",
-      "expires": "2026-11-11T22:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     }
   ],
