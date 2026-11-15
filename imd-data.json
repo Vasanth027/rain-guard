@@ -1,10 +1,23 @@
 {
-  "updated_at": "2026-11-15T19:42:22.594576+00:00",
+  "updated_at": "2026-11-15T23:33:04.369761+00:00",
   "source": "official IMD/RMC",
   "current": {
     "error": "HTTP Error 401: Unauthorized"
   },
   "nowcast": [
+    {
+      "title": "BAREILLY",
+      "guid": "96669d65bd35998948f94367cf0968a0",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-16T04:09:33+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Mon, 16 Nov 2026 04:09:33",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-16T04:00:00+5:30",
+      "expires": "2026-11-16T07:00:00+5:30",
+      "description": ",\n,\nDense Fog",
+      "category": "NOWCAST"
+    },
     {
       "title": "BAREILLY",
       "guid": "d0da53789a97dfa04d264081f6c5d8d2",
@@ -1282,19 +1295,6 @@
     {
       "title": "LEPA RADA",
       "guid": "a91ed264f24eda17bb77b766134ac080",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-12T04:15:34+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Thu, 12 Nov 2026 04:15:34",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-12T04:00:00+5:30",
-      "expires": "2026-11-12T07:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "LONGDING",
-      "guid": "d70647762f2083ee253fd2d481fa200c",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-11-12T04:15:34+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -1309,6 +1309,19 @@
   "warning": [
     {
       "title": "BAREILLY",
+      "guid": "96669d65bd35998948f94367cf0968a0",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-16T04:09:33+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Mon, 16 Nov 2026 04:09:33",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-16T04:00:00+5:30",
+      "expires": "2026-11-16T07:00:00+5:30",
+      "description": ",\n,\nDense Fog",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "BAREILLY",
       "guid": "d0da53789a97dfa04d264081f6c5d8d2",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-11-15T07:44:05+5:30",
@@ -2584,19 +2597,6 @@
     {
       "title": "LEPA RADA",
       "guid": "a91ed264f24eda17bb77b766134ac080",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-12T04:15:34+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Thu, 12 Nov 2026 04:15:34",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-12T04:00:00+5:30",
-      "expires": "2026-11-12T07:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "LONGDING",
-      "guid": "d70647762f2083ee253fd2d481fa200c",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-11-12T04:15:34+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -2611,6 +2611,19 @@
   "rss": [
     {
       "title": "BAREILLY",
+      "guid": "96669d65bd35998948f94367cf0968a0",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-16T04:09:33+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Mon, 16 Nov 2026 04:09:33",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-16T04:00:00+5:30",
+      "expires": "2026-11-16T07:00:00+5:30",
+      "description": ",\n,\nDense Fog",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "BAREILLY",
       "guid": "d0da53789a97dfa04d264081f6c5d8d2",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-11-15T07:44:05+5:30",
@@ -3886,19 +3899,6 @@
     {
       "title": "LEPA RADA",
       "guid": "a91ed264f24eda17bb77b766134ac080",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-12T04:15:34+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Thu, 12 Nov 2026 04:15:34",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-12T04:00:00+5:30",
-      "expires": "2026-11-12T07:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "LONGDING",
-      "guid": "d70647762f2083ee253fd2d481fa200c",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-11-12T04:15:34+5:30",
       "sender": "nowcastnwfc@gmail.com",
