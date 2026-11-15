@@ -1,10 +1,23 @@
 {
-  "updated_at": "2026-11-14T23:56:50.211589+00:00",
+  "updated_at": "2026-11-15T06:10:08.610929+00:00",
   "source": "official IMD/RMC",
   "current": {
     "error": "HTTP Error 401: Unauthorized"
   },
   "nowcast": [
+    {
+      "title": "BAREILLY",
+      "guid": "d0da53789a97dfa04d264081f6c5d8d2",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-15T07:44:05+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 15 Nov 2026 07:44:05",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-15T07:30:00+5:30",
+      "expires": "2026-11-15T10:30:00+5:30",
+      "description": ",\n,\nVery Dense Fog is very likely at isolated places over Bareilly district",
+      "category": "NOWCAST"
+    },
     {
       "title": "BAREILLY",
       "guid": "af302b38cd0e297e883ae489badaa802",
@@ -1282,19 +1295,6 @@
     {
       "title": "LONGDING",
       "guid": "d70647762f2083ee253fd2d481fa200c",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-12T04:15:34+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Thu, 12 Nov 2026 04:15:34",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-12T04:00:00+5:30",
-      "expires": "2026-11-12T07:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "LOWER SIANG",
-      "guid": "25cb80ba404558a8be41cd897358e280",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-11-12T04:15:34+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -1309,6 +1309,19 @@
   "warning": [
     {
       "title": "BAREILLY",
+      "guid": "d0da53789a97dfa04d264081f6c5d8d2",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-15T07:44:05+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 15 Nov 2026 07:44:05",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-15T07:30:00+5:30",
+      "expires": "2026-11-15T10:30:00+5:30",
+      "description": ",\n,\nVery Dense Fog is very likely at isolated places over Bareilly district",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "BAREILLY",
       "guid": "af302b38cd0e297e883ae489badaa802",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-11-15T04:43:27+5:30",
@@ -2584,19 +2597,6 @@
     {
       "title": "LONGDING",
       "guid": "d70647762f2083ee253fd2d481fa200c",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-12T04:15:34+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Thu, 12 Nov 2026 04:15:34",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-12T04:00:00+5:30",
-      "expires": "2026-11-12T07:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "LOWER SIANG",
-      "guid": "25cb80ba404558a8be41cd897358e280",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-11-12T04:15:34+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -2611,6 +2611,19 @@
   "rss": [
     {
       "title": "BAREILLY",
+      "guid": "d0da53789a97dfa04d264081f6c5d8d2",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-15T07:44:05+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Sun, 15 Nov 2026 07:44:05",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-15T07:30:00+5:30",
+      "expires": "2026-11-15T10:30:00+5:30",
+      "description": ",\n,\nVery Dense Fog is very likely at isolated places over Bareilly district",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "BAREILLY",
       "guid": "af302b38cd0e297e883ae489badaa802",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-11-15T04:43:27+5:30",
@@ -3886,19 +3899,6 @@
     {
       "title": "LONGDING",
       "guid": "d70647762f2083ee253fd2d481fa200c",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-12T04:15:34+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Thu, 12 Nov 2026 04:15:34",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-12T04:00:00+5:30",
-      "expires": "2026-11-12T07:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "LOWER SIANG",
-      "guid": "25cb80ba404558a8be41cd897358e280",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-11-12T04:15:34+5:30",
       "sender": "nowcastnwfc@gmail.com",
