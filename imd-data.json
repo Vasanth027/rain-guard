@@ -1,11 +1,24 @@
 {
-  "updated_at": "2026-11-18T12:17:55.270377+00:00",
+  "updated_at": "2026-11-18T20:50:33.099056+00:00",
   "source": "official IMD/RMC",
   "current": {
     "error": "HTTP Error 401: Unauthorized"
   },
   "nowcast": [
     {
+      "title": "JAGATSINGHPUR",
+      "guid": "2417f23aa8a85ed32d4c9777066f3867",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-18T21:34:14+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Wed, 18 Nov 2026 21:34:14",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-18T21:33:00+5:30",
+      "expires": "2026-11-18T23:59:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "BAREILLY",
       "guid": "4c3e42c99b5a58e9b010140712cbe67d",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -1290,24 +1303,24 @@
       "onset": "2026-11-12T04:00:00+5:30",
       "expires": "2026-11-12T00:00:00+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "NAMAKKAL",
-      "guid": "35a40b970924409b063f75e4a1fb0d9c",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-12T04:17:21+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Thu, 12 Nov 2026 04:17:21",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-12T04:00:00+5:30",
-      "expires": "2026-11-12T07:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     }
   ],
   "warning": [
     {
+      "title": "JAGATSINGHPUR",
+      "guid": "2417f23aa8a85ed32d4c9777066f3867",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-18T21:34:14+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Wed, 18 Nov 2026 21:34:14",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-18T21:33:00+5:30",
+      "expires": "2026-11-18T23:59:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "BAREILLY",
       "guid": "4c3e42c99b5a58e9b010140712cbe67d",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -2592,24 +2605,24 @@
       "onset": "2026-11-12T04:00:00+5:30",
       "expires": "2026-11-12T00:00:00+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "NAMAKKAL",
-      "guid": "35a40b970924409b063f75e4a1fb0d9c",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-12T04:17:21+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Thu, 12 Nov 2026 04:17:21",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-12T04:00:00+5:30",
-      "expires": "2026-11-12T07:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     }
   ],
   "rss": [
     {
+      "title": "JAGATSINGHPUR",
+      "guid": "2417f23aa8a85ed32d4c9777066f3867",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-18T21:34:14+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Wed, 18 Nov 2026 21:34:14",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-18T21:33:00+5:30",
+      "expires": "2026-11-18T23:59:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,\nModerate cloud to ground Lightning probability (30 - 60% probability of lightning occurrence) ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "BAREILLY",
       "guid": "4c3e42c99b5a58e9b010140712cbe67d",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -3894,19 +3907,6 @@
       "onset": "2026-11-12T04:00:00+5:30",
       "expires": "2026-11-12T00:00:00+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "NAMAKKAL",
-      "guid": "35a40b970924409b063f75e4a1fb0d9c",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-12T04:17:21+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Thu, 12 Nov 2026 04:17:21",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-12T04:00:00+5:30",
-      "expires": "2026-11-12T07:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     }
   ],
