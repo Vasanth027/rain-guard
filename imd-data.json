@@ -1,11 +1,37 @@
 {
-  "updated_at": "2026-11-23T02:30:22.674326+00:00",
+  "updated_at": "2026-11-23T11:18:37.576667+00:00",
   "source": "official IMD/RMC",
   "current": {
     "error": "HTTP Error 401: Unauthorized"
   },
   "nowcast": [
     {
+      "title": "EAST KHASI HILLS",
+      "guid": "db5843cc0c13429f4b1c0582e0c6cfd1",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-23T09:41:21+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Mon, 23 Nov 2026 09:41:21",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-23T10:00:00+5:30",
+      "expires": "2026-11-23T13:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "SOUTH WEST KHASI HILLS",
+      "guid": "d6c0c56d1b39f228f246bfe9b03e28d8",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-23T09:41:21+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Mon, 23 Nov 2026 09:41:21",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-23T10:00:00+5:30",
+      "expires": "2026-11-23T13:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "AIZAWL",
       "guid": "506b9902dad68a8ea699a0ae3c80e320",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -14,7 +40,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T02:30:31+5:30",
+      "expires": "2026-11-21T11:18:45+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -27,7 +53,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T02:30:31+5:30",
+      "expires": "2026-11-21T11:18:45+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -40,7 +66,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T02:30:31+5:30",
+      "expires": "2026-11-21T11:18:45+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -53,7 +79,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T02:30:31+5:30",
+      "expires": "2026-11-21T11:18:45+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -66,7 +92,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T02:30:31+5:30",
+      "expires": "2026-11-21T11:18:45+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -1277,37 +1303,37 @@
       "onset": "2026-11-20T07:00:00+5:30",
       "expires": "2026-11-20T10:00:00+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,\n,\n,\nAt a few places.",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "JAJAPUR",
-      "guid": "fb519ca5f973fffc373ef128cf1b548c",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-20T08:02:08+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 20 Nov 2026 08:02:08",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-20T08:01:00+5:30",
-      "expires": "2026-11-20T11:01:00+5:30",
-      "description": "Heavy rain: > 15 mm/hr ,\n,\nSqually wind 40-50 gusting 60 kmph,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "DHENKANAL",
-      "guid": "711bc4418e02be2cacc1a674bc76efbe",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-20T07:34:41+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 20 Nov 2026 07:34:41",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-20T07:32:00+5:30",
-      "expires": "2026-11-20T10:32:00+5:30",
-      "description": "Heavy rain: > 15 mm/hr ,\n,\nSqually wind 40-50 gusting to 60 kmph,",
       "category": "NOWCAST"
     }
   ],
   "warning": [
     {
+      "title": "EAST KHASI HILLS",
+      "guid": "db5843cc0c13429f4b1c0582e0c6cfd1",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-23T09:41:21+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Mon, 23 Nov 2026 09:41:21",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-23T10:00:00+5:30",
+      "expires": "2026-11-23T13:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "SOUTH WEST KHASI HILLS",
+      "guid": "d6c0c56d1b39f228f246bfe9b03e28d8",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-23T09:41:21+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Mon, 23 Nov 2026 09:41:21",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-23T10:00:00+5:30",
+      "expires": "2026-11-23T13:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "AIZAWL",
       "guid": "506b9902dad68a8ea699a0ae3c80e320",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -1316,7 +1342,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T02:30:31+5:30",
+      "expires": "2026-11-21T11:18:45+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -1329,7 +1355,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T02:30:31+5:30",
+      "expires": "2026-11-21T11:18:45+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -1342,7 +1368,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T02:30:31+5:30",
+      "expires": "2026-11-21T11:18:45+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -1355,7 +1381,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T02:30:31+5:30",
+      "expires": "2026-11-21T11:18:45+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -1368,7 +1394,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T02:30:31+5:30",
+      "expires": "2026-11-21T11:18:45+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -2579,37 +2605,37 @@
       "onset": "2026-11-20T07:00:00+5:30",
       "expires": "2026-11-20T10:00:00+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,\n,\n,\nAt a few places.",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "JAJAPUR",
-      "guid": "fb519ca5f973fffc373ef128cf1b548c",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-20T08:02:08+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 20 Nov 2026 08:02:08",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-20T08:01:00+5:30",
-      "expires": "2026-11-20T11:01:00+5:30",
-      "description": "Heavy rain: > 15 mm/hr ,\n,\nSqually wind 40-50 gusting 60 kmph,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "DHENKANAL",
-      "guid": "711bc4418e02be2cacc1a674bc76efbe",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-20T07:34:41+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 20 Nov 2026 07:34:41",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-20T07:32:00+5:30",
-      "expires": "2026-11-20T10:32:00+5:30",
-      "description": "Heavy rain: > 15 mm/hr ,\n,\nSqually wind 40-50 gusting to 60 kmph,",
       "category": "NOWCAST"
     }
   ],
   "rss": [
     {
+      "title": "EAST KHASI HILLS",
+      "guid": "db5843cc0c13429f4b1c0582e0c6cfd1",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-23T09:41:21+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Mon, 23 Nov 2026 09:41:21",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-23T10:00:00+5:30",
+      "expires": "2026-11-23T13:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "SOUTH WEST KHASI HILLS",
+      "guid": "d6c0c56d1b39f228f246bfe9b03e28d8",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-23T09:41:21+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Mon, 23 Nov 2026 09:41:21",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-23T10:00:00+5:30",
+      "expires": "2026-11-23T13:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "AIZAWL",
       "guid": "506b9902dad68a8ea699a0ae3c80e320",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -2618,7 +2644,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T02:30:31+5:30",
+      "expires": "2026-11-21T11:18:45+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -2631,7 +2657,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T02:30:31+5:30",
+      "expires": "2026-11-21T11:18:45+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -2644,7 +2670,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T02:30:31+5:30",
+      "expires": "2026-11-21T11:18:45+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -2657,7 +2683,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T02:30:31+5:30",
+      "expires": "2026-11-21T11:18:45+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -2670,7 +2696,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T02:30:31+5:30",
+      "expires": "2026-11-21T11:18:45+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -3881,32 +3907,6 @@
       "onset": "2026-11-20T07:00:00+5:30",
       "expires": "2026-11-20T10:00:00+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,\n,\n,\nAt a few places.",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "JAJAPUR",
-      "guid": "fb519ca5f973fffc373ef128cf1b548c",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-20T08:02:08+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 20 Nov 2026 08:02:08",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-20T08:01:00+5:30",
-      "expires": "2026-11-20T11:01:00+5:30",
-      "description": "Heavy rain: > 15 mm/hr ,\n,\nSqually wind 40-50 gusting 60 kmph,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "DHENKANAL",
-      "guid": "711bc4418e02be2cacc1a674bc76efbe",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-20T07:34:41+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 20 Nov 2026 07:34:41",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-20T07:32:00+5:30",
-      "expires": "2026-11-20T10:32:00+5:30",
-      "description": "Heavy rain: > 15 mm/hr ,\n,\nSqually wind 40-50 gusting to 60 kmph,",
       "category": "NOWCAST"
     }
   ],
