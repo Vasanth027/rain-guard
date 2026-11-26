@@ -1,11 +1,37 @@
 {
-  "updated_at": "2026-11-25T21:59:37.149069+00:00",
+  "updated_at": "2026-11-26T04:05:35.252053+00:00",
   "source": "official IMD/RMC",
   "current": {
     "error": "HTTP Error 401: Unauthorized"
   },
   "nowcast": [
     {
+      "title": "SAHARANPUR",
+      "guid": "057d26fb81f8413b2767431f69db36c7",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-26T07:49:17+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Thu, 26 Nov 2026 07:49:17",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-26T07:45:00+5:30",
+      "expires": "2026-11-26T10:45:00+5:30",
+      "description": ",\n,\nVery Dense Fog",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "SAHARANPUR",
+      "guid": "1f8ea4a4a4d5f718619a10bb4dced9a9",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-26T05:31:54+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Thu, 26 Nov 2026 05:31:54",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-26T05:00:00+5:30",
+      "expires": "2026-11-26T08:00:00+5:30",
+      "description": ",\n,\nVery Dense Fog",
+      "category": "NOWCAST"
+    },
+    {
       "title": "KASARAGOD",
       "guid": "740fc70a03e262f102fd99feaf1521ea",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -508,7 +534,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T21:59:42+5:30",
+      "expires": "2026-11-21T04:05:41+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -521,7 +547,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T21:59:42+5:30",
+      "expires": "2026-11-21T04:05:41+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -534,7 +560,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T21:59:42+5:30",
+      "expires": "2026-11-21T04:05:41+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -547,7 +573,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T21:59:42+5:30",
+      "expires": "2026-11-21T04:05:41+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -560,7 +586,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T21:59:42+5:30",
+      "expires": "2026-11-21T04:05:41+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -1277,37 +1303,37 @@
       "onset": "2026-11-20T12:56:00+5:30",
       "expires": "2026-11-20T16:00:00+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,\n,\n,\nSqually wind speed reaching 40-50kmph gusting to 60kmph",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "KENDRAPARHA",
-      "guid": "2c1fe7a05eeddd420928c385a5f58ab5",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-20T12:07:54+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 20 Nov 2026 12:07:54",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-20T12:06:00+5:30",
-      "expires": "2026-11-20T15:06:00+5:30",
-      "description": "Heavy rain: > 15 mm/hr ,\n,\nWind 30-40 gusting 50 kmph,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "GANJAM",
-      "guid": "f9f4ca540a4ce6167fe97b10528636c8",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-20T12:06:49+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 20 Nov 2026 12:06:49",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-20T12:06:00+5:30",
-      "expires": "2026-11-20T15:06:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\n,\nWind 30-40 gusting 50 kmph,",
       "category": "NOWCAST"
     }
   ],
   "warning": [
     {
+      "title": "SAHARANPUR",
+      "guid": "057d26fb81f8413b2767431f69db36c7",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-26T07:49:17+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Thu, 26 Nov 2026 07:49:17",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-26T07:45:00+5:30",
+      "expires": "2026-11-26T10:45:00+5:30",
+      "description": ",\n,\nVery Dense Fog",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "SAHARANPUR",
+      "guid": "1f8ea4a4a4d5f718619a10bb4dced9a9",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-26T05:31:54+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Thu, 26 Nov 2026 05:31:54",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-26T05:00:00+5:30",
+      "expires": "2026-11-26T08:00:00+5:30",
+      "description": ",\n,\nVery Dense Fog",
+      "category": "NOWCAST"
+    },
+    {
       "title": "KASARAGOD",
       "guid": "740fc70a03e262f102fd99feaf1521ea",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -1810,7 +1836,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T21:59:42+5:30",
+      "expires": "2026-11-21T04:05:41+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -1823,7 +1849,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T21:59:42+5:30",
+      "expires": "2026-11-21T04:05:41+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -1836,7 +1862,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T21:59:42+5:30",
+      "expires": "2026-11-21T04:05:41+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -1849,7 +1875,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T21:59:42+5:30",
+      "expires": "2026-11-21T04:05:41+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -1862,7 +1888,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T21:59:42+5:30",
+      "expires": "2026-11-21T04:05:41+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -2579,37 +2605,37 @@
       "onset": "2026-11-20T12:56:00+5:30",
       "expires": "2026-11-20T16:00:00+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,\n,\n,\nSqually wind speed reaching 40-50kmph gusting to 60kmph",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "KENDRAPARHA",
-      "guid": "2c1fe7a05eeddd420928c385a5f58ab5",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-20T12:07:54+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 20 Nov 2026 12:07:54",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-20T12:06:00+5:30",
-      "expires": "2026-11-20T15:06:00+5:30",
-      "description": "Heavy rain: > 15 mm/hr ,\n,\nWind 30-40 gusting 50 kmph,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "GANJAM",
-      "guid": "f9f4ca540a4ce6167fe97b10528636c8",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-20T12:06:49+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 20 Nov 2026 12:06:49",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-20T12:06:00+5:30",
-      "expires": "2026-11-20T15:06:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\n,\nWind 30-40 gusting 50 kmph,",
       "category": "NOWCAST"
     }
   ],
   "rss": [
     {
+      "title": "SAHARANPUR",
+      "guid": "057d26fb81f8413b2767431f69db36c7",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-26T07:49:17+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Thu, 26 Nov 2026 07:49:17",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-26T07:45:00+5:30",
+      "expires": "2026-11-26T10:45:00+5:30",
+      "description": ",\n,\nVery Dense Fog",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "SAHARANPUR",
+      "guid": "1f8ea4a4a4d5f718619a10bb4dced9a9",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-26T05:31:54+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Thu, 26 Nov 2026 05:31:54",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-26T05:00:00+5:30",
+      "expires": "2026-11-26T08:00:00+5:30",
+      "description": ",\n,\nVery Dense Fog",
+      "category": "NOWCAST"
+    },
+    {
       "title": "KASARAGOD",
       "guid": "740fc70a03e262f102fd99feaf1521ea",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -3112,7 +3138,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T21:59:42+5:30",
+      "expires": "2026-11-21T04:05:41+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -3125,7 +3151,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T21:59:42+5:30",
+      "expires": "2026-11-21T04:05:41+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -3138,7 +3164,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T21:59:42+5:30",
+      "expires": "2026-11-21T04:05:41+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -3151,7 +3177,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T21:59:42+5:30",
+      "expires": "2026-11-21T04:05:41+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -3164,7 +3190,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T21:59:42+5:30",
+      "expires": "2026-11-21T04:05:41+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -3881,32 +3907,6 @@
       "onset": "2026-11-20T12:56:00+5:30",
       "expires": "2026-11-20T16:00:00+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,\n,\n,\nSqually wind speed reaching 40-50kmph gusting to 60kmph",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "KENDRAPARHA",
-      "guid": "2c1fe7a05eeddd420928c385a5f58ab5",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-20T12:07:54+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 20 Nov 2026 12:07:54",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-20T12:06:00+5:30",
-      "expires": "2026-11-20T15:06:00+5:30",
-      "description": "Heavy rain: > 15 mm/hr ,\n,\nWind 30-40 gusting 50 kmph,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "GANJAM",
-      "guid": "f9f4ca540a4ce6167fe97b10528636c8",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-20T12:06:49+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 20 Nov 2026 12:06:49",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-20T12:06:00+5:30",
-      "expires": "2026-11-20T15:06:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\n,\nWind 30-40 gusting 50 kmph,",
       "category": "NOWCAST"
     }
   ],
