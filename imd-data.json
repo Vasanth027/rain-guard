@@ -1,10 +1,49 @@
 {
-  "updated_at": "2026-11-26T13:56:46.502354+00:00",
+  "updated_at": "2026-11-26T22:54:34.163203+00:00",
   "source": "official IMD/RMC",
   "current": {
     "error": "HTTP Error 401: Unauthorized"
   },
   "nowcast": [
+    {
+      "title": "IDUKKI",
+      "guid": "d8b053c01ad0be90e24927dca4cf850c",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-26T19:37:42+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Thu, 26 Nov 2026 19:37:42",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-26T19:30:00+5:30",
+      "expires": "2026-11-26T22:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "KOTTAYAM",
+      "guid": "2ae8f53c6e30fd66cc0f74b966377979",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-26T19:37:42+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Thu, 26 Nov 2026 19:37:42",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-26T19:30:00+5:30",
+      "expires": "2026-11-26T22:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "PATHANAMTHITTA",
+      "guid": "7a13b9e7c9745b52d7f749ba72431407",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-26T19:37:42+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Thu, 26 Nov 2026 19:37:42",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-26T19:30:00+5:30",
+      "expires": "2026-11-26T22:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
     {
       "title": "ERNAKULAM",
       "guid": "c3f9f6beaa40ca3dab93cbeb74cfc281",
@@ -625,7 +664,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T13:56:51+5:30",
+      "expires": "2026-11-21T22:54:38+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -638,7 +677,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T13:56:51+5:30",
+      "expires": "2026-11-21T22:54:38+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -651,7 +690,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T13:56:51+5:30",
+      "expires": "2026-11-21T22:54:38+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -664,7 +703,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T13:56:51+5:30",
+      "expires": "2026-11-21T22:54:38+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -677,7 +716,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T13:56:51+5:30",
+      "expires": "2026-11-21T22:54:38+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -1256,45 +1295,6 @@
     {
       "title": "JAJAPUR",
       "guid": "118c4966bc71017d58fc369675239645",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-20T13:10:50+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 20 Nov 2026 13:10:50",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-20T13:00:00+5:30",
-      "expires": "2026-11-20T16:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\n,\nSqually wind 30-40 gusting to 50 kmph.,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "KENDRAPARHA",
-      "guid": "b1a203548fb16bea2879837fdfd16dd8",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-20T13:10:50+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 20 Nov 2026 13:10:50",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-20T13:00:00+5:30",
-      "expires": "2026-11-20T16:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\n,\nSqually wind 30-40 gusting to 50 kmph.,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "KENDUJHAR",
-      "guid": "cdee7f63e19dd54d3ac4531ca05f7f32",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-20T13:10:50+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 20 Nov 2026 13:10:50",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-20T13:00:00+5:30",
-      "expires": "2026-11-20T16:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\n,\nSqually wind 30-40 gusting to 50 kmph.,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "KHORDHA",
-      "guid": "63a9b08981c17a46810c1c9566108d80",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-11-20T13:10:50+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -1308,6 +1308,45 @@
   ],
   "warning": [
     {
+      "title": "IDUKKI",
+      "guid": "d8b053c01ad0be90e24927dca4cf850c",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-26T19:37:42+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Thu, 26 Nov 2026 19:37:42",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-26T19:30:00+5:30",
+      "expires": "2026-11-26T22:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "KOTTAYAM",
+      "guid": "2ae8f53c6e30fd66cc0f74b966377979",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-26T19:37:42+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Thu, 26 Nov 2026 19:37:42",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-26T19:30:00+5:30",
+      "expires": "2026-11-26T22:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "PATHANAMTHITTA",
+      "guid": "7a13b9e7c9745b52d7f749ba72431407",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-26T19:37:42+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Thu, 26 Nov 2026 19:37:42",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-26T19:30:00+5:30",
+      "expires": "2026-11-26T22:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "ERNAKULAM",
       "guid": "c3f9f6beaa40ca3dab93cbeb74cfc281",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -1927,7 +1966,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T13:56:51+5:30",
+      "expires": "2026-11-21T22:54:38+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -1940,7 +1979,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T13:56:51+5:30",
+      "expires": "2026-11-21T22:54:38+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -1953,7 +1992,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T13:56:51+5:30",
+      "expires": "2026-11-21T22:54:38+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -1966,7 +2005,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T13:56:51+5:30",
+      "expires": "2026-11-21T22:54:38+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -1979,7 +2018,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T13:56:51+5:30",
+      "expires": "2026-11-21T22:54:38+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -2558,45 +2597,6 @@
     {
       "title": "JAJAPUR",
       "guid": "118c4966bc71017d58fc369675239645",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-20T13:10:50+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 20 Nov 2026 13:10:50",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-20T13:00:00+5:30",
-      "expires": "2026-11-20T16:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\n,\nSqually wind 30-40 gusting to 50 kmph.,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "KENDRAPARHA",
-      "guid": "b1a203548fb16bea2879837fdfd16dd8",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-20T13:10:50+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 20 Nov 2026 13:10:50",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-20T13:00:00+5:30",
-      "expires": "2026-11-20T16:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\n,\nSqually wind 30-40 gusting to 50 kmph.,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "KENDUJHAR",
-      "guid": "cdee7f63e19dd54d3ac4531ca05f7f32",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-20T13:10:50+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 20 Nov 2026 13:10:50",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-20T13:00:00+5:30",
-      "expires": "2026-11-20T16:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\n,\nSqually wind 30-40 gusting to 50 kmph.,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "KHORDHA",
-      "guid": "63a9b08981c17a46810c1c9566108d80",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-11-20T13:10:50+5:30",
       "sender": "nowcastnwfc@gmail.com",
@@ -2610,6 +2610,45 @@
   ],
   "rss": [
     {
+      "title": "IDUKKI",
+      "guid": "d8b053c01ad0be90e24927dca4cf850c",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-26T19:37:42+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Thu, 26 Nov 2026 19:37:42",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-26T19:30:00+5:30",
+      "expires": "2026-11-26T22:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "KOTTAYAM",
+      "guid": "2ae8f53c6e30fd66cc0f74b966377979",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-26T19:37:42+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Thu, 26 Nov 2026 19:37:42",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-26T19:30:00+5:30",
+      "expires": "2026-11-26T22:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
+      "title": "PATHANAMTHITTA",
+      "guid": "7a13b9e7c9745b52d7f749ba72431407",
+      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
+      "sent": "2026-11-26T19:37:42+5:30",
+      "sender": "nowcastnwfc@gmail.com",
+      "pubdate": "Thu, 26 Nov 2026 19:37:42",
+      "sendername": "nowcastnwfc@gmail.com",
+      "onset": "2026-11-26T19:30:00+5:30",
+      "expires": "2026-11-26T22:00:00+5:30",
+      "description": "Moderate rain: 5-15 mm/hr ,\nModerate Thunderstorms with maximum surface wind speed between 41 - 61 kmph (In gusts) ,",
+      "category": "NOWCAST"
+    },
+    {
       "title": "ERNAKULAM",
       "guid": "c3f9f6beaa40ca3dab93cbeb74cfc281",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
@@ -3229,7 +3268,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T13:56:51+5:30",
+      "expires": "2026-11-21T22:54:38+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -3242,7 +3281,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T13:56:51+5:30",
+      "expires": "2026-11-21T22:54:38+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -3255,7 +3294,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T13:56:51+5:30",
+      "expires": "2026-11-21T22:54:38+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -3268,7 +3307,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T13:56:51+5:30",
+      "expires": "2026-11-21T22:54:38+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -3281,7 +3320,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T13:56:51+5:30",
+      "expires": "2026-11-21T22:54:38+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -3860,45 +3899,6 @@
     {
       "title": "JAJAPUR",
       "guid": "118c4966bc71017d58fc369675239645",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-20T13:10:50+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 20 Nov 2026 13:10:50",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-20T13:00:00+5:30",
-      "expires": "2026-11-20T16:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\n,\nSqually wind 30-40 gusting to 50 kmph.,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "KENDRAPARHA",
-      "guid": "b1a203548fb16bea2879837fdfd16dd8",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-20T13:10:50+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 20 Nov 2026 13:10:50",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-20T13:00:00+5:30",
-      "expires": "2026-11-20T16:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\n,\nSqually wind 30-40 gusting to 50 kmph.,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "KENDUJHAR",
-      "guid": "cdee7f63e19dd54d3ac4531ca05f7f32",
-      "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
-      "sent": "2026-11-20T13:10:50+5:30",
-      "sender": "nowcastnwfc@gmail.com",
-      "pubdate": "Fri, 20 Nov 2026 13:10:50",
-      "sendername": "nowcastnwfc@gmail.com",
-      "onset": "2026-11-20T13:00:00+5:30",
-      "expires": "2026-11-20T16:00:00+5:30",
-      "description": "Moderate rain: 5-15 mm/hr ,\n,\nSqually wind 30-40 gusting to 50 kmph.,",
-      "category": "NOWCAST"
-    },
-    {
-      "title": "KHORDHA",
-      "guid": "63a9b08981c17a46810c1c9566108d80",
       "link": "https://mausam.imd.gov.in/imd_latest/contents/districtwisewarnings.php",
       "sent": "2026-11-20T13:10:50+5:30",
       "sender": "nowcastnwfc@gmail.com",
