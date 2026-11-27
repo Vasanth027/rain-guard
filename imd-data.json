@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T22:54:34.163203+00:00",
+  "updated_at": "2026-11-27T04:53:36.754288+00:00",
   "source": "official IMD/RMC",
   "current": {
     "error": "HTTP Error 401: Unauthorized"
@@ -664,7 +664,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T22:54:38+5:30",
+      "expires": "2026-11-21T04:53:41+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -677,7 +677,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T22:54:38+5:30",
+      "expires": "2026-11-21T04:53:41+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -690,7 +690,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T22:54:38+5:30",
+      "expires": "2026-11-21T04:53:41+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -703,7 +703,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T22:54:38+5:30",
+      "expires": "2026-11-21T04:53:41+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -716,7 +716,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T22:54:38+5:30",
+      "expires": "2026-11-21T04:53:41+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -1966,7 +1966,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T22:54:38+5:30",
+      "expires": "2026-11-21T04:53:41+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -1979,7 +1979,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T22:54:38+5:30",
+      "expires": "2026-11-21T04:53:41+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -1992,7 +1992,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T22:54:38+5:30",
+      "expires": "2026-11-21T04:53:41+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -2005,7 +2005,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T22:54:38+5:30",
+      "expires": "2026-11-21T04:53:41+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -2018,7 +2018,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T22:54:38+5:30",
+      "expires": "2026-11-21T04:53:41+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -3268,7 +3268,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T22:54:38+5:30",
+      "expires": "2026-11-21T04:53:41+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -3281,7 +3281,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T22:54:38+5:30",
+      "expires": "2026-11-21T04:53:41+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -3294,7 +3294,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T22:54:38+5:30",
+      "expires": "2026-11-21T04:53:41+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -3307,7 +3307,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T22:54:38+5:30",
+      "expires": "2026-11-21T04:53:41+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
@@ -3320,7 +3320,7 @@
       "pubdate": "Sat, 21 Nov 2026 16:05:56",
       "sendername": "nowcastnwfc@gmail.com",
       "onset": "2026-11-21T16:00:00+5:30",
-      "expires": "2026-11-21T22:54:38+5:30",
+      "expires": "2026-11-21T04:53:41+5:30",
       "description": "Moderate rain: 5-15 mm/hr ,",
       "category": "NOWCAST"
     },
